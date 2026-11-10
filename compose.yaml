@@ -1,0 +1,13 @@
+services:
+  ffftv:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file: .env.local
+    environment:
+      DATABASE_PATH: /app/data/ffftv.sqlite
+    volumes:
+      - ffftv-data:/app/data
+    restart: unless-stopped
+volumes:
+  ffftv-data:

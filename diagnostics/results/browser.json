@@ -1,0 +1,415 @@
+[
+  {
+    "phase": "startup (seek not confirmed)",
+    "observed": {
+      "sample": "魔都资源｜葬送的芙莉莲第二季｜第01集",
+      "currentTime": 20.4,
+      "duration": 1495,
+      "resolution": "1920×1080",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 492,
+      "droppedFrames": 6,
+      "buffered": [
+        [
+          19,
+          26
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 8,
+          "bytes": 0
+        },
+        {
+          "sequence": 9,
+          "bytes": 0
+        },
+        {
+          "sequence": 10,
+          "bytes": 0
+        },
+        {
+          "sequence": 11,
+          "bytes": 0
+        }
+      ],
+      "errors": [
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        },
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        },
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        },
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        },
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        }
+      ]
+    }
+  },
+  {
+    "phase": "start",
+    "observed": {
+      "sample": "魔都资源｜飞驰人生3｜正片",
+      "currentTime": 2,
+      "duration": 7708,
+      "resolution": "1920×808",
+      "readyState": 2,
+      "paused": false,
+      "seenPlaying": true,
+      "decodedFrames": 48,
+      "droppedFrames": 0,
+      "buffered": [
+        [
+          0,
+          2
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 0,
+          "bytes": 0
+        }
+      ],
+      "errors": [
+        {
+          "type": "networkError",
+          "details": "fragLoadTimeOut",
+          "fatal": false
+        },
+        {
+          "type": "networkError",
+          "details": "fragLoadError",
+          "fatal": false
+        },
+        {
+          "type": "networkError",
+          "details": "fragLoadError",
+          "fatal": false
+        },
+        {
+          "type": "networkError",
+          "details": "fragLoadTimeOut",
+          "fatal": false
+        },
+        {
+          "type": "networkError",
+          "details": "fragLoadTimeOut",
+          "fatal": true
+        }
+      ]
+    }
+  },
+  {
+    "phase": "start",
+    "observed": {
+      "sample": "360资源｜葬送的芙莉莲第二季｜第01集",
+      "currentTime": 25.6,
+      "duration": 1477,
+      "resolution": "1920×1080",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 644,
+      "droppedFrames": 0,
+      "buffered": [
+        [
+          22,
+          28
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 9,
+          "bytes": 0
+        },
+        {
+          "sequence": 10,
+          "bytes": 0
+        },
+        {
+          "sequence": 11,
+          "bytes": 0
+        },
+        {
+          "sequence": 12,
+          "bytes": 0
+        }
+      ],
+      "errors": [
+        {
+          "type": "networkError",
+          "details": "fragLoadTimeOut",
+          "fatal": false
+        },
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        },
+        {
+          "type": "networkError",
+          "details": "fragLoadTimeOut",
+          "fatal": false
+        }
+      ]
+    }
+  },
+  {
+    "phase": "start",
+    "observed": {
+      "sample": "魔都资源｜星际穿越｜正片",
+      "currentTime": 29.9,
+      "duration": 10261,
+      "resolution": "1920×1080",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 719,
+      "droppedFrames": 0,
+      "buffered": [
+        [
+          27,
+          45
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 18,
+          "bytes": 0
+        },
+        {
+          "sequence": 19,
+          "bytes": 0
+        },
+        {
+          "sequence": 20,
+          "bytes": 0
+        },
+        {
+          "sequence": 21,
+          "bytes": 0
+        }
+      ],
+      "errors": []
+    }
+  },
+  {
+    "phase": "midpoint",
+    "observed": {
+      "sample": "魔都资源｜星际穿越｜正片",
+      "currentTime": 5160.4,
+      "duration": 10261,
+      "resolution": "1920×1080",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 1407,
+      "droppedFrames": 4,
+      "buffered": [
+        [
+          5157,
+          5174
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 2583,
+          "bytes": 794864
+        },
+        {
+          "sequence": 2584,
+          "bytes": 435220
+        },
+        {
+          "sequence": 2585,
+          "bytes": 488424
+        },
+        {
+          "sequence": 2586,
+          "bytes": 814792
+        }
+      ],
+      "errors": [
+        {
+          "type": "mediaError",
+          "details": "bufferStalledError",
+          "fatal": false
+        }
+      ]
+    }
+  },
+  {
+    "phase": "start",
+    "observed": {
+      "sample": "魔都资源｜千与千寻｜HD高清",
+      "currentTime": 29.6,
+      "duration": 7929,
+      "resolution": "1280×691",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 893,
+      "droppedFrames": 1,
+      "buffered": [
+        [
+          24,
+          45
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 11,
+          "bytes": 362088
+        },
+        {
+          "sequence": 12,
+          "bytes": 418864
+        },
+        {
+          "sequence": 13,
+          "bytes": 556480
+        },
+        {
+          "sequence": 14,
+          "bytes": 371112
+        }
+      ],
+      "errors": []
+    }
+  },
+  {
+    "phase": "midpoint",
+    "observed": {
+      "sample": "魔都资源｜千与千寻｜HD高清",
+      "currentTime": 3994.4,
+      "duration": 7929,
+      "resolution": "1280×691",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 1807,
+      "droppedFrames": 1,
+      "buffered": [
+        [
+          3990,
+          4008
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 1373,
+          "bytes": 325240
+        },
+        {
+          "sequence": 1374,
+          "bytes": 384460
+        },
+        {
+          "sequence": 1375,
+          "bytes": 420368
+        },
+        {
+          "sequence": 1376,
+          "bytes": 515308
+        }
+      ],
+      "errors": []
+    }
+  },
+  {
+    "phase": "start",
+    "observed": {
+      "sample": "极速资源｜挽救计划｜正片",
+      "currentTime": 29.4,
+      "duration": 9392,
+      "resolution": "1920×1036",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 710,
+      "droppedFrames": 0,
+      "buffered": [
+        [
+          22,
+          39
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 8,
+          "bytes": 668160
+        },
+        {
+          "sequence": 9,
+          "bytes": 535808
+        },
+        {
+          "sequence": 10,
+          "bytes": 182560
+        },
+        {
+          "sequence": 11,
+          "bytes": 230128
+        }
+      ],
+      "errors": []
+    }
+  },
+  {
+    "phase": "midpoint",
+    "observed": {
+      "sample": "极速资源｜挽救计划｜正片",
+      "currentTime": 4725.6,
+      "duration": 9392,
+      "resolution": "1920×1036",
+      "readyState": 4,
+      "paused": true,
+      "seenPlaying": true,
+      "decodedFrames": 1484,
+      "droppedFrames": 1,
+      "buffered": [
+        [
+          4723,
+          4740
+        ]
+      ],
+      "fragments": [
+        {
+          "sequence": 1044,
+          "bytes": 2797264
+        },
+        {
+          "sequence": 1045,
+          "bytes": 2317488
+        },
+        {
+          "sequence": 1046,
+          "bytes": 2135872
+        },
+        {
+          "sequence": 1047,
+          "bytes": 1344960
+        }
+      ],
+      "errors": []
+    }
+  }
+]

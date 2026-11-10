@@ -1,0 +1,3521 @@
+{
+  "checked_at": "2026-11-10T14:48:47.735847+08:00",
+  "origin": "http://127.0.0.1:8765",
+  "checks": [
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1453,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 92376,
+      "remarks": "第10集完结",
+      "line": "jsm3u8",
+      "episode_count": 10,
+      "episode": "第1集",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/av223w5a/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "咒术回战",
+      "search_ms": 1469,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 91610,
+      "remarks": "第12集",
+      "line": "jsm3u8",
+      "episode_count": 12,
+      "episode": "第1集",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/bW66X9na/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 3156,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 70357,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/bW6Ly5va/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "疯狂动物城2",
+      "search_ms": 2047,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 87976,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/e5yy3ZRe/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/e5yy3ZRe/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/e5yy3ZRe/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 90905,
+            "elapsed_ms": 2516,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://p.jisuts.com:999/hls/859/20251230/3857838/plist0.ts",
+            "final_url": "https://p.jisuts.com:999/hls/859/20251230/3857838/plist0.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2578,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://p.jisuts.com:999/hls/859/20251230/3857838/plist565.ts",
+            "final_url": "https://p.jisuts.com:999/hls/859/20251230/3857838/plist565.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2000,
+            "index": 565,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 6450.42,
+        "segment_count": 1130,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "星际穿越",
+      "search_ms": 1078,
+      "search_error": null,
+      "title": "星际穿越(原声版)",
+      "year": "2014",
+      "id": 14306,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/6dBE4QNb/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "肖申克的救赎",
+      "search_ms": 1687,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 25895,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/Qe1pkrjd/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/Qe1pkrjd/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/Qe1pkrjd/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 104014,
+            "elapsed_ms": 9797,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://p.jisuts.com:999/hls/831/20251202/1411478/plist0.ts",
+            "final_url": "https://p.jisuts.com:999/hls/831/20251202/1411478/plist0.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 60352,
+            "elapsed_ms": 453,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://p.jisuts.com:999/hls/831/20251202/1411478/plist645.ts",
+            "final_url": "https://p.jisuts.com:999/hls/831/20251202/1411478/plist645.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 344,
+            "index": 645,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 8553.42,
+        "segment_count": 1291,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "千与千寻",
+      "search_ms": 1078,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 25638,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/6dBXyzQa/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "星际牛仔",
+      "search_ms": 1109,
+      "search_error": null,
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "飞驰人生3",
+      "search_ms": 2766,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 99521,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/ejRZgqYe/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "挽救计划",
+      "search_ms": 1094,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 102839,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 177475,
+            "elapsed_ms": 12156,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist0.ts",
+            "final_url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist0.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 531,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist1100.ts",
+            "final_url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist1100.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 484,
+            "index": 1100,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 9391.71,
+        "segment_count": 2200,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1172,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 74094,
+      "remarks": "全10集",
+      "line": "modum3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260116/2R62cHGZ/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260116/2R62cHGZ/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260116/2R62cHGZ/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1344,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260116/2R62cHGZ/5198kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260116/2R62cHGZ/5198kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 60831,
+            "elapsed_ms": 1625,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://bf.modujx11.com/20260116/2R62cHGZ/5198kb/hls/gVsULQtC.ts",
+            "final_url": "https://bf.modujx11.com/20260116/2R62cHGZ/5198kb/hls/gVsULQtC.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1328,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://bf.modujx11.com/20260116/2R62cHGZ/5198kb/hls/aBqPDoa9.ts",
+            "final_url": "https://bf.modujx11.com/20260116/2R62cHGZ/5198kb/hls/aBqPDoa9.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 6312,
+            "index": 374,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1494.56,
+        "segment_count": 748,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "咒术回战",
+      "search_ms": 4516,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 73297,
+      "remarks": "更新至12集",
+      "line": "modum3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260109/G3PGNLmT/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260109/G3PGNLmT/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260109/G3PGNLmT/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 101,
+            "elapsed_ms": 1016,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260109/G3PGNLmT/1500kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260109/G3PGNLmT/1500kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 34583,
+            "elapsed_ms": 2906,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://bf.modujx11.com/20260109/G3PGNLmT/1500kb/hls/yb6BbBMq.ts",
+            "final_url": "https://bf.modujx11.com/20260109/G3PGNLmT/1500kb/hls/yb6BbBMq.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1203,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://bf.modujx11.com/20260109/G3PGNLmT/1500kb/hls/s81nyVXX.ts",
+            "final_url": "https://bf.modujx11.com/20260109/G3PGNLmT/1500kb/hls/s81nyVXX.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1844,
+            "index": 205,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1487.82,
+        "segment_count": 410,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 1937,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 49919,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20250802/Cha4M4YU/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20250802/Cha4M4YU/index.m3u8",
+            "final_url": "https://play.modujx11.com/20250802/Cha4M4YU/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 688,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20250802/Cha4M4YU/1500kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20250802/Cha4M4YU/1500kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 199118,
+            "elapsed_ms": 4594,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://bf.modujx11.com/20250802/Cha4M4YU/1500kb/hls/SSdAVmuF.ts",
+            "final_url": "https://bf.modujx11.com/20250802/Cha4M4YU/1500kb/hls/SSdAVmuF.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1922,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://bf.modujx11.com/20250802/Cha4M4YU/1500kb/hls/yxcfS6P1.ts",
+            "final_url": "https://bf.modujx11.com/20250802/Cha4M4YU/1500kb/hls/yxcfS6P1.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1391,
+            "index": 1183,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 8761.64,
+        "segment_count": 2367,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "疯狂动物城2",
+      "search_ms": 1031,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 69363,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260127/q4Xi7ECD/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260127/q4Xi7ECD/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260127/q4Xi7ECD/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 828,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 269214,
+            "elapsed_ms": 4437,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://bf.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/C3lUXu1K.ts",
+            "final_url": "https://bf.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/C3lUXu1K.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1125,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://bf.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/3ELbog0M.ts",
+            "final_url": "https://bf.modujx11.com/20260127/q4Xi7ECD/2339kb/hls/3ELbog0M.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1297,
+            "index": 1658,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 6629.45,
+        "segment_count": 3317,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "星际穿越",
+      "search_ms": 1047,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 42998,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx16.com/20241011/QFGRoztl/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx16.com/20241011/QFGRoztl/index.m3u8",
+            "final_url": "https://play.modujx16.com/20241011/QFGRoztl/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 119,
+            "elapsed_ms": 844,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/index.m3u8",
+            "final_url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 292730,
+            "elapsed_ms": 3750,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/6Qta7pRJ.ts",
+            "final_url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/6Qta7pRJ.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1281,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/AQ6oip5G.ts",
+            "final_url": "https://play.modujx16.com/20241011/QFGRoztl/2000kb/hls/AQ6oip5G.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 4859,
+            "index": 2563,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 10260.99,
+        "segment_count": 5127,
+        "endlist": true,
+        "encryption": [
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "肖申克的救赎",
+      "search_ms": 2984,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 32569,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx15.com/20240823/Wu82ZnWc/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "Non-public destination rejected",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "千与千寻",
+      "search_ms": 2922,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 6307,
+      "remarks": "HD高清",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "HD高清",
+      "probe": {
+        "entry_url": "https://play.modujx10.com/20231024/XlqLAMWt/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx10.com/20231024/XlqLAMWt/index.m3u8",
+            "final_url": "https://play.modujx10.com/20231024/XlqLAMWt/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 116,
+            "elapsed_ms": 1468,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/index.m3u8",
+            "final_url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 144813,
+            "elapsed_ms": 1860,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/0WQ8uwG3.ts",
+            "final_url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/0WQ8uwG3.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2609,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/1y2jeYkx.ts",
+            "final_url": "https://play.modujx10.com/20231024/XlqLAMWt/837kb/hls/1y2jeYkx.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 7672,
+            "index": 1362,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 7929.03,
+        "segment_count": 2725,
+        "endlist": true,
+        "encryption": [
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "星际牛仔",
+      "search_ms": 3188,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 6671,
+      "remarks": "26集全",
+      "line": "modum3u8",
+      "episode_count": 26,
+      "episode": "第1集",
+      "probe": {
+        "entry_url": "https://play.modujx10.com/20231117/ANPPokWm/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx10.com/20231117/ANPPokWm/index.m3u8",
+            "final_url": "https://play.modujx10.com/20231117/ANPPokWm/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 119,
+            "elapsed_ms": 6047,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/index.m3u8",
+            "final_url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 26149,
+            "elapsed_ms": 1203,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/gxXnMGyr.ts",
+            "final_url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/gxXnMGyr.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 4531,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/cdE3nIeT.ts",
+            "final_url": "https://play.modujx10.com/20231117/ANPPokWm/1500kb/hls/cdE3nIeT.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 12657,
+            "index": 225,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1588.51,
+        "segment_count": 450,
+        "endlist": true,
+        "encryption": [
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "飞驰人生3",
+      "search_ms": 2641,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 76957,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260430/080MzJqs/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260430/080MzJqs/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260430/080MzJqs/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 2719,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260430/080MzJqs/1187kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260430/080MzJqs/1187kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 311845,
+            "elapsed_ms": 1984,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://bf.modujx11.com/20260430/080MzJqs/1187kb/hls/Wi7WSIm1.ts",
+            "final_url": "https://bf.modujx11.com/20260430/080MzJqs/1187kb/hls/Wi7WSIm1.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1359,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://bf.modujx11.com/20260430/080MzJqs/1187kb/hls/a5fp3SEW.ts",
+            "final_url": "https://bf.modujx11.com/20260430/080MzJqs/1187kb/hls/a5fp3SEW.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1500,
+            "index": 1925,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 7707.83,
+        "segment_count": 3850,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "挽救计划",
+      "search_ms": 3969,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 82737,
+      "remarks": "正片",
+      "line": "modum3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260510/1D6ANRNg/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260510/1D6ANRNg/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260510/1D6ANRNg/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 735,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 6297,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 68504,
+      "remarks": "已完结",
+      "line": "rym3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://cdn.ryplay12.com/20260116/31448_112bfbba/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://cdn.ryplay12.com/20260116/31448_112bfbba/index.m3u8",
+            "final_url": "https://cdn.ryplay12.com/20260116/31448_112bfbba/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 96,
+            "elapsed_ms": 11422,
+            "kind": "hls"
+          },
+          {
+            "url": "https://cdn.ryplay12.com/20260116/31448_112bfbba/2000k/hls/index.m3u8",
+            "final_url": "https://cdn.ryplay12.com/20260116/31448_112bfbba/2000k/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 21560,
+            "elapsed_ms": 9406,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1472.06,
+        "segment_count": 368,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "咒术回战",
+      "search_ms": 3281,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 67797,
+      "remarks": "已完结",
+      "line": "rym3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/index.m3u8",
+            "final_url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 96,
+            "elapsed_ms": 10375,
+            "kind": "hls"
+          },
+          {
+            "url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/index.m3u8",
+            "final_url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 21431,
+            "elapsed_ms": 2954,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/cbe0798d034a683bee380e825fb1a47b.ts",
+            "final_url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/cbe0798d034a683bee380e825fb1a47b.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 4921,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/f413baaf9312933b6023b9ca13b98ceb.ts",
+            "final_url": "https://cdn.ryplay12.com/20260109/30954_0fe9a7a0/2000k/hls/f413baaf9312933b6023b9ca13b98ceb.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 6079,
+            "index": 183,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1467.06,
+        "segment_count": 366,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 2328,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 33842,
+      "remarks": "HD",
+      "line": "rym3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://cdn7.ryplay7.com/20250731/14866_22b3e0c9/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://cdn7.ryplay7.com/20250731/14866_22b3e0c9/index.m3u8",
+            "final_url": "https://cdn7.ryplay7.com/20250731/14866_22b3e0c9/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 96,
+            "elapsed_ms": 3656,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "疯狂动物城2",
+      "search_ms": 2187,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 64600,
+      "remarks": "HD",
+      "line": "rym3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://svip.ryiplay18.com/20260126/1145_5d85daa6/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://svip.ryiplay18.com/20260126/1145_5d85daa6/index.m3u8",
+            "final_url": "https://svip.ryiplay18.com/20260126/1145_5d85daa6/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 96,
+            "elapsed_ms": 1391,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "星际穿越",
+      "search_ms": 1156,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 16389,
+      "remarks": "HD",
+      "line": "rym3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://cdn1.ryplay1.com/20240910/7770_9e6bd40f/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "肖申克的救赎",
+      "search_ms": 4515,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 14140,
+      "remarks": "HD",
+      "line": "rym3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://cdn1.ryplay1.com/20240905/6639_f002fce2/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "千与千寻",
+      "search_ms": 1313,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2019",
+      "id": 14850,
+      "remarks": "HD",
+      "line": "rym3u8",
+      "episode_count": 2,
+      "episode": "国语",
+      "probe": {
+        "entry_url": "https://cdn1.ryplay1.com/20240907/7089_c83d3d77/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ruyi",
+      "source_name": "如意资源",
+      "query": "星际牛仔",
+      "search_ms": 3360,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 17121,
+      "remarks": "已完结",
+      "line": "rym3u8",
+      "episode_count": 26,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://cdn4.ryplay4.com/20240911/56623_a23022b3/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://cdn4.ryplay4.com/20240911/56623_a23022b3/index.m3u8",
+            "final_url": "https://cdn4.ryplay4.com/20240911/56623_a23022b3/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 96,
+            "elapsed_ms": 10906,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1500,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 78506,
+      "remarks": "已完结",
+      "line": "dyttm3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.dytt-cinema.com/20260116/45690_89409c42/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "咒术回战",
+      "search_ms": 1921,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 70991,
+      "remarks": "已完结",
+      "line": "dyttm3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.dytt-cinema.com/20260109/45111_e858bc71/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 12016,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 31685,
+      "remarks": "HD国语",
+      "line": "dyttm3u8",
+      "episode_count": 1,
+      "episode": "HD国语",
+      "probe": {
+        "entry_url": "https://vip.dytt-kan.com/20250802/3080_a9986cb0/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "疯狂动物城2",
+      "search_ms": 640,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 72635,
+      "remarks": "HD中字|国语",
+      "line": "dyttm3u8",
+      "episode_count": 3,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.dytt-tvs.com/20251227/8694_c37a2122/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "星际穿越",
+      "search_ms": 3703,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 13032,
+      "remarks": "HD中字|国语",
+      "line": "dyttm3u8",
+      "episode_count": 2,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.dytt-film.com/20250216/7088_504b7f66/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "肖申克的救赎",
+      "search_ms": 610,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 19647,
+      "remarks": "HD中字|国语",
+      "line": "dyttm3u8",
+      "episode_count": 2,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.dytt-film.com/20250304/10861_a4267159/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "千与千寻",
+      "search_ms": 3546,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 16907,
+      "remarks": "HD中字|国语",
+      "line": "dyttm3u8",
+      "episode_count": 2,
+      "episode": "HD国语",
+      "probe": {
+        "entry_url": "https://vip.dytt-hot.com/20250213/72013_e835617a/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "星际牛仔",
+      "search_ms": 812,
+      "search_error": null,
+      "title": "星际牛仔1998",
+      "year": "1998",
+      "id": 21468,
+      "remarks": "已完结",
+      "line": "dyttm3u8",
+      "episode_count": 26,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.dytt-hot.com/20250216/82176_3e56ec9d/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "飞驰人生3",
+      "search_ms": 2344,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 79984,
+      "remarks": "HD国语",
+      "line": "dyttm3u8",
+      "episode_count": 1,
+      "episode": "HD国语",
+      "probe": {
+        "entry_url": "https://vip.dytt-network.com/20260429/26345_04ab1f88/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "dyttzy",
+      "source_name": "电影天堂资源",
+      "query": "挽救计划",
+      "search_ms": 5359,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 80713,
+      "remarks": "HD中字|国语",
+      "line": "dyttm3u8",
+      "episode_count": 2,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.dytt-see.com/20260410/31497_1dcfee25/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1375,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 91824,
+      "remarks": "已完结",
+      "line": "ffm3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.ffzy-plays.com/20260116/49545_2a018609/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "咒术回战",
+      "search_ms": 3735,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 89214,
+      "remarks": "已完结",
+      "line": "ffm3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.ffzy-plays.com/20260109/49311_bf711043/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 594,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 77072,
+      "remarks": "HD国语",
+      "line": "ffm3u8",
+      "episode_count": 1,
+      "episode": "HD国语",
+      "probe": {
+        "entry_url": "https://vip.ffzy-plays.com/20250731/43740_ba2cec26/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "疯狂动物城2",
+      "search_ms": 1375,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 89683,
+      "remarks": "HD中字|国语",
+      "line": "ffm3u8",
+      "episode_count": 3,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.ffzy-online.com/20251227/57395_71d8eca9/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "星际穿越",
+      "search_ms": 15016,
+      "search_error": "timed out",
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "肖申克的救赎",
+      "search_ms": 687,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 11390,
+      "remarks": "HD中字",
+      "line": "ffm3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.ffzy-play7.com/20221112/3323_ae6adba8/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "千与千寻",
+      "search_ms": 3141,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 27688,
+      "remarks": "HD中字",
+      "line": "ffm3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.ffzy-online2.com/20221227/761_49c45d7b/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "星际牛仔",
+      "search_ms": 812,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 32585,
+      "remarks": "已完结",
+      "line": "ffm3u8",
+      "episode_count": 26,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vip.ffzy-play2.com/20230101/18767_dba10aac/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "HTTP Error 403: Forbidden",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "飞驰人生3",
+      "search_ms": 3032,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 92493,
+      "remarks": "HD国语",
+      "line": "ffm3u8",
+      "episode_count": 1,
+      "episode": "HD国语",
+      "probe": {
+        "entry_url": "https://vip.ffzy-play10.com/20260429/59098_b9af3c11/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "ffzy",
+      "source_name": "非凡影视",
+      "query": "挽救计划",
+      "search_ms": 2704,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 94823,
+      "remarks": "HD中字|国语",
+      "line": "ffm3u8",
+      "episode_count": 2,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vip.ffzy-play10.com/20260410/52284_a2dfe9c4/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 2250,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 89400,
+      "remarks": "全10集",
+      "line": "360zy",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 119,
+            "elapsed_ms": 610,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 39978,
+            "elapsed_ms": 797,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/DCZCBi1E.ts",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/DCZCBi1E.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 265,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/cWh78asc.ts",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/cWh78asc.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 563,
+            "index": 364,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 1477.17,
+        "segment_count": 729,
+        "endlist": true,
+        "encryption": [
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "咒术回战",
+      "search_ms": 2078,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 88790,
+      "remarks": "全12集",
+      "line": "360zy",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20260109/x2KSZOlK/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 119,
+            "elapsed_ms": 437,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 39983,
+            "elapsed_ms": 579,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/MtP6iolw.ts",
+            "final_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/MtP6iolw.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 25584,
+            "elapsed_ms": 218,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/xIJnFYVr.ts",
+            "final_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/2960kb/hls/xIJnFYVr.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 219,
+            "index": 362,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 1470.25,
+        "segment_count": 725,
+        "endlist": true,
+        "encryption": [
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 3703,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 72369,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20250802/N3CeWASa/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20250802/N3CeWASa/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20250802/N3CeWASa/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 118,
+            "elapsed_ms": 453,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 239040,
+            "elapsed_ms": 2250,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/AffpTNRj.ts",
+            "final_url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/AffpTNRj.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 187,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/qGp2aYlP.ts",
+            "final_url": "https://vod1.maowushi.com/20250802/N3CeWASa/1712kb/hls/qGp2aYlP.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 250,
+            "index": 2175,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 8779.22,
+        "segment_count": 4351,
+        "endlist": true,
+        "encryption": [
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "疯狂动物城2",
+      "search_ms": 12984,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 85660,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 118,
+            "elapsed_ms": 484,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 178262,
+            "elapsed_ms": 1828,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/lf684Jya.ts",
+            "final_url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/lf684Jya.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 234,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/ZyCKaKD7.ts",
+            "final_url": "https://vod1.maowushi.com/20260127/PAsnIU41/2339kb/hls/ZyCKaKD7.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 344,
+            "index": 1630,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 6577.28,
+        "segment_count": 3260,
+        "endlist": true,
+        "encryption": [
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "星际穿越",
+      "search_ms": 4125,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 60387,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "星际穿越",
+      "probe": {
+        "entry_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod2.maowushi.com/20240721/7mz1oDpH/index.m3u8",
+            "final_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 117,
+            "elapsed_ms": 7438,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/index.m3u8",
+            "final_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 184066,
+            "elapsed_ms": 2625,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/r0RZzxA4.ts",
+            "final_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/r0RZzxA4.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 6500,
+            "index": 0,
+            "kind": "unknown"
+          },
+          {
+            "url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/J5OUj2zS.ts",
+            "final_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/1000kb/hls/J5OUj2zS.ts",
+            "status": 206,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2047,
+            "index": 1690,
+            "kind": "unknown"
+          }
+        ],
+        "duration_seconds": 10144.0,
+        "segment_count": 3381,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "media_ok": false,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "肖申克的救赎",
+      "search_ms": 2094,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 6270,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vod2.maowushi.com/jqp/SYz2503V/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "千与千寻",
+      "search_ms": 15016,
+      "search_error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "星际牛仔",
+      "search_ms": 2672,
+      "search_error": null,
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1110,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 151129,
+      "remarks": "全10集",
+      "line": "wjm3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/index.m3u8",
+            "final_url": "https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1578,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 74478,
+            "elapsed_ms": 1828,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://v12.adfg8.vip/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/jzfADyCfsu.ts",
+            "final_url": "https://v12.adfg8.vip/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/jzfADyCfsu.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 6844,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://v12.adfg8.vip/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/WF9vQW57iE.ts",
+            "final_url": "https://v12.adfg8.vip/wjv12/202601/16/QK6aNTjRi391/video/1000k_720/hls/WF9vQW57iE.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 5953,
+            "index": 361,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1442.04,
+        "segment_count": 722,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "咒术回战",
+      "search_ms": 1047,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 150321,
+      "remarks": "全12集",
+      "line": "wjm3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v7.ppqrrs.com/wjv7/202601/09/65Xd9muW2994/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v7.ppqrrs.com/wjv7/202601/09/65Xd9muW2994/video/index.m3u8",
+            "final_url": "https://v7.ppqrrs.com/wjv7/202601/09/65Xd9muW2994/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 891,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v7.ppqrrs.com/wjv7/202601/09/65Xd9muW2994/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v7.ppqrrs.com/wjv7/202601/09/65Xd9muW2994/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 72630,
+            "elapsed_ms": 2640,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://v7.adfg8.vip/wjv7/202601/09/65Xd9muW2994/video/1000k_720/hls/tKTBbkx0dk.ts",
+            "final_url": "https://v7.adfg8.vip/wjv7/202601/09/65Xd9muW2994/video/1000k_720/hls/tKTBbkx0dk.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 41172,
+            "elapsed_ms": 1594,
+            "index": 0,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 1435.0,
+        "segment_count": 718,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 922,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 126342,
+      "remarks": "HD",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD",
+      "probe": {
+        "entry_url": "https://v8.ppqrrs.com/wjv8/202507/31/FMqWLyb7v680/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v8.ppqrrs.com/wjv8/202507/31/FMqWLyb7v680/video/index.m3u8",
+            "final_url": "https://v8.ppqrrs.com/wjv8/202507/31/FMqWLyb7v680/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1079,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v8.ppqrrs.com/wjv8/202507/31/FMqWLyb7v680/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v8.ppqrrs.com/wjv8/202507/31/FMqWLyb7v680/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 436432,
+            "elapsed_ms": 3906,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 8638.72,
+        "segment_count": 4320,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "疯狂动物城2",
+      "search_ms": 8109,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 146737,
+      "remarks": "HD",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD",
+      "probe": {
+        "entry_url": "https://v3.ppqrrs.com/wjv3/202601/26/XebW57BUEU93/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v3.ppqrrs.com/wjv3/202601/26/XebW57BUEU93/video/index.m3u8",
+            "final_url": "https://v3.ppqrrs.com/wjv3/202601/26/XebW57BUEU93/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1016,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v3.ppqrrs.com/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v3.ppqrrs.com/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 327049,
+            "elapsed_ms": 2640,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://v3.adfg8.vip/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/3dOUlM87Dg.ts",
+            "final_url": "https://v3.adfg8.vip/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/3dOUlM87Dg.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 1422,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://v3.adfg8.vip/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/CVhUKblvPI.ts",
+            "final_url": "https://v3.adfg8.vip/wjv3/202601/26/XebW57BUEU93/video/1000k_720/hls/CVhUKblvPI.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 3406,
+            "index": 1618,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 6472.44,
+        "segment_count": 3237,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "星际穿越",
+      "search_ms": 5172,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 93364,
+      "remarks": "HD中字",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://v1.ppqrrs.com/wjv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v1.ppqrrs.com/wjv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+            "final_url": "https://v1.ppqrrs.com/wjv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1781,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v1.ppqrrs.com/wjv1/202308/19/WjP9zFj8AP2/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v1.ppqrrs.com/wjv1/202308/19/WjP9zFj8AP2/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 243597,
+            "elapsed_ms": 2359,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 5125.52,
+        "segment_count": 2563,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "肖申克的救赎",
+      "search_ms": 4157,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 804,
+      "remarks": "HD",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://v1.ppqrrs.com/wjv1/202308/20/LbjGL9ET822/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v1.ppqrrs.com/wjv1/202308/20/LbjGL9ET822/video/index.m3u8",
+            "final_url": "https://v1.ppqrrs.com/wjv1/202308/20/LbjGL9ET822/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1391,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v1.ppqrrs.com/wjv1/202308/20/LbjGL9ET822/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v1.ppqrrs.com/wjv1/202308/20/LbjGL9ET822/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 406427,
+            "elapsed_ms": 3625,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 8553.36,
+        "segment_count": 4277,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "千与千寻",
+      "search_ms": 2031,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 119995,
+      "remarks": "HD",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD",
+      "probe": {
+        "entry_url": "https://v10.ppqrrs.com/wjv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v10.ppqrrs.com/wjv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+            "final_url": "https://v10.ppqrrs.com/wjv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1172,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v10.ppqrrs.com/wjv10/202311/10/sqqtHbubZ52/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v10.ppqrrs.com/wjv10/202311/10/sqqtHbubZ52/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 381082,
+            "elapsed_ms": 3406,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://v10.adfg8.vip/wjv10/202311/10/sqqtHbubZ52/video/1000k_720/hls/gK5WfN4x1L.ts",
+            "final_url": "https://v10.adfg8.vip/wjv10/202311/10/sqqtHbubZ52/video/1000k_720/hls/gK5WfN4x1L.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 7187,
+            "index": 0,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 7469.04,
+        "segment_count": 3735,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "星际牛仔",
+      "search_ms": 2187,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 83,
+      "remarks": "26集全",
+      "line": "wjm3u8",
+      "episode_count": 26,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v6.ppqrrs.com/wjv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v6.ppqrrs.com/wjv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+            "final_url": "https://v6.ppqrrs.com/wjv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 1500,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v6.ppqrrs.com/wjv6/202309/09/VRCMtK7iVb1/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v6.ppqrrs.com/wjv6/202309/09/VRCMtK7iVb1/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 74312,
+            "elapsed_ms": 1672,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1483.16,
+        "segment_count": 742,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "飞驰人生3",
+      "search_ms": 2141,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 154305,
+      "remarks": "HD中字",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD",
+      "probe": {
+        "entry_url": "https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/index.m3u8",
+            "final_url": "https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1875,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 389040,
+            "elapsed_ms": 2719,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 7550.28,
+        "segment_count": 3776,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "wujin",
+      "source_name": "无尽资源",
+      "query": "挽救计划",
+      "search_ms": 5015,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 157075,
+      "remarks": "HD中字",
+      "line": "wjm3u8",
+      "episode_count": 1,
+      "episode": "HD",
+      "probe": {
+        "entry_url": "https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/index.m3u8",
+            "final_url": "https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1250,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/1000k_720/hls/index.m3u8",
+            "final_url": "https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/1000k_720/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 483800,
+            "elapsed_ms": 2656,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 9391.72,
+        "segment_count": 4696,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 3953,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 119442,
+      "remarks": "更新第10集",
+      "line": "zuidam3u8",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 1953,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 82880,
+            "elapsed_ms": 1797,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1480.84,
+        "segment_count": 742,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "咒术回战",
+      "search_ms": 3500,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 118638,
+      "remarks": "更新第12集",
+      "line": "zuidam3u8",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v13.zuidazym3u8.com/yyv13/202601/09/1P3nmGHpDM27/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202601/09/1P3nmGHpDM27/video/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202601/09/1P3nmGHpDM27/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 859,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202601/09/1P3nmGHpDM27/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202601/09/1P3nmGHpDM27/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 82318,
+            "elapsed_ms": 1500,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1473.84,
+        "segment_count": 738,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 14266,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 97723,
+      "remarks": "更新HD",
+      "line": "zuidam3u8",
+      "episode_count": 3,
+      "episode": "TC",
+      "probe": {
+        "entry_url": "https://v2.zuidazym3u8.com/yyv2/202501/30/JYwFDzyprM24/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v2.zuidazym3u8.com/yyv2/202501/30/JYwFDzyprM24/video/index.m3u8",
+            "final_url": "https://v2.zuidazym3u8.com/yyv2/202501/30/JYwFDzyprM24/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 2578,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v2.zuidazym3u8.com/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v2.zuidazym3u8.com/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 457333,
+            "elapsed_ms": 3453,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://yyv2.qwe132456.cc/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/Db5KLJcYXW.ts",
+            "final_url": "https://yyv2.qwe132456.cc/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/Db5KLJcYXW.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 7719,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://yyv2.qwe132456.cc/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/LFOE0YZEWn.ts",
+            "final_url": "https://yyv2.qwe132456.cc/yyv2/202501/30/JYwFDzyprM24/video/2000k_1080/hls/LFOE0YZEWn.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 3500,
+            "index": 2086,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 8344.68,
+        "segment_count": 4173,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "疯狂动物城2",
+      "search_ms": 3671,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 115590,
+      "remarks": "更新TCV4",
+      "line": "zuidam3u8",
+      "episode_count": 3,
+      "episode": "TC",
+      "probe": {
+        "entry_url": "https://v14.zuidazym3u8.com/yyv14/202511/27/iHNh7749CQ21/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v14.zuidazym3u8.com/yyv14/202511/27/iHNh7749CQ21/video/index.m3u8",
+            "final_url": "https://v14.zuidazym3u8.com/yyv14/202511/27/iHNh7749CQ21/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 101,
+            "elapsed_ms": 1141,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v14.zuidazym3u8.com/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v14.zuidazym3u8.com/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 331737,
+            "elapsed_ms": 4469,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://yyv14.qwe132456.cc/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/8TxqMFpvFN.ts",
+            "final_url": "https://yyv14.qwe132456.cc/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/8TxqMFpvFN.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 12906,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://yyv14.qwe132456.cc/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/9QNyioIkAE.ts",
+            "final_url": "https://yyv14.qwe132456.cc/yyv14/202511/27/iHNh7749CQ21/video/2000k_1080/hls/9QNyioIkAE.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 1594,
+            "index": 1487,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 5948.8,
+        "segment_count": 2975,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "星际穿越",
+      "search_ms": 3125,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 21545,
+      "remarks": "更新HD",
+      "line": "zuidam3u8",
+      "episode_count": 2,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://v1.zuidazym3u8.com/yyv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v1.zuidazym3u8.com/yyv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+            "final_url": "https://v1.zuidazym3u8.com/yyv1/202308/19/WjP9zFj8AP2/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 101,
+            "elapsed_ms": 1141,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v1.zuidazym3u8.com/yyv1/202308/19/WjP9zFj8AP2/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v1.zuidazym3u8.com/yyv1/202308/19/WjP9zFj8AP2/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 183538,
+            "elapsed_ms": 2343,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://yyv1.qwe132456.cc/yyv1/202308/19/WjP9zFj8AP2/video/2000k_1080/hls/ofPNq0Cvev.ts",
+            "final_url": "https://yyv1.qwe132456.cc/yyv1/202308/19/WjP9zFj8AP2/video/2000k_1080/hls/ofPNq0Cvev.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 28200,
+            "elapsed_ms": 10594,
+            "index": 0,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 3380.96,
+        "segment_count": 1692,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "肖申克的救赎",
+      "search_ms": 2266,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 16852,
+      "remarks": "HD中字",
+      "line": "zuidam3u8",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://v1.zuidazym3u8.com/yyv1/202308/20/LbjGL9ET822/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v1.zuidazym3u8.com/yyv1/202308/20/LbjGL9ET822/video/index.m3u8",
+            "final_url": "https://v1.zuidazym3u8.com/yyv1/202308/20/LbjGL9ET822/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 3625,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v1.zuidazym3u8.com/yyv1/202308/20/LbjGL9ET822/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v1.zuidazym3u8.com/yyv1/202308/20/LbjGL9ET822/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 465648,
+            "elapsed_ms": 5157,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 8582.44,
+        "segment_count": 4292,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "千与千寻",
+      "search_ms": 1969,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 54798,
+      "remarks": "4K",
+      "line": "zuidam3u8",
+      "episode_count": 1,
+      "episode": "4K",
+      "probe": {
+        "entry_url": "https://v10.zuidazym3u8.com/yyv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v10.zuidazym3u8.com/yyv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+            "final_url": "https://v10.zuidazym3u8.com/yyv10/202311/10/sqqtHbubZ52/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 891,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v10.zuidazym3u8.com/yyv10/202311/10/sqqtHbubZ52/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v10.zuidazym3u8.com/yyv10/202311/10/sqqtHbubZ52/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 406600,
+            "elapsed_ms": 3140,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 7498.12,
+        "segment_count": 3750,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "星际牛仔",
+      "search_ms": 4172,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 39056,
+      "remarks": "已完结",
+      "line": "zuidam3u8",
+      "episode_count": 26,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://v6.zuidazym3u8.com/yyv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v6.zuidazym3u8.com/yyv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+            "final_url": "https://v6.zuidazym3u8.com/yyv6/202309/09/VRCMtK7iVb1/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 1109,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v6.zuidazym3u8.com/yyv6/202309/09/VRCMtK7iVb1/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v6.zuidazym3u8.com/yyv6/202309/09/VRCMtK7iVb1/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 81842,
+            "elapsed_ms": 3266,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1506.92,
+        "segment_count": 754,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "飞驰人生3",
+      "search_ms": 7672,
+      "search_error": null,
+      "title": "飞驰人生3",
+      "year": "2026",
+      "id": 120832,
+      "remarks": "更新HD",
+      "line": "zuidam3u8",
+      "episode_count": 2,
+      "episode": "TC",
+      "probe": {
+        "entry_url": "https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/index.m3u8",
+            "final_url": "https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 875,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 161581,
+            "elapsed_ms": 2172,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://yyv14.qwe132456.cc/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/TpN85ScyvU.ts",
+            "final_url": "https://yyv14.qwe132456.cc/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/TpN85ScyvU.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 12172,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://yyv14.qwe132456.cc/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/xN7J60PJpq.ts",
+            "final_url": "https://yyv14.qwe132456.cc/yyv14/202602/17/v2yghZ267222/video/2000k_1080/hls/xN7J60PJpq.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 7297,
+            "index": 724,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 2895.92,
+        "segment_count": 1449,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zuid",
+      "source_name": "最大资源",
+      "query": "挽救计划",
+      "search_ms": 828,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 122701,
+      "remarks": "更新HD",
+      "line": "zuidam3u8",
+      "episode_count": 2,
+      "episode": "TC",
+      "probe": {
+        "entry_url": "https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 102,
+            "elapsed_ms": 1016,
+            "kind": "hls"
+          },
+          {
+            "url": "https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/index.m3u8",
+            "final_url": "https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 505314,
+            "elapsed_ms": 7531,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://yyv13.qwe132456.cc/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/QPKUuu2XqR.ts",
+            "final_url": "https://yyv13.qwe132456.cc/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/QPKUuu2XqR.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 8313,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://yyv13.qwe132456.cc/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/TfaQSLVgXh.ts",
+            "final_url": "https://yyv13.qwe132456.cc/yyv13/202603/23/BHgKGRp45827/video/2000k_1080/hls/TfaQSLVgXh.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "http://127.0.0.1:8765",
+            "bytes_read": 65536,
+            "elapsed_ms": 3937,
+            "index": 2266,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 9062.44,
+        "segment_count": 4532,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 15016,
+      "search_error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "咒术回战",
+      "search_ms": 15031,
+      "search_error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 2484,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 62343,
+      "remarks": "正片",
+      "line": "ikm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://bfikuncdn.com/20250802/0WV1F3TG/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://bfikuncdn.com/20250802/0WV1F3TG/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20250802/0WV1F3TG/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 1641,
+            "kind": "hls"
+          },
+          {
+            "url": "https://bfikuncdn.com/20250802/0WV1F3TG/1712kb/hls/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20250802/0WV1F3TG/1712kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 349464,
+            "elapsed_ms": 4359,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://kkzycdn.com:65/20250802/0WV1F3TG/1712kb/hls/OyZIbM6U.ts",
+            "final_url": "https://kkzycdn.com:65/20250802/0WV1F3TG/1712kb/hls/OyZIbM6U.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1625,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://kkzycdn.com:65/20250802/0WV1F3TG/1712kb/hls/smsDpW0i.ts",
+            "final_url": "https://kkzycdn.com:65/20250802/0WV1F3TG/1712kb/hls/smsDpW0i.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1235,
+            "index": 2186,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 8796.92,
+        "segment_count": 4373,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "疯狂动物城2",
+      "search_ms": 15031,
+      "search_error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+      "error": "No matching title/year/season in response"
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "星际穿越",
+      "search_ms": 5047,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 16310,
+      "remarks": "正片",
+      "line": "ikm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://bfikuncdn.com/20221010/YVIk2usP/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://bfikuncdn.com/20221010/YVIk2usP/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221010/YVIk2usP/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 750,
+            "kind": "hls"
+          },
+          {
+            "url": "https://bfikuncdn.com/20221010/YVIk2usP/2000kb/hls/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221010/YVIk2usP/2000kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 409157,
+            "elapsed_ms": 9625,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://kkzycdn.com:65/20221010/YVIk2usP/2000kb/hls/d2XoQ3ud.ts",
+            "final_url": "https://kkzycdn.com:65/20221010/YVIk2usP/2000kb/hls/d2XoQ3ud.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 32148,
+            "elapsed_ms": 2735,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://kkzycdn.com:65/20221010/YVIk2usP/2000kb/hls/n1M9DQyZ.ts",
+            "final_url": "https://kkzycdn.com:65/20221010/YVIk2usP/2000kb/hls/n1M9DQyZ.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 4515,
+            "index": 2560,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 8267.17,
+        "segment_count": 5120,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "肖申克的救赎",
+      "search_ms": 1312,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 3914,
+      "remarks": "正片",
+      "line": "ikm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://bfikuncdn.com/20221002/hOxacQ47/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://bfikuncdn.com/20221002/hOxacQ47/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221002/hOxacQ47/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 1641,
+            "kind": "hls"
+          },
+          {
+            "url": "https://bfikuncdn.com/20221002/hOxacQ47/2000kb/hls/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221002/hOxacQ47/2000kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 318752,
+            "elapsed_ms": 4313,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://kkzycdn.com:65/20221002/hOxacQ47/2000kb/hls/TjoZGgdO.ts",
+            "final_url": "https://kkzycdn.com:65/20221002/hOxacQ47/2000kb/hls/TjoZGgdO.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2078,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://kkzycdn.com:65/20221002/hOxacQ47/2000kb/hls/rdnBeKCv.ts",
+            "final_url": "https://kkzycdn.com:65/20221002/hOxacQ47/2000kb/hls/rdnBeKCv.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1562,
+            "index": 2077,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 8358.22,
+        "segment_count": 4154,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "千与千寻",
+      "search_ms": 1594,
+      "search_error": null,
+      "title": "千与千寻",
+      "year": "2001",
+      "id": 26344,
+      "remarks": "正片",
+      "line": "ikm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://bfikuncdn.com/20221101/1xFATc0b/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://bfikuncdn.com/20221101/1xFATc0b/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221101/1xFATc0b/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 99,
+            "elapsed_ms": 1078,
+            "kind": "hls"
+          },
+          {
+            "url": "https://bfikuncdn.com/20221101/1xFATc0b/2000kb/hls/index.m3u8",
+            "final_url": "https://bfikuncdn.com/20221101/1xFATc0b/2000kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 303174,
+            "elapsed_ms": 5765,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://kkzycdn.com:65/20221101/1xFATc0b/2000kb/hls/VAlmpH8E.ts",
+            "final_url": "https://kkzycdn.com:65/20221101/1xFATc0b/2000kb/hls/VAlmpH8E.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 1453,
+            "index": 0,
+            "kind": "mpeg-ts"
+          },
+          {
+            "url": "https://kkzycdn.com:65/20221101/1xFATc0b/2000kb/hls/VciDaMDm.ts",
+            "final_url": "https://kkzycdn.com:65/20221101/1xFATc0b/2000kb/hls/VciDaMDm.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 2391,
+            "index": 1892,
+            "kind": "mpeg-ts"
+          }
+        ],
+        "duration_seconds": 7629.59,
+        "segment_count": 3785,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "ikun",
+      "source_name": "iKun资源",
+      "query": "星际牛仔",
+      "search_ms": 5546,
+      "search_error": null,
+      "error": "No matching title/year/season in response"
+    }
+  ]
+}

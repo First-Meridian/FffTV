@@ -1,0 +1,35 @@
+[
+  {
+    "check": "actual_modu_playback",
+    "observed": {
+      "duration": 10260.990852,
+      "height": 1080,
+      "paused": false,
+      "readyState": 2,
+      "time": 50.416599,
+      "width": 1920
+    }
+  },
+  {
+    "check": "after_source_switch",
+    "observed": {
+      "duration": 10144,
+      "height": 406,
+      "paused": false,
+      "readyState": 2,
+      "time": 83.786969,
+      "width": 721
+    }
+  },
+  {
+    "check": "resume_after_reopen",
+    "observed": {
+      "duration": 10302.103,
+      "height": 406,
+      "paused": false,
+      "readyState": 4,
+      "time": 84.863579,
+      "width": 721
+    }
+  }
+]

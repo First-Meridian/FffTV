@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-11-10T14:49:59.540815+08:00",
+  "origin": "http://127.0.0.1:8765",
+  "checks": [
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1172,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 74094,
+      "remarks": "全10集",
+      "line": "modum3u8",
+      "episode_count": 10,
+      "episode": "第10集",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260327/FDPxu80n/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260327/FDPxu80n/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260327/FDPxu80n/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1609,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260327/FDPxu80n/4064kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260327/FDPxu80n/4064kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 60246,
+            "elapsed_ms": 2562,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1482.68,
+        "segment_count": 741,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "咒术回战",
+      "search_ms": 4516,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 73297,
+      "remarks": "更新至12集",
+      "line": "modum3u8",
+      "episode_count": 12,
+      "episode": "第12集",
+      "probe": {
+        "entry_url": "https://play.modujx11.com/20260327/DgC4oWea/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://play.modujx11.com/20260327/DgC4oWea/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260327/DgC4oWea/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 100,
+            "elapsed_ms": 1000,
+            "kind": "hls"
+          },
+          {
+            "url": "https://play.modujx11.com/20260327/DgC4oWea/4060kb/hls/index.m3u8",
+            "final_url": "https://play.modujx11.com/20260327/DgC4oWea/4060kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 72418,
+            "elapsed_ms": 1750,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1780.15,
+        "segment_count": 891,
+        "endlist": true,
+        "encryption": [],
+        "map": [],
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "mdzy",
+      "source_name": "魔都资源",
+      "query": "星际牛仔",
+      "search_ms": 3188,
+      "search_error": null,
+      "title": "星际牛仔",
+      "year": "1998",
+      "id": 6671,
+      "remarks": "26集全",
+      "line": "modum3u8",
+      "episode_count": 26,
+      "episode": "第26集",
+      "probe": {
+        "entry_url": "https://play.modujx10.com/20231117/bUIwph9a/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    }
+  ]
+}

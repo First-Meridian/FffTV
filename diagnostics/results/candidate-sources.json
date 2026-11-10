@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-11-10",
+  "api_site": {
+    "mdzy": {
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "name": "魔都资源",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    },
+    "zy360": {
+      "api": "https://360zy.com/api.php/provide/vod",
+      "name": "360资源",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    },
+    "wujin": {
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "name": "无尽资源",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    },
+    "ikun": {
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "name": "iKun资源",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    },
+    "ruyi": {
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "name": "如意资源",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    },
+    "jisu": {
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "name": "极速资源",
+      "detail": "https://jszyapi.com",
+      "enabled": false,
+      "authorization": "not_verified",
+      "use": "evaluation_candidate"
+    }
+  }
+}

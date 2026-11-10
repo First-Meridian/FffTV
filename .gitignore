@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+data/
+coverage/
+*.tsbuildinfo
+diagnostics/results/browser*.jpg
+npm-debug.log*

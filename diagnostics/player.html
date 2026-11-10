@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FffTV 播放来源验证</title>
+<style>
+  body{margin:24px auto;max-width:1040px;padding:0 20px;background:#10151d;color:#e8eef8;font:16px/1.6 system-ui,sans-serif}
+  h1{font-size:25px} select,button{font:inherit;padding:8px;margin:5px 6px 12px 0;background:#1e2b3e;color:inherit;border:1px solid #506788;border-radius:6px}
+  video{width:100%;max-height:540px;background:black} pre{white-space:pre-wrap;background:#182232;padding:16px;border-radius:8px}
+  .note{color:#a8b7cc} #message{color:#a8d7ff}
+</style>
+<h1>FffTV 播放来源验证</h1>
+<p class="note">本地诊断页面：从已查询的公开接口选择样本，直接加载 HLS。30 秒后自动暂停，限制缓冲和下载量。</p>
+<label for="sample">测试样本</label><br><select id="sample"></select>
+<button id="load">加载并播放</button><button id="seek">跳到中段</button><button id="stop">暂停</button>
+<p id="message">准备读取本地查询结果。</p>
+<video id="video" controls muted playsinline></video>
+<pre id="status">等待加载</pre>
+<script src="hls.min.js"></script>
+<script>
+const video = document.querySelector('video');
+const select = document.querySelector('select');
+const status = document.querySelector('#status');
+const message = document.querySelector('#message');
+let hls, started = 0, seenPlaying = false, errors = [], loaded = [], selected, maxTime = 0, autoStop;
+function show(){
+  const quality = video.getVideoPlaybackQuality?.();
+  status.textContent = JSON.stringify({sample:selected?.label,currentTime:Math.round(video.currentTime*10)/10,duration:Math.round(video.duration||0),resolution:`${video.videoWidth}×${video.videoHeight}`,readyState:video.readyState,paused:video.paused,seenPlaying,decodedFrames:quality?.totalVideoFrames,droppedFrames:quality?.droppedVideoFrames,buffered:Array.from({length:video.buffered.length},(_,i)=>[Math.round(video.buffered.start(i)),Math.round(video.buffered.end(i))]),fragments:loaded.slice(-4),errors:errors.slice(-5)},null,2);
+}
+function playable(item){
+  for(const group of (item.vod_play_url||'').split('$$$')){
+    const list = group.split('#').map(x=>{const at=x.indexOf('$');return {label:x.slice(0,at),url:x.slice(at+1)}}).filter(x=>/^https?:/.test(x.url)&&/\.m3u8(?:[?#]|$)/.test(x.url));
+    if(list.length)return list;
+  }return [];
+}
+async function init(){
+  const sources = (await Promise.all(['results/matrix.json','results/recent.json'].map(x=>fetch(x).then(r=>r.json())))).flatMap(x=>x.sources);
+  for(const key of ['mdzy','zuid','wujin','zy360','ikun','ruyi','jisu','ffzy','dyttzy']){
+    for(const source of sources.filter(x=>x.key===key)) for(const query of source.queries){
+      const items = (query.items||[]).filter(x=>!/(解说|纪录|幕后|中的科学|总集|天国之门)/.test(x.vod_name)&&x.vod_name.replaceAll(' ','').includes(query.query));
+      for(const item of items){
+        if(query.query==='葬送的芙莉莲'&&!item.vod_name.includes('第二季'))continue;
+        if(query.query==='咒术回战'&&!item.vod_name.includes('第三季'))continue;
+        if(query.query==='星际牛仔'&&String(item.vod_year)!=='1998')continue;
+        const eps=playable(item);if(!eps.length)continue;
+        for(const index of [...new Set([0,...(eps.length>2?[eps.length-1]:[])])]){
+          const sample={label:`${source.name}｜${item.vod_name}｜${eps[index].label}`,url:eps[index].url};
+          const option=document.createElement('option');option.textContent=sample.label;option.value=JSON.stringify(sample);select.append(option);
+        }
+      }
+    }
+  }
+  message.textContent=`已加载 ${select.options.length} 个诊断样本。`;
+}
+document.querySelector('#load').onclick=()=>{
+  clearTimeout(autoStop);hls?.destroy();video.pause();selected=JSON.parse(select.value);errors=[];loaded=[];seenPlaying=false;started=0;maxTime=0;
+  message.textContent=selected.label;
+  if(Hls.isSupported()){
+    hls=new Hls({maxBufferLength:10,maxMaxBufferLength:15,maxBufferSize:10*1024*1024,backBufferLength:0});
+    hls.on(Hls.Events.ERROR,(_,data)=>{errors.push({type:data.type,details:data.details,fatal:data.fatal});show()});
+    hls.on(Hls.Events.FRAG_LOADED,(_,data)=>{loaded.push({sequence:data.frag.sn,bytes:data.frag.stats?.total});show()});
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(e=>{errors.push({message:e.message});show()}));
+    hls.loadSource(selected.url);hls.attachMedia(video);
+  }else{video.src=selected.url;video.play().catch(e=>errors.push({message:e.message}));}
+  show();
+  autoStop=setTimeout(()=>{video.pause();hls?.stopLoad();show()},60000);
+};
+document.querySelector('#seek').onclick=()=>{if(video.duration){clearTimeout(autoStop);started=0;hls?.startLoad(video.duration/2);video.currentTime=video.duration/2;video.play();show();autoStop=setTimeout(()=>{video.pause();hls?.stopLoad();show()},45000)}};
+document.querySelector('#stop').onclick=()=>{video.pause();hls?.stopLoad();show()};
+video.addEventListener('playing',()=>{seenPlaying=true;if(!started)started=performance.now();show()});
+video.addEventListener('error',()=>{errors.push({videoCode:video.error?.code,message:video.error?.message});show()});
+video.addEventListener('timeupdate',()=>{maxTime=Math.max(maxTime,video.currentTime);if(started&&performance.now()-started>30000){video.pause();hls?.stopLoad();}show()});
+init().catch(e=>message.textContent=e.message);
+</script>
+</html>

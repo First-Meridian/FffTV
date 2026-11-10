@@ -1,0 +1,1066 @@
+{
+  "checked_at": "2026-11-10T14:36:54.771542+08:00",
+  "config_reference": "https://raw.githubusercontent.com/aahl/MoonTV/main/config.json",
+  "sources": [
+    {
+      "key": "tyyszy",
+      "api": "https://tyyszy.com/api.php/provide/vod",
+      "name": "天涯资源",
+      "queries": [
+        {
+          "url": "https://tyyszy.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "Expecting value: line 1 column 1 (char 0)",
+          "elapsed_ms": 1157,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "ffzy",
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "name": "非凡影视",
+      "detail": "http://ffzy5.tv",
+      "queries": [
+        {
+          "url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2860,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 91824,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "已完结",
+              "vod_time": "2026-03-27 23:14:32",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "feifan$$$ffm3u8",
+              "vod_play_url": "第01集$https://vip.ffzy-plays.com/share/2a018609105d49c03d064918f6c74e18#第02集$https://vip.ffzy-plays.com/share/94c9ee43d82acf1796bb6c7a8faa779a#第03集$https://vip.ffzy-plays.com/share/7be5a906867449ff7e9068f61915e6d2#第04集$https://vip.ffzy-plays.com/share/54778faebfb990828ec9d581a3a5c7cb#第05集$https://vip.ffzy-plays.com/share/25b999dc408ec58676b74b37548d1c7d#第06集$https://vip.ffzy-plays.com/share/ca2c5be3f070cbad8bbedaec9e4f5312#第07集$https://vip.ffzy-plays.com/share/15898a944e35c6a3090e3790aa35a5ae#第08集$https://vip.ffzy-plays.com/share/124da8c8701cb0395acd7ad1db2f493f#第09集$https://vip.ffzy-plays.com/share/0596089e9be0ee3b14f5ef3f0d189617#第10集$https://vip.ffzy-plays.com/share/53dfb877ef181a58891133970c05f636$$$第01集$https://vip.ffzy-plays.com/20260116/49545_2a018609/index.m3u8#第02集$https://vip.ffzy-plays.com/20260123/49732_94c9ee43/index.m3u8#第03集$https://vip.ffzy-plays.com/20260130/49990_7be5a906/index.m3u8#第04集$https://vip.ffzy-plays.com/20260206/50283_54778fae/index.m3u8#第05集$https://vip.ffzy-plays.com/20260213/50525_25b999dc/index.m3u8#第06集$https://vip.ffzy-plays.com/20260227/50979_ca2c5be3/index.m3u8#第07集$https://vip.ffzy-plays.com/20260306/51208_15898a94/index.m3u8#第08集$https://vip.ffzy-plays.com/20260313/51413_124da8c8/index.m3u8#第09集$https://vip.ffzy-plays.com/20260320/51615_0596089e/index.m3u8#第10集$https://vip.ffzy-plays.com/20260327/51813_53dfb877/index.m3u8"
+            },
+            {
+              "vod_id": 60723,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2024-03-23 00:18:22",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "feifan$$$ffm3u8",
+              "vod_play_url": "第01集$https://vip.ffzy-plays.com/share/61d8c968f0a66dcf2b05982bdccb484b#第02集$https://vip.ffzy-plays.com/share/ccb8dbcf2c004cbbae8858760e4a22fa#第03集$https://vip.ffzy-plays.com/share/3057aa0acb6d937295819f3d94f015e9#第04集$https://vip.ffzy-plays.com/share/571e4d938fce895f659315a68998b3f9#第05集$https://vip.ffzy-plays.com/share/827db779e3e645101720d62feaea0cde#第06集$https://vip.ffzy-plays.com/share/e58e3a33512dd5cbb9e07daa9cca8d19#第07集$https://vip.ffzy-plays.com/share/8f8d7cbc10573c6310113c9cc420d8af#第08集$https://vip.ffzy-plays.com/share/dcd6117795f478ae012f56a1a83dc657#第09集$https://vip.ffzy-plays.com/share/264095b9e936a7831228d84f429f58c8#第10集$https://vip.ffzy-plays.com/share/e4601a1f7793686473dbf4d61eb4a42c#第11集$https://vip.ffzy-plays.com/share/85bb07bea16780c3974da113d3b0805f#第12集$https://vip.ffzy-plays.com/share/9b567223cada8f26e92a5223b1c7d8a8#第13集$https://vip.ffzy-plays.com/share/0c167b368c00b672390fa54be52468ec#第14集$https://vip.ffzy-plays.com/share/83f68e12355250e64cbd57b2e51c57ad#第15集$https://super.ffzy-online6.com/share/543f040479c7e7c41bbabd257c13ef2d#第16集$https://vip.ffzy-plays.com/share/c56eb490500b7a3f2619a1c4b79fbc98#第17集$https://vip.ffzy-plays.com/share/82aafca3e03771835c2e1acb19fde2d4#第18集$https://vip.ffzy-plays.com/share/cc5e82c68af96ec8554ac4ae9cea008d#第19集$https://vip.ffzy-plays.com/share/f67204d4ca3474c58368df9fb5f0f6bc#第20集$https://vip.ffzy-plays.com/share/3c8beeb8b85cec20fbe194aed2e6474c#第21集$https://vip.ffzy-plays.com/share/987e7576322cf0c63ed9c3229149a2a6#第22集$https://vip.ffzy-plays.com/share/ecacd215c0e820d5407b32369cd33b9b#第23集$https://vip.ffzy-plays.com/share/bb8bf48a4f86fb1a77d0d0953d87958e#第24集$https://vip.ffzy-plays.com/share/f073cd45cff903b9a6e8a810ecda129b#第25集$https://vip.ffzy-plays.com/share/b13c180ba3b4c0afdd38ed2cb91fc498#第26集$https://vip.ffzy-plays.com/share/8a3e0404c419498a8636cf91c55edbe3#第27集$https://vip.ffzy-plays.com/share/b4f6926d4794e9cdb293fa94a06b4577#第28集$https://vip.ffzy-plays.com/share/dc88b6a16db5ef98acdee40975d9af0f$$$第01集$https://vip.ffzy-plays.com/20230930/17311_4c0bc7b2/index.m3u8#第02集$https://vip.ffzy-plays.com/20230930/17312_766070c2/index.m3u8#第03集$https://vip.ffzy-plays.com/20230930/17313_c3332959/index.m3u8#第04集$https://vip.ffzy-plays.com/20230930/17314_0ea155e4/index.m3u8#第05集$https://vip.ffzy-plays.com/20231007/17656_5eecf098/index.m3u8#第06集$https://vip.ffzy-plays.com/20231013/17979_547003b4/index.m3u8#第07集$https://vip.ffzy-plays.com/20231021/18457_a78f584d/index.m3u8#第08集$https://vip.ffzy-plays.com/20231027/18759_d592f7dc/index.m3u8#第09集$https://vip.ffzy-plays.com/20231103/19078_d1d6b52b/index.m3u8#第10集$https://vip.ffzy-plays.com/20231111/19439_82f1f050/index.m3u8#第11集$https://vip.ffzy-plays.com/20231117/19766_fef47e35/index.m3u8#第12集$https://vip.ffzy-plays.com/20231125/20059_e0f0c8de/index.m3u8#第13集$https://vip.ffzy-plays.com/20231202/20368_2bf3d050/index.m3u8#第14集$https://vip.ffzy-plays.com/20231209/20704_ee0dd4b8/index.m3u8#第15集$https://super.ffzy-online6.com/20231216/23193_e8234f50/index.m3u8#第16集$https://vip.ffzy-plays.com/20231222/21347_f8ce93a3/index.m3u8#第17集$https://vip.ffzy-plays.com/20240105/21812_4950f39a/index.m3u8#第18集$https://vip.ffzy-plays.com/20240112/22062_48ab7689/index.m3u8#第19集$https://vip.ffzy-plays.com/20240119/22373_c8d17335/index.m3u8#第20集$https://vip.ffzy-plays.com/20240126/22681_52cb8304/index.m3u8#第21集$https://vip.ffzy-plays.com/20240203/22975_c9df2777/index.m3u8#第22集$https://vip.ffzy-plays.com/20240209/23292_47cf4885/index.m3u8#第23集$https://vip.ffzy-plays.com/20240217/23582_1fdf4197/index.m3u8#第24集$https://vip.ffzy-plays.com/20240224/23903_fe56fee7/index.m3u8#第25集$https://vip.ffzy-plays.com/20240302/24322_39ae3709/index.m3u8#第26集$https://vip.ffzy-plays.com/20240309/24713_84d11eca/index.m3u8#第27集$https://vip.ffzy-plays.com/20240316/24963_edf36ed5/index.m3u8#第28集$https://vip.ffzy-plays.com/20240323/25193_10b4631c/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "dyttzy",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "name": "电影天堂资源",
+      "detail": "http://caiji.dyttzyapi.com",
+      "queries": [
+        {
+          "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2891,
+          "code": 1,
+          "message": "数据列表",
+          "total": 3,
+          "items": [
+            {
+              "vod_id": 78506,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "已完结",
+              "vod_time": "2026-03-27 23:17:58",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "dytt$$$dyttm3u8",
+              "vod_play_url": "第01集$https://vip.dytt-cinema.com/share/89409c4207e0074abbdc5a49d7f1fce8#第02集$https://vip.dytt-cinema.com/share/6d8baf465e25dcb5f546646ee3f9c000#第03集$https://vip.dytt-cinema.com/share/d50e3fa729f701714472688fbfffa7fe#第04集$https://vip.dytt-cinema.com/share/e5c8a5d17f78ce53ce474af541e45166#第05集$https://vip.dytt-cinema.com/share/119ce5d79e3c006a9e46967bff271cb2#第06集$https://vip.dytt-cinema.com/share/08973de6b97df266ebbf555c69294d77#第07集$https://vip.dytt-cinema.com/share/ec65ffa72e860873aff35bae359113ac#第08集$https://vip.dytt-cinema.com/share/353c89ab06f398fb527725745a8ea6de#第09集$https://vip.dytt-tvs.com/share/27a5eaafdb88c45dd61732d6a6493421#第10集$https://vip.dytt-tvs.com/share/fc5f86251458722c799d1830fa0c2c1f$$$第01集$https://vip.dytt-cinema.com/20260116/45690_89409c42/index.m3u8#第02集$https://vip.dytt-cinema.com/20260123/46171_6d8baf46/index.m3u8#第03集$https://vip.dytt-cinema.com/20260130/46875_d50e3fa7/index.m3u8#第04集$https://vip.dytt-cinema.com/20260206/48134_e5c8a5d1/index.m3u8#第05集$https://vip.dytt-cinema.com/20260213/49155_119ce5d7/index.m3u8#第06集$https://vip.dytt-cinema.com/20260227/50782_08973de6/index.m3u8#第07集$https://vip.dytt-cinema.com/20260307/51536_ec65ffa7/index.m3u8#第08集$https://vip.dytt-cinema.com/20260313/52299_353c89ab/index.m3u8#第09集$https://vip.dytt-tvs.com/20260320/13641_27a5eaaf/index.m3u8#第10集$https://vip.dytt-tvs.com/20260327/14426_fc5f8625/index.m3u8"
+            },
+            {
+              "vod_id": 64691,
+              "vod_name": "葬送的芙莉莲 ～●●的魔法～",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2025-09-22 17:05:28",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "dytt$$$dyttm3u8",
+              "vod_play_url": "第01-14集$https://vip.dytt-kan.com/share/2fb544a21e8cb8768b80cc231ca2f691#第15集$https://vip.dytt-kan.com/share/624ec1c881656ee6418604df2928494b#第16集$https://vip.dytt-kan.com/share/cdfa4c42f465a5a66871587c69fcfa34#第17集$https://vip.dytt-kan.com/share/10112bde2ba78e674b21aaa84613bc8e$$$第01-14集$https://vip.dytt-kan.com/20250922/5857_2fb544a2/index.m3u8#第15集$https://vip.dytt-kan.com/20250922/5854_624ec1c8/index.m3u8#第16集$https://vip.dytt-kan.com/20250922/5855_cdfa4c42/index.m3u8#第17集$https://vip.dytt-kan.com/20250922/5856_10112bde/index.m3u8"
+            },
+            {
+              "vod_id": 7350,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2025-02-14 13:48:16",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "dytt$$$dyttm3u8",
+              "vod_play_url": "第01集$https://vip.dytt-hot.com/share/e10e163d63625f0ebed7e18543743c14#第02集$https://vip.dytt-hot.com/share/b8da1ad63c85d7d91338134ee7c6671a#第03集$https://vip.dytt-hot.com/share/d3d9007636be26969e05f6ba1d3cf7dd#第04集$https://vip.dytt-hot.com/share/e84596be25806821c2d22ae6de38d51c#第05集$https://vip.dytt-hot.com/share/669c35c595fa7abcc0b82d0ba7d90f66#第06集$https://vip.dytt-hot.com/share/3a451d508be07d684c2face70e6ecf9d#第07集$https://vip.dytt-hot.com/share/905fb31e485e7f2fad5cba1f425d72e6#第08集$https://vip.dytt-hot.com/share/8eb7be5a13cc39a3e56b78aba08b2039#第09集$https://vip.dytt-hot.com/share/4badf6fce1fb568ba4d71e1645e5da27#第10集$https://vip.dytt-hot.com/share/1da185c08aa2bce7b7d2daa5d6956cc3#第11集$https://vip.dytt-hot.com/share/4f9959469b99179f25fd5cf84f4cde62#第12集$https://vip.dytt-hot.com/share/e913bfa37964c7073c81c32a6d750b99#第13集$https://vip.dytt-hot.com/share/b46825e256dea79fb588e5455ed7fe58#第14集$https://vip.dytt-hot.com/share/942daac277daced487d09ddcbe753d73#第15集$https://vip.dytt-hot.com/share/817fa9146e77f93396b5b4a108f58cfa#第16集$https://vip.dytt-hot.com/share/ed34d801ecf10f1a8178debdf0f365e0#第17集$https://vip.dytt-hot.com/share/546b5e6a6dfe42925b8a87ebcac1a9cb#第18集$https://vip.dytt-hot.com/share/3262c13088a37147f222c34b1a9029a4#第19集$https://vip.dytt-hot.com/share/d8c2a05e8270406dcdd260a088902cb5#第20集$https://vip.dytt-hot.com/share/f47dafa1b01fc67850d5576e5216df25#第21集$https://vip.dytt-hot.com/share/e6ec91cba600ca785d5e02beb0d0c8eb#第22集$https://vip.dytt-hot.com/share/52ac89f6fd092a77578033a1b21594ff#第23集$https://vip.dytt-hot.com/share/4579b0511a0e6319628ffc17cc6b3998#第24集$https://vip.dytt-hot.com/share/ea16c8ad502b00dd6eb031b3fd35d738#第25集$https://vip.dytt-hot.com/share/4ea59864816087bb60d6e5680c047a5e#第26集$https://vip.dytt-hot.com/share/abc8818c03e3574658e1a5dd95d2ff8d#第27集$https://vip.dytt-hot.com/share/89332a47697d46ed6543d51ac348bafb#第28集$https://vip.dytt-hot.com/share/e51e03b93afcc9032d56360fbfa2a47d$$$第01集$https://vip.dytt-hot.com/20250131/24912_e10e163d/index.m3u8#第02集$https://vip.dytt-hot.com/20250131/24906_b8da1ad6/index.m3u8#第03集$https://vip.dytt-hot.com/20250131/24915_d3d90076/index.m3u8#第04集$https://vip.dytt-hot.com/20250131/24908_e84596be/index.m3u8#第05集$https://vip.dytt-hot.com/20250131/24911_669c35c5/index.m3u8#第06集$https://vip.dytt-hot.com/20250131/24919_3a451d50/index.m3u8#第07集$https://vip.dytt-hot.com/20250131/24917_905fb31e/index.m3u8#第08集$https://vip.dytt-hot.com/20250131/24921_8eb7be5a/index.m3u8#第09集$https://vip.dytt-hot.com/20250131/24922_4badf6fc/index.m3u8#第10集$https://vip.dytt-hot.com/20250131/24904_1da185c0/index.m3u8#第11集$https://vip.dytt-hot.com/20250131/24924_4f995946/index.m3u8#第12集$https://vip.dytt-hot.com/20250131/24926_e913bfa3/index.m3u8#第13集$https://vip.dytt-hot.com/20250131/24927_b46825e2/index.m3u8#第14集$https://vip.dytt-hot.com/20250131/24933_942daac2/index.m3u8#第15集$https://vip.dytt-hot.com/20250131/24932_817fa914/index.m3u8#第16集$https://vip.dytt-hot.com/20250131/24929_ed34d801/index.m3u8#第17集$https://vip.dytt-hot.com/20250131/24935_546b5e6a/index.m3u8#第18集$https://vip.dytt-hot.com/20250131/24937_3262c130/index.m3u8#第19集$https://vip.dytt-hot.com/20250131/24941_d8c2a05e/index.m3u8#第20集$https://vip.dytt-hot.com/20250131/24939_f47dafa1/index.m3u8#第21集$https://vip.dytt-hot.com/20250131/24943_e6ec91cb/index.m3u8#第22集$https://vip.dytt-hot.com/20250131/24946_52ac89f6/index.m3u8#第23集$https://vip.dytt-hot.com/20250131/24948_4579b051/index.m3u8#第24集$https://vip.dytt-hot.com/20250131/24950_ea16c8ad/index.m3u8#第25集$https://vip.dytt-hot.com/20250131/24944_4ea59864/index.m3u8#第26集$https://vip.dytt-hot.com/20250131/24953_abc8818c/index.m3u8#第27集$https://vip.dytt-hot.com/20250131/24955_89332a47/index.m3u8#第28集$https://vip.dytt-hot.com/20250131/24957_e51e03b9/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "heimuer",
+      "api": "https://json.heimuer.xyz/api.php/provide/vod",
+      "name": "黑木耳",
+      "detail": "https://heimuer.tv",
+      "queries": [
+        {
+          "url": "https://json.heimuer.xyz/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "Expecting value: line 1 column 1 (char 0)",
+          "elapsed_ms": 3125,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "jisu",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "name": "极速资源",
+      "detail": "https://jszyapi.com",
+      "queries": [
+        {
+          "url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 1203,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 92376,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "第10集完结",
+              "vod_time": "2026-03-28 05:21:02",
+              "type_name": "日本动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "jsyun$$$jsm3u8",
+              "vod_play_url": "第1集$https://vv.jisuzyv.com/play/av223w5a#第2集$https://vv.jisuzyv.com/play/bYEEj3Mb#第3集$https://vv.jisuzyv.com/play/dL9g8gve#第4集$https://vv.jisuzyv.com/play/eERl6kYa#第5集$https://vv.jisuzyv.com/play/dJ6Z28Kd#第6集$https://vv.jisuzyv.com/play/azpmG62d#第7集$https://vv.jisuzyv.com/play/dJ6ZLwyd#第8集$https://vv.jisuzyv.com/play/bkRZ2Y5a#第9集$https://vv.jisuzyv.com/play/eER91DNa#第10集完结$https://vv.jisuzyv.com/play/bYEvRLMb$$$第1集$https://vv.jisuzyv.com/play/av223w5a/index.m3u8#第2集$https://vv.jisuzyv.com/play/bYEEj3Mb/index.m3u8#第3集$https://vv.jisuzyv.com/play/dL9g8gve/index.m3u8#第4集$https://vv.jisuzyv.com/play/eERl6kYa/index.m3u8#第5集$https://vv.jisuzyv.com/play/dJ6Z28Kd/index.m3u8#第6集$https://vv.jisuzyv.com/play/azpmG62d/index.m3u8#第7集$https://vv.jisuzyv.com/play/dJ6ZLwyd/index.m3u8#第8集$https://vv.jisuzyv.com/play/bkRZ2Y5a/index.m3u8#第9集$https://vv.jisuzyv.com/play/eER91DNa/index.m3u8#第10集完结$https://vv.jisuzyv.com/play/bYEvRLMb/index.m3u8"
+            },
+            {
+              "vod_id": 45722,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "第28集",
+              "vod_time": "2025-08-06 19:34:55",
+              "type_name": "日本动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "jsyun$$$jsm3u8",
+              "vod_play_url": "第1集$https://vv.jisuzyv.com/play/6dBmEPYb#第2集$https://vv.jisuzyv.com/play/wdLzBvra#第3集$https://vv.jisuzyv.com/play/9avvJ85a#第4集$https://vv.jisuzyv.com/play/vbmjXYGd#第5集$https://vv.jisuzyv.com/play/oeEpwOWd#第6集$https://vv.jisuzyv.com/play/xe706w8a#第7集$https://vv.jisuzyv.com/play/zbqn2Opd#第8集$https://vv.jisuzyv.com/play/QbYmRy9b#第9集$https://vv.jisuzyv.com/play/xbolwOBd#第10集$https://vv.jisuzyv.com/play/9b6QJMLa#第11集$https://vv.jisuzyv.com/play/vbm9XQ0b#第12集$https://vv.jisuzyv.com/play/vbm9WnEb#第13集$https://vv.jisuzyv.com/play/7e5zNgBa#第14集$https://vv.jisuzyv.com/play/7axWlyBe#第15集$https://vv.jisuzyv.com/play/7e5oEZYb#第16集$https://vv.jisuzyv.com/play/QdJkBLDe#第17集$https://vv.jisuzyv.com/play/mbkxrDKd#第18集$https://vv.jisuzyv.com/play/PdRyKOEb#第19集$https://vv.jisuzyv.com/play/ZdPwVlyb#第20集$https://vv.jisuzyv.com/play/QbYJgknd#第21集$https://vv.jisuzyv.com/play/mbkk8REb#第22集$https://vv.jisuzyv.com/play/PdRmw7Ob#第23集$https://vv.jisuzyv.com/play/QbYwn9Ke#第24集$https://vv.jisuzyv.com/play/negOj96e#第25集$https://vv.jisuzyv.com/play/QdJMvrob#第26集$https://vv.jisuzyv.com/play/PdRqg1Rb#第27集$https://vv.jisuzyv.com/play/zbq06PGa#第28集$https://vv.jisuzyv.com/play/7e5p4EXd$$$第1集$https://vv.jisuzyv.com/play/6dBmEPYb/index.m3u8#第2集$https://vv.jisuzyv.com/play/wdLzBvra/index.m3u8#第3集$https://vv.jisuzyv.com/play/9avvJ85a/index.m3u8#第4集$https://vv.jisuzyv.com/play/vbmjXYGd/index.m3u8#第5集$https://vv.jisuzyv.com/play/oeEpwOWd/index.m3u8#第6集$https://vv.jisuzyv.com/play/xe706w8a/index.m3u8#第7集$https://vv.jisuzyv.com/play/zbqn2Opd/index.m3u8#第8集$https://vv.jisuzyv.com/play/QbYmRy9b/index.m3u8#第9集$https://vv.jisuzyv.com/play/xbolwOBd/index.m3u8#第10集$https://vv.jisuzyv.com/play/9b6QJMLa/index.m3u8#第11集$https://vv.jisuzyv.com/play/vbm9XQ0b/index.m3u8#第12集$https://vv.jisuzyv.com/play/vbm9WnEb/index.m3u8#第13集$https://vv.jisuzyv.com/play/7e5zNgBa/index.m3u8#第14集$https://vv.jisuzyv.com/play/7axWlyBe/index.m3u8#第15集$https://vv.jisuzyv.com/play/7e5oEZYb/index.m3u8#第16集$https://vv.jisuzyv.com/play/QdJkBLDe/index.m3u8#第17集$https://vv.jisuzyv.com/play/mbkxrDKd/index.m3u8#第18集$https://vv.jisuzyv.com/play/PdRyKOEb/index.m3u8#第19集$https://vv.jisuzyv.com/play/ZdPwVlyb/index.m3u8#第20集$https://vv.jisuzyv.com/play/QbYJgknd/index.m3u8#第21集$https://vv.jisuzyv.com/play/mbkk8REb/index.m3u8#第22集$https://vv.jisuzyv.com/play/PdRmw7Ob/index.m3u8#第23集$https://vv.jisuzyv.com/play/QbYwn9Ke/index.m3u8#第24集$https://vv.jisuzyv.com/play/negOj96e/index.m3u8#第25集$https://vv.jisuzyv.com/play/QdJMvrob/index.m3u8#第26集$https://vv.jisuzyv.com/play/PdRqg1Rb/index.m3u8#第27集$https://vv.jisuzyv.com/play/zbq06PGa/index.m3u8#第28集$https://vv.jisuzyv.com/play/7e5p4EXd/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "bfzy",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "name": "暴风资源",
+      "queries": [
+        {
+          "url": "https://bfzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://bfzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "application/json; charset=utf-8",
+          "elapsed_ms": 5860,
+          "code": 1,
+          "message": "数据列表",
+          "total": 24,
+          "items": [
+            {
+              "vod_id": 53475,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "全28集",
+              "vod_time": "2024-03-23 00:31:23",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第01集/index.m3u8#第02集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第02集/index.m3u8#第03集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第03集/index.m3u8#第04集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第04集/index.m3u8#第05集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第05集/index.m3u8#第06集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第06集/index.m3u8#第07集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第07集/index.m3u8#第08集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第08集/index.m3u8#第09集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第09集/index.m3u8#第10集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第10集/index.m3u8#第11集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第11集/index.m3u8#第12集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第12集/index.m3u8#第13集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第13集/index.m3u8#第14集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第14集/index.m3u8#第15集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第15集/index.m3u8#第16集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第16集/index.m3u8#第17集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第17集/index.m3u8#第18集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第18集/index.m3u8#第19集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第19集/index.m3u8#第20集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第20集/index.m3u8#第21集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第21集/index.m3u8#第22集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第22集/index.m3u8#第23集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第23集/index.m3u8#第24集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第24集/index.m3u8#第25集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第25集/index.m3u8#第26集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第26集/index.m3u8#第27集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第27集/index.m3u8#第28集$https://c1.rrcdnbf5.com/video/zangsongdefulilian/第28集/index.m3u8"
+            },
+            {
+              "vod_id": 121061,
+              "vod_name": "葬送的芙莉莲 第二季",
+              "vod_year": "2026",
+              "vod_remarks": "完结",
+              "vod_time": "2026-03-27 23:09:00",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://v.baofeng9.com/video/zangsongdefuliliandierji/3f96dc3b5e08/index.m3u8#第02集$https://v.baofeng9.com/video/zangsongdefuliliandierji/b0615980a6db/index.m3u8#第03集$https://v.baofeng9.com/video/zangsongdefuliliandierji/f73fccc2879f/index.m3u8#第04集$https://v.baofeng9.com/video/zangsongdefuliliandierji/66205486db0c/index.m3u8#第05集$https://v.baofeng9.com/video/zangsongdefuliliandierji/ce38cce9bae3/index.m3u8#第06集$https://v.baofeng9.com/video/zangsongdefuliliandierji/3ce76cac4644/index.m3u8#第07集$https://v.baofeng9.com/video/zangsongdefuliliandierji/6653610684f8/index.m3u8#第08集$https://v.baofeng9.com/video/zangsongdefuliliandierji/6b2e77933ca7/index.m3u8#第09集$https://v.baofeng9.com/video/zangsongdefuliliandierji/685e0e6ec48d/index.m3u8#第10集$https://v.baofeng9.com/video/zangsongdefuliliandierji/63f2ca845d39/index.m3u8"
+            },
+            {
+              "vod_id": 47586,
+              "vod_name": "绝对不可能～侦探・上水流涼子的解析～",
+              "vod_year": "2023",
+              "vod_remarks": "更新至11集",
+              "vod_time": "2023-06-27 10:54:05",
+              "type_name": "日本剧",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第01集/index.m3u8#第02集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第02集/index.m3u8#第03集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第03集/index.m3u8#第04集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第04集/index.m3u8#第05集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第05集/index.m3u8#第06集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第06集/index.m3u8#第07集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第07集/index.m3u8#第08集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第08集/index.m3u8#第09集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第09集/index.m3u8#第10集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第10集/index.m3u8#第11集$https://c1.rrcdnbf6.com/video/jueduibukenengzhentanshangshuiliuliangzidejiexi/第11集/index.m3u8"
+            },
+            {
+              "vod_id": 3132,
+              "vod_name": "鬓边不是海棠红",
+              "vod_year": "2020",
+              "vod_remarks": "完结",
+              "vod_time": "2026-06-09 16:52:15",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第01集/index.m3u8#第02集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第02集/index.m3u8#第03集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第03集/index.m3u8#第04集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第04集/index.m3u8#第05集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第05集/index.m3u8#第06集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第06集/index.m3u8#第07集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第07集/index.m3u8#第08集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第08集/index.m3u8#第09集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第09集/index.m3u8#第10集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第10集/index.m3u8#第11集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第11集/index.m3u8#第12集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第12集/index.m3u8#第13集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第13集/index.m3u8#第14集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第14集/index.m3u8#第15集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第15集/index.m3u8#第16集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第16集/index.m3u8#第17集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第17集/index.m3u8#第18集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第18集/index.m3u8#第19集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第19集/index.m3u8#第20集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第20集/index.m3u8#第21集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第21集/index.m3u8#第22集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第22集/index.m3u8#第23集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第23集/index.m3u8#第24集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第24集/index.m3u8#第25集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第25集/index.m3u8#第26集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第26集/index.m3u8#第27集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第27集/index.m3u8#第28集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第28集/index.m3u8#第29集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第29集/index.m3u8#第30集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第30集/index.m3u8#第31集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第31集/index.m3u8#第32集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第32集/index.m3u8#第33集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第33集/index.m3u8#第34集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第34集/index.m3u8#第35集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第35集/index.m3u8#第36集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第36集/index.m3u8#第37集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第37集/index.m3u8#第38集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第38集/index.m3u8#第39集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第39集/index.m3u8#第40集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第40集/index.m3u8#第41集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第41集/index.m3u8#第42集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第42集/index.m3u8#第43集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第43集/index.m3u8#第44集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第44集/index.m3u8#第45集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第45集/index.m3u8#第46集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第46集/index.m3u8#第47集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第47集/index.m3u8#第48集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第48集/index.m3u8#第49集$https://p.bvvvvvvvvv1f.com/video/binbianbushihaitanghong/第49集/index.m3u8"
+            },
+            {
+              "vod_id": 22884,
+              "vod_name": "瞄准你的未来",
+              "vod_year": "2022",
+              "vod_remarks": "完结",
+              "vod_time": "2026-06-10 02:19:23",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第01集/index.m3u8#第02集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第02集/index.m3u8#第03集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第03集/index.m3u8#第04集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第04集/index.m3u8#第05集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第05集/index.m3u8#第06集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第06集/index.m3u8#第07集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第07集/index.m3u8#第08集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第08集/index.m3u8#第09集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第09集/index.m3u8#第10集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第10集/index.m3u8#第11集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第11集/index.m3u8#第12集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第12集/index.m3u8#第13集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第13集/index.m3u8#第14集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第14集/index.m3u8#第15集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第15集/index.m3u8#第16集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第16集/index.m3u8#第17集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第17集/index.m3u8#第18集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第18集/index.m3u8#第19集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第19集/index.m3u8#第20集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第20集/index.m3u8#第21集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第21集/index.m3u8#第22集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第22集/index.m3u8#第23集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第23集/index.m3u8#第24集$https://p.bvvvvvvvvv1f.com/video/miaozhunnideweilai/第24集/index.m3u8"
+            },
+            {
+              "vod_id": 43579,
+              "vod_name": "忧郁的物怪庵第一季",
+              "vod_year": "2016",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-04-29 23:10:23",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第01集/index.m3u8#第02集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第02集/index.m3u8#第03集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第03集/index.m3u8#第04集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第04集/index.m3u8#第05集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第05集/index.m3u8#第06集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第06集/index.m3u8#第07集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第07集/index.m3u8#第08集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第08集/index.m3u8#第09集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第09集/index.m3u8#第10集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第10集/index.m3u8#第11集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第11集/index.m3u8#第12集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第12集/index.m3u8#第13集$https://c1.ddbbffcdn.com/video/youyudewuguaiandiyiji/第13集/index.m3u8"
+            },
+            {
+              "vod_id": 167270,
+              "vod_name": "魔法情缘",
+              "vod_year": "2026",
+              "vod_remarks": "更新至HD",
+              "vod_time": "2026-10-12 11:38:12",
+              "type_name": "爱情片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD$https://fengbao13.com/video/mofaqingyuan/e28561729509/index.m3u8"
+            },
+            {
+              "vod_id": 7780,
+              "vod_name": "地狱天堂",
+              "vod_year": "2007",
+              "vod_remarks": "完结",
+              "vod_time": "2026-06-09 18:19:19",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.ddbbffcdn.com/video/diyutiantang/第01集/index.m3u8#第02集$https://c1.ddbbffcdn.com/video/diyutiantang/第02集/index.m3u8#第03集$https://c1.ddbbffcdn.com/video/diyutiantang/第03集/index.m3u8#第04集$https://c1.ddbbffcdn.com/video/diyutiantang/第04集/index.m3u8#第05集$https://c1.ddbbffcdn.com/video/diyutiantang/第05集/index.m3u8#第06集$https://c1.ddbbffcdn.com/video/diyutiantang/第06集/index.m3u8#第07集$https://c1.ddbbffcdn.com/video/diyutiantang/第07集/index.m3u8#第08集$https://c1.ddbbffcdn.com/video/diyutiantang/第08集/index.m3u8#第09集$https://c1.ddbbffcdn.com/video/diyutiantang/第09集/index.m3u8#第10集$https://c1.ddbbffcdn.com/video/diyutiantang/第10集/index.m3u8#第11集$https://c1.ddbbffcdn.com/video/diyutiantang/第11集/index.m3u8#第12集$https://c1.ddbbffcdn.com/video/diyutiantang/第12集/index.m3u8#第13集$https://c1.ddbbffcdn.com/video/diyutiantang/第13集/index.m3u8#第14集$https://c1.ddbbffcdn.com/video/diyutiantang/第14集/index.m3u8#第15集$https://c1.ddbbffcdn.com/video/diyutiantang/第15集/index.m3u8#第16集$https://c1.ddbbffcdn.com/video/diyutiantang/第16集/index.m3u8#第17集$https://c1.ddbbffcdn.com/video/diyutiantang/第17集/index.m3u8#第18集$https://c1.ddbbffcdn.com/video/diyutiantang/第18集/index.m3u8#第19集$https://c1.ddbbffcdn.com/video/diyutiantang/第19集/index.m3u8#第20集$https://c1.ddbbffcdn.com/video/diyutiantang/第20集/index.m3u8#第21集$https://c1.ddbbffcdn.com/video/diyutiantang/第21集/index.m3u8#第22集$https://c1.ddbbffcdn.com/video/diyutiantang/第22集/index.m3u8#第23集$https://c1.ddbbffcdn.com/video/diyutiantang/第23集/index.m3u8#第24集$https://c1.ddbbffcdn.com/video/diyutiantang/第24集/index.m3u8#第25集$https://c1.ddbbffcdn.com/video/diyutiantang/第25集/index.m3u8"
+            },
+            {
+              "vod_id": 98451,
+              "vod_name": "F1：狂飙飞车",
+              "vod_year": "2025",
+              "vod_remarks": "HD中字",
+              "vod_time": "2025-08-21 13:15:37",
+              "type_name": "动作片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD5$https://v.fengbao8.com/video/F1kuangbiaofeiche/HD5/index.m3u8"
+            },
+            {
+              "vod_id": 2099,
+              "vod_name": "半生缘",
+              "vod_year": "1997",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-06-19 01:54:53",
+              "type_name": "剧情片",
+              "vod_lang": "粤语",
+              "vod_area": "香港",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD国语$https://p.bvvvvvvvvv1f.com/video/banshengyuan/HD国语/index.m3u8#HD粤语$https://p.bvvvvvvvvv1f.com/video/banshengyuan/HD粤语/index.m3u8"
+            },
+            {
+              "vod_id": 57502,
+              "vod_name": "半生缘[电影解说]",
+              "vod_year": "1997",
+              "vod_remarks": "电影解说",
+              "vod_time": "2023-11-22 08:20:44",
+              "type_name": "电影解说",
+              "vod_lang": "粤语",
+              "vod_area": "香港",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "电影解说$https://c1.rrcdnbf5.com/video/banshengyuandianyingjieshuo/电影解说/index.m3u8"
+            },
+            {
+              "vod_id": 28573,
+              "vod_name": "如此婚姻",
+              "vod_year": "0",
+              "vod_remarks": "完结",
+              "vod_time": "2026-06-10 06:08:29",
+              "type_name": "国产剧",
+              "vod_lang": "其它",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.ddbbffcdn.com/video/rucihunyin/第01集/index.m3u8#第02集$https://c1.ddbbffcdn.com/video/rucihunyin/第02集/index.m3u8#第03集$https://c1.ddbbffcdn.com/video/rucihunyin/第03集/index.m3u8#第04集$https://c1.ddbbffcdn.com/video/rucihunyin/第04集/index.m3u8#第05集$https://c1.ddbbffcdn.com/video/rucihunyin/第05集/index.m3u8#第06集$https://c1.ddbbffcdn.com/video/rucihunyin/第06集/index.m3u8#第07集$https://c1.ddbbffcdn.com/video/rucihunyin/第07集/index.m3u8#第08集$https://c1.ddbbffcdn.com/video/rucihunyin/第08集/index.m3u8#第09集$https://c1.ddbbffcdn.com/video/rucihunyin/第09集/index.m3u8#第10集$https://c1.ddbbffcdn.com/video/rucihunyin/第10集/index.m3u8#第11集$https://c1.ddbbffcdn.com/video/rucihunyin/第11集/index.m3u8#第12集$https://c1.ddbbffcdn.com/video/rucihunyin/第12集/index.m3u8#第13集$https://c1.ddbbffcdn.com/video/rucihunyin/第13集/index.m3u8#第14集$https://c1.ddbbffcdn.com/video/rucihunyin/第14集/index.m3u8#第15集$https://c1.ddbbffcdn.com/video/rucihunyin/第15集/index.m3u8#第16集$https://c1.ddbbffcdn.com/video/rucihunyin/第16集/index.m3u8#第17集$https://c1.ddbbffcdn.com/video/rucihunyin/第17集/index.m3u8#第18集$https://c1.ddbbffcdn.com/video/rucihunyin/第18集/index.m3u8#第19集$https://c1.ddbbffcdn.com/video/rucihunyin/第19集/index.m3u8#第20集$https://c1.ddbbffcdn.com/video/rucihunyin/第20集/index.m3u8#第21集$https://c1.ddbbffcdn.com/video/rucihunyin/第21集/index.m3u8"
+            },
+            {
+              "vod_id": 42271,
+              "vod_name": "一门三司令",
+              "vod_year": "2012",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-04-29 23:07:05",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.rrcdnbf2.com/video/yimensansiling/第01集/index.m3u8#第02集$https://c1.rrcdnbf2.com/video/yimensansiling/第02集/index.m3u8#第03集$https://c1.rrcdnbf2.com/video/yimensansiling/第03集/index.m3u8#第04集$https://c1.rrcdnbf2.com/video/yimensansiling/第04集/index.m3u8#第05集$https://c1.rrcdnbf2.com/video/yimensansiling/第05集/index.m3u8#第06集$https://c1.rrcdnbf2.com/video/yimensansiling/第06集/index.m3u8#第07集$https://c1.rrcdnbf2.com/video/yimensansiling/第07集/index.m3u8#第08集$https://c1.rrcdnbf2.com/video/yimensansiling/第08集/index.m3u8#第09集$https://c1.rrcdnbf2.com/video/yimensansiling/第09集/index.m3u8#第10集$https://c1.rrcdnbf2.com/video/yimensansiling/第10集/index.m3u8#第11集$https://c1.rrcdnbf2.com/video/yimensansiling/第11集/index.m3u8#第12集$https://c1.rrcdnbf2.com/video/yimensansiling/第12集/index.m3u8#第13集$https://c1.rrcdnbf2.com/video/yimensansiling/第13集/index.m3u8#第14集$https://c1.rrcdnbf2.com/video/yimensansiling/第14集/index.m3u8#第15集$https://c1.rrcdnbf2.com/video/yimensansiling/第15集/index.m3u8#第16集$https://c1.rrcdnbf2.com/video/yimensansiling/第16集/index.m3u8#第17集$https://c1.rrcdnbf2.com/video/yimensansiling/第17集/index.m3u8#第18集$https://c1.rrcdnbf2.com/video/yimensansiling/第18集/index.m3u8#第19集$https://c1.rrcdnbf2.com/video/yimensansiling/第19集/index.m3u8#第20集$https://c1.rrcdnbf2.com/video/yimensansiling/第20集/index.m3u8#第21集$https://c1.rrcdnbf2.com/video/yimensansiling/第21集/index.m3u8#第22集$https://c1.rrcdnbf2.com/video/yimensansiling/第22集/index.m3u8#第23集$https://c1.rrcdnbf2.com/video/yimensansiling/第23集/index.m3u8#第24集$https://c1.rrcdnbf2.com/video/yimensansiling/第24集/index.m3u8#第25集$https://c1.rrcdnbf2.com/video/yimensansiling/第25集/index.m3u8#第26集$https://c1.rrcdnbf2.com/video/yimensansiling/第26集/index.m3u8#第27集$https://c1.rrcdnbf2.com/video/yimensansiling/第27集/index.m3u8#第28集$https://c1.rrcdnbf2.com/video/yimensansiling/第28集/index.m3u8#第29集$https://c1.rrcdnbf2.com/video/yimensansiling/第29集/index.m3u8#第30集$https://c1.rrcdnbf2.com/video/yimensansiling/第30集/index.m3u8#第31集$https://c1.rrcdnbf2.com/video/yimensansiling/第31集/index.m3u8#第32集$https://c1.rrcdnbf2.com/video/yimensansiling/第32集/index.m3u8#第33集$https://c1.rrcdnbf2.com/video/yimensansiling/第33集/index.m3u8#第34集$https://c1.rrcdnbf2.com/video/yimensansiling/第34集/index.m3u8#第35集$https://c1.rrcdnbf2.com/video/yimensansiling/第35集/index.m3u8#第36集$https://c1.rrcdnbf2.com/video/yimensansiling/第36集/index.m3u8#第37集$https://c1.rrcdnbf2.com/video/yimensansiling/第37集/index.m3u8#第38集$https://c1.rrcdnbf2.com/video/yimensansiling/第38集/index.m3u8"
+            },
+            {
+              "vod_id": 124799,
+              "vod_name": "火线救援她葬送了亲生骨肉的生路",
+              "vod_year": "2024",
+              "vod_remarks": "完结",
+              "vod_time": "2026-01-25 01:03:53",
+              "type_name": "短剧大全",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第1集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/80b2f63d7e9d/index.m3u8#第2集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/ccd7089ff1d8/index.m3u8#第3集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/440c5cd197a3/index.m3u8#第4集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/2abd0f27e5cd/index.m3u8#第5集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/b7579ce7663a/index.m3u8#第6集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/e719498577e9/index.m3u8#第7集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/cfc150904514/index.m3u8#第8集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/b0ca6dafeb58/index.m3u8#第9集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/b20746c1b03f/index.m3u8#第10集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/832e17ce0504/index.m3u8#第11集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/ccbbc872a83b/index.m3u8#第12集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/76757fae926c/index.m3u8#第13集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/58f35f8e191c/index.m3u8#第14集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/8f6abbb1f1eb/index.m3u8#第15集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/e222e1f82749/index.m3u8#第16集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/c80c219638da/index.m3u8#第17集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/4a5eacf42d19/index.m3u8#第18集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/d1967aaa4427/index.m3u8#第19集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/3913d4a50672/index.m3u8#第20集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/ce242719a508/index.m3u8#第21集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/4fe5eff2b2d0/index.m3u8#第22集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/367a4966c149/index.m3u8#第23集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/eed1fe740dc7/index.m3u8#第24集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/fb89ed3986f9/index.m3u8#第25集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/abf96ea47872/index.m3u8#第26集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/9cd6d6464603/index.m3u8#第27集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/48807db0a67c/index.m3u8#第28集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/8728da699f15/index.m3u8#第29集$https://s2.bfllvip.com/video/huoxianjiuyuantazangsongliaoqinshengguroudeshenglu/d61aa22d6e24/index.m3u8"
+            },
+            {
+              "vod_id": 35140,
+              "vod_name": "王之逆袭：意志的继承者",
+              "vod_year": "2020",
+              "vod_remarks": "更新至第26集",
+              "vod_time": "2023-06-19 04:47:11",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第01集/index.m3u8#第02集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第02集/index.m3u8#第03集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第03集/index.m3u8#第04集$https://c1.rrcdnbf5.com/video/wangzhinixiyizhidejichengzhe/第04集/index.m3u8#第05集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第05集/index.m3u8#第06集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第06集/index.m3u8#第07集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第07集/index.m3u8#第08集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第08集/index.m3u8#第09集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第09集/index.m3u8#第10集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第10集/index.m3u8#第11集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第11集/index.m3u8#第12集$https://c1.rrcdnbf5.com/video/wangzhinixiyizhidejichengzhe/第12集/index.m3u8#第13集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第13集/index.m3u8#第14集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第14集/index.m3u8#第15集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第15集/index.m3u8#第16集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第16集/index.m3u8#第17集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第17集/index.m3u8#第18集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第18集/index.m3u8#第19集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第19集/index.m3u8#第20集$https://c1.rrcdnbf5.com/video/wangzhinixiyizhidejichengzhe/第20集/index.m3u8#第21集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第21集/index.m3u8#第22集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第22集/index.m3u8#第23集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第23集/index.m3u8#第24集$https://c1.rrcdnbf4.com/video/wangzhinixiyizhidejichengzhe/第24集/index.m3u8#第25集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第25集/index.m3u8#第26集$https://c1.rrcdnbf6.com/video/wangzhinixiyizhidejichengzhe/第26集/index.m3u8"
+            },
+            {
+              "vod_id": 11148,
+              "vod_name": "工作",
+              "vod_year": "1961",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-06-19 00:58:00",
+              "type_name": "剧情片",
+              "vod_lang": "其它",
+              "vod_area": "其它",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD中字$https://c1.rrcdnbf6.com/video/gongzuo/HD中字/index.m3u8"
+            },
+            {
+              "vod_id": 38630,
+              "vod_name": "小麦进城",
+              "vod_year": "2012",
+              "vod_remarks": "更新至第20集",
+              "vod_time": "2023-06-19 03:07:42",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第01集/index.m3u8#第02集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第02集/index.m3u8#第03集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第03集/index.m3u8#第04集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第04集/index.m3u8#第05集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第05集/index.m3u8#第06集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第06集/index.m3u8#第07集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第07集/index.m3u8#第08集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第08集/index.m3u8#第09集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第09集/index.m3u8#第10集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第10集/index.m3u8#第11集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第11集/index.m3u8#第12集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第12集/index.m3u8#第13集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第13集/index.m3u8#第14集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第14集/index.m3u8#第15集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第15集/index.m3u8#第16集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第16集/index.m3u8#第17集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第17集/index.m3u8#第18集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第18集/index.m3u8#第19集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第19集/index.m3u8#第20集$https://p.bvvvvvvvvv1f.com/video/xiaomaijincheng/第20集/index.m3u8"
+            },
+            {
+              "vod_id": 20137,
+              "vod_name": "猎魂师",
+              "vod_year": "2017",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-06-19 01:13:08",
+              "type_name": "剧情片",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD国语$https://c1.rrcdnbf2.com/video/liehunshi/HD国语/index.m3u8"
+            },
+            {
+              "vod_id": 23215,
+              "vod_name": "命运呼叫转移",
+              "vod_year": "2007",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-06-19 04:05:30",
+              "type_name": "喜剧片",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "HD国语$https://p.bvvvvvvvvv1f.com/video/mingyunhujiaozhuanyi/HD国语/index.m3u8"
+            },
+            {
+              "vod_id": 2627,
+              "vod_name": "悲情红与黑",
+              "vod_year": "2002",
+              "vod_remarks": "完结",
+              "vod_time": "2026-06-09 16:47:09",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "bfzym3u8",
+              "vod_play_url": "第01集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第01集/index.m3u8#第02集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第02集/index.m3u8#第03集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第03集/index.m3u8#第04集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第04集/index.m3u8#第05集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第05集/index.m3u8#第06集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第06集/index.m3u8#第07集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第07集/index.m3u8#第08集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第08集/index.m3u8#第09集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第09集/index.m3u8#第10集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第10集/index.m3u8#第11集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第11集/index.m3u8#第12集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第12集/index.m3u8#第13集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第13集/index.m3u8#第14集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第14集/index.m3u8#第15集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第15集/index.m3u8#第16集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第16集/index.m3u8#第17集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第17集/index.m3u8#第18集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第18集/index.m3u8#第19集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第19集/index.m3u8#第20集$https://c1.rrcdnbf2.com/video/beiqinghongyuhei/第20集/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "ruyi",
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "name": "如意资源",
+      "queries": [
+        {
+          "url": "http://cj.rycjapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "http://cj.rycjapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 7188,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 68504,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "已完结",
+              "vod_time": "2026-03-27 23:11:05",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "rym3u8$$$ruyi",
+              "vod_play_url": "第01集$https://cdn.ryplay12.com/20260116/31448_112bfbba/index.m3u8#第02集$https://cdn.ryplay12.com/20260123/31671_0a77595b/index.m3u8#第03集$https://cdn.ryplay12.com/20260130/31933_4df78654/index.m3u8#第04集$https://cdn.ryplay12.com/20260206/32307_5a9de476/index.m3u8#第05集$https://cdn.ryplay12.com/20260213/32743_482b71e3/index.m3u8#第06集$https://cdn.ryplay12.com/20260227/33249_8ffd11e1/index.m3u8#第07集$https://cdn.ryplay12.com/20260307/33489_170dd66f/index.m3u8#第08集$https://cdn.ryplay12.com/20260313/33708_93b86ba7/index.m3u8#第09集$https://cdn.ryplay12.com/20260320/34044_73749d05/index.m3u8#第10集$https://cdn.ryplay12.com/20260327/34255_6665eb7b/index.m3u8$$$第01集$https://cdn.ryplay12.com/share/4a85893ded100b9f592f36a9e9473a7c#第02集$https://cdn.ryplay12.com/share/7ddfdc796b49a4c12da5e0651d2f9b94#第03集$https://cdn.ryplay12.com/share/83cbc5e9ad9b537435036c2cdc4b0074#第04集$https://cdn.ryplay12.com/share/7666534473231043db00bea461f55d33#第05集$https://cdn.ryplay12.com/share/7908fdeb815a9456c2613f3bc84de1e4#第06集$https://cdn.ryplay12.com/share/b4aaa9db55311f6d9bbc4e01dc97125e#第07集$https://cdn.ryplay12.com/share/d206169bc7dfece738f2fe2467c21cde#第08集$https://cdn.ryplay12.com/share/6903df7077db0e82dc39246b45ae1f0d#第09集$https://cdn.ryplay12.com/share/d646229fa6ef8e9d64c10ef45604efcb#第10集$https://cdn.ryplay12.com/share/6b42d6afe7bce581dcf2545803ebce1d"
+            },
+            {
+              "vod_id": 294,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2024-08-07 15:53:22",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "rym3u8$$$ruyi",
+              "vod_play_url": "第01集$https://cdn4.ryplay4.com/20240802/1283_cea568bc/index.m3u8#第02集$https://cdn4.ryplay4.com/20240802/1295_d58f094b/index.m3u8#第03集$https://cdn4.ryplay4.com/20240802/1306_4bda2a92/index.m3u8#第04集$https://cdn4.ryplay4.com/20240802/1315_f0ab5c57/index.m3u8#第05集$https://cdn4.ryplay4.com/20240802/1327_64926181/index.m3u8#第06集$https://cdn4.ryplay4.com/20240802/1332_116387a5/index.m3u8#第07集$https://cdn4.ryplay4.com/20240802/1340_ffb6427e/index.m3u8#第08集$https://cdn4.ryplay4.com/20240802/1345_b221e67a/index.m3u8#第09集$https://cdn4.ryplay4.com/20240802/1350_7fb50722/index.m3u8#第10集$https://cdn4.ryplay4.com/20240802/1357_3ed0b05a/index.m3u8#第11集$https://cdn4.ryplay4.com/20240802/1362_83f70f0a/index.m3u8#第12集$https://cdn4.ryplay4.com/20240802/1367_6065a7ed/index.m3u8#第13集$https://cdn4.ryplay4.com/20240802/1371_7940d080/index.m3u8#第14集$https://cdn4.ryplay4.com/20240802/1373_75f4ccb2/index.m3u8#第15集$https://cdn4.ryplay4.com/20240802/1376_358b421c/index.m3u8#第16集$https://cdn4.ryplay4.com/20240802/1378_e6f01ad2/index.m3u8#第17集$https://cdn4.ryplay4.com/20240802/1382_7c54930a/index.m3u8#第18集$https://cdn4.ryplay4.com/20240802/1383_67c6d741/index.m3u8#第19集$https://cdn4.ryplay4.com/20240802/1384_81328fe6/index.m3u8#第20集$https://cdn4.ryplay4.com/20240802/1385_888fbcf8/index.m3u8#第21集$https://cdn4.ryplay4.com/20240802/1386_b78a3fbd/index.m3u8#第22集$https://cdn4.ryplay4.com/20240802/1387_a2b7afae/index.m3u8#第23集$https://cdn4.ryplay4.com/20240802/1388_ac4e133a/index.m3u8#第24集$https://cdn4.ryplay4.com/20240802/1389_5fce222e/index.m3u8#第25集$https://cdn4.ryplay4.com/20240802/1390_affea35a/index.m3u8#第26集$https://cdn4.ryplay4.com/20240802/1391_c6c03c79/index.m3u8#第27集$https://cdn4.ryplay4.com/20240802/1392_060ac6bd/index.m3u8#第28集$https://cdn4.ryplay4.com/20240802/1393_69a42490/index.m3u8$$$第01集$https://cdn4.ryplay4.com/share/018b59ce1fd616d874afad0f44ba338d#第02集$https://cdn4.ryplay4.com/share/dc87c13749315c7217cdc4ac692e704c#第03集$https://cdn4.ryplay4.com/share/7940ab47468396569a906f75ff3f20ef#第04集$https://cdn4.ryplay4.com/share/dfd7468ac613286cdbb40872c8ef3b06#第05集$https://cdn4.ryplay4.com/share/17fafe5f6ce2f1904eb09d2e80a4cbf6#第06集$https://cdn4.ryplay4.com/share/28e209b61a52482a0ae1cb9f5959c792#第07集$https://cdn4.ryplay4.com/share/4f87658ef0de194413056248a00ce009#第08集$https://cdn4.ryplay4.com/share/86109d400f0ed29e840b47ed72777c84#第09集$https://cdn4.ryplay4.com/share/861dc9bd7f4e7dd3cccd534d0ae2a2e9#第10集$https://cdn4.ryplay4.com/share/c26820b8a4c1b3c2aa868d6d57e14a79#第11集$https://cdn4.ryplay4.com/share/a9be4c2a4041cadbf9d61ae16dd1389e#第12集$https://cdn4.ryplay4.com/share/a223c6b3710f85df22e9377d6c4f7553#第13集$https://cdn4.ryplay4.com/share/81ca0262c82e712e50c580c032d99b60#第14集$https://cdn4.ryplay4.com/share/e56b06c51e1049195d7b26d043c478a0#第15集$https://cdn4.ryplay4.com/share/79a49b3e3762632813f9e35f4ba53d6c#第16集$https://cdn4.ryplay4.com/share/8d9a0adb7c204239c9635426f35c9522#第17集$https://cdn4.ryplay4.com/share/4e0d67e54ad6626e957d15b08ae128a6#第18集$https://cdn4.ryplay4.com/share/cd0dce8fca267bf1fb86cf43e18d5598#第19集$https://cdn4.ryplay4.com/share/5ca3e9b122f61f8f06494c97b1afccf3#第20集$https://cdn4.ryplay4.com/share/86e8f7ab32cfd12577bc2619bc635690#第21集$https://cdn4.ryplay4.com/share/363763e5c3dc3a68b399058c34aecf2c#第22集$https://cdn4.ryplay4.com/share/4fa7c62536118cc404dec4a0ca88d4f6#第23集$https://cdn4.ryplay4.com/share/0c0a7566915f4f24853fc4192689aa7e#第24集$https://cdn4.ryplay4.com/share/2bd7f907b7f5b6bbd91822c0c7b835f6#第25集$https://cdn4.ryplay4.com/share/359f38463d487e9e29bd20e24f0c050a#第26集$https://cdn4.ryplay4.com/share/7f53f8c6c730af6aeb52e66eb74d8507#第27集$https://cdn4.ryplay4.com/share/c0826819636026dd1f3674774f06c51d#第28集$https://cdn4.ryplay4.com/share/ad3019b856147c17e82a5bead782d2a8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "mdzy",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "name": "魔都资源",
+      "queries": [
+        {
+          "url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 1687,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 74094,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "全10集",
+              "vod_time": "2026-03-28 00:09:56",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "modum3u8",
+              "vod_play_url": "第01集$https://play.modujx11.com/20260116/2R62cHGZ/index.m3u8#第02集$https://play.modujx11.com/20260123/OzIsEaF7/index.m3u8#第03集$https://play.modujx11.com/20260130/13z2cJaA/index.m3u8#第04集$https://play.modujx11.com/20260206/jmz7Di79/index.m3u8#第05集$https://play.modujx11.com/20260213/jshRnIGK/index.m3u8#第06集$https://play.modujx11.com/20260227/J3TQP6Ca/index.m3u8#第07集$https://play.modujx11.com/20260306/emiGJn6y/index.m3u8#第08集$https://play.modujx11.com/20260314/3fvkWqrF/index.m3u8#第09集$https://play.modujx11.com/20260320/4CVOjriF/index.m3u8#第10集$https://play.modujx11.com/20260327/FDPxu80n/index.m3u8"
+            },
+            {
+              "vod_id": 6414,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "更新至第28集",
+              "vod_time": "2024-03-23 00:56:26",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "modum3u8",
+              "vod_play_url": "第1集$https://play.modujx10.com/20231028/3BMRArnT/index.m3u8#第2集$https://play.modujx10.com/20231028/a8dHYu05/index.m3u8#第3集$https://play.modujx10.com/20231028/QjJTOj1S/index.m3u8#第4集$https://play.modujx10.com/20231028/qTL7aaFr/index.m3u8#第5集$https://play.modujx10.com/20231031/qyPdbLGE/index.m3u8#第6集$https://play.modujx10.com/20231105/gv54SizI/index.m3u8#第7集$https://play.modujx10.com/20231105/KeTrcyoo/index.m3u8#第8集$https://play.modujx10.com/20231105/5nEMn5vi/index.m3u8#第9集$https://play.modujx10.com/20231105/shTSDNpl/index.m3u8#第10集$https://play.modujx10.com/20231111/dvYkEiPS/index.m3u8#第11集$https://play.modujx10.com/20231118/p1Nf6H1z/index.m3u8#第12集$https://play.modujx10.com/20231124/g7iyapa9/index.m3u8#第13集$https://play.modujx10.com/20231202/nZueukZv/index.m3u8#第14集$https://play.modujx10.com/20231208/mT2NyZHz/index.m3u8#第15集$https://play.modujx10.com/20231216/oCJBAckt/index.m3u8#第16集$https://play.modujx10.com/20231222/t2Jek55g/index.m3u8#第17集$https://play.modujx10.com/20240105/R3wUgU1A/index.m3u8#第18集$https://play.modujx10.com/20240113/7i5SG8Kx/index.m3u8#第19集$https://play.modujx10.com/20240120/ifKmggvs/index.m3u8#第20集$https://play.modujx10.com/20240126/mlTG2wrb/index.m3u8#第21集$https://play.modujx10.com/20240202/hZYEoVj2/index.m3u8#第22集$https://play.modujx10.com/20240210/Cx1M8xsc/index.m3u8#第23集$https://play.modujx10.com/20240216/h39LOJA6/index.m3u8#第24集$https://play.modujx10.com/20240224/cykvtndo/index.m3u8#第25集$https://play.modujx10.com/20240301/9AoxLawm/index.m3u8#第26集$https://play.modujx10.com/20240308/2z9wa1oT/index.m3u8#第27集$https://play.modujx10.com/20240315/zMps4gqm/index.m3u8#第28集$https://play.modujx10.com/20240322/l5JoxLAz/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "zy360",
+      "api": "https://360zy.com/api.php/provide/vod",
+      "name": "360资源",
+      "queries": [
+        {
+          "url": "https://360zy.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://360zy.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 8141,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 89400,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "全10集",
+              "vod_time": "2026-03-27 23:28:50",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "360zy",
+              "vod_play_url": "第01集$https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8#第02集$https://vod1.maowushi.com/20260123/VtFOk0Yn/index.m3u8#第03集$https://vod1.maowushi.com/20260130/DGlsh9Vq/index.m3u8#第04集$https://vod1.maowushi.com/20260206/g3RbF5hH/index.m3u8#第05集$https://vod1.maowushi.com/20260213/026FiyKY/index.m3u8#第06集$https://vod1.maowushi.com/20260227/GZJXbnw8/index.m3u8#第07集$https://vod1.maowushi.com/20260306/RMRNvxox/index.m3u8#第08集$https://vod1.maowushi.com/20260313/4dZ3xFRv/index.m3u8#第09集$https://vod1.maowushi.com/20260320/Iw2NwcLv/index.m3u8#第10集$https://vod1.maowushi.com/20260327/REenOsuz/index.m3u8"
+            },
+            {
+              "vod_id": 57133,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "全28集",
+              "vod_time": "2025-02-08 21:02:55",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "360zy",
+              "vod_play_url": "第01集$https://vod1.maowushi.com/20250202/CaIhei8G/index.m3u8#第02集$https://vod1.maowushi.com/20250205/vOSWt07D/index.m3u8#第03集$https://vod1.maowushi.com/20250207/ok600iSf/index.m3u8#第04集$https://vod1.maowushi.com/20250208/reVosycz/index.m3u8#第05集$https://vod1.maowushi.com/20250208/n7OcKUXS/index.m3u8#第06集$https://vod1.maowushi.com/20250208/TSAR0qd9/index.m3u8#第07集$https://vod1.maowushi.com/20250208/gz8E1qNZ/index.m3u8#第08集$https://vod1.maowushi.com/20250208/TN4S68nt/index.m3u8#第09集$https://vod1.maowushi.com/20250208/VY54d7ne/index.m3u8#第10集$https://vod1.maowushi.com/20250208/fatfTwkW/index.m3u8#第11集$https://vod1.maowushi.com/20250208/mfHSDWKn/index.m3u8#第12集$https://vod1.maowushi.com/20250208/OR1rQz8a/index.m3u8#第13集$https://vod1.maowushi.com/20250208/xgABz0dV/index.m3u8#第14集$https://vod1.maowushi.com/20250208/OiYRo8j8/index.m3u8#第15集$https://vod1.maowushi.com/20250208/sG8QJVfy/index.m3u8#第16集$https://vod1.maowushi.com/20250208/gVAcu0PJ/index.m3u8#第17集$https://vod1.maowushi.com/20250208/JhPqKlvf/index.m3u8#第18集$https://vod1.maowushi.com/20250208/KV1qGKNb/index.m3u8#第19集$https://vod1.maowushi.com/20250208/m7xbGt4Y/index.m3u8#第20集$https://vod1.maowushi.com/20250208/PUG1ckfP/index.m3u8#第21集$https://vod1.maowushi.com/20250208/nUe4wxP4/index.m3u8#第22集$https://vod1.maowushi.com/20250208/YDVOEX32/index.m3u8#第23集$https://vod1.maowushi.com/20250208/KoXG8dZa/index.m3u8#第24集$https://vod1.maowushi.com/20250208/t3Inmk5U/index.m3u8#第25集$https://vod1.maowushi.com/20250208/s7HrJRdE/index.m3u8#第26集$https://vod1.maowushi.com/20250208/WTKoNllf/index.m3u8#第27集$https://vod1.maowushi.com/20250208/x3GIGLwK/index.m3u8#第28集$https://vod1.maowushi.com/20250208/zRkDvDXv/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "dbzy",
+      "api": "https://dbzy.tv/api.php/provide/vod",
+      "name": "豆瓣资源",
+      "queries": [
+        {
+          "url": "https://dbzy.tv/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+          "elapsed_ms": 5781,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "yinghua",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "name": "樱花资源",
+      "queries": [
+        {
+          "url": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "HTTP Error 403: Forbidden",
+          "elapsed_ms": 1141,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "zuid",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "name": "最大资源",
+      "queries": [
+        {
+          "url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2219,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 119442,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "更新第10集",
+              "vod_time": "2026-06-07 00:40:33",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "第01集$https://v13.zuidazym3u8.com/yyv13/202601/16/phAQ3E43Sh27/video/index.m3u8#第02集$https://v14.zuidazym3u8.com/yyv14/202601/23/QztW2gzThQ27/video/index.m3u8#第03集$https://v14.zuidazym3u8.com/yyv14/202601/30/gvFk1TQVPS27/video/index.m3u8#第04集$https://v14.zuidazym3u8.com/yyv14/202602/06/5n6DwUYsPX27/video/index.m3u8#第05集$https://v14.zuidazym3u8.com/yyv14/202602/13/6LjGFw3mAi22/video/index.m3u8#第06集$https://v13.zuidazym3u8.com/yyv13/202602/27/82Nt5fVuhz27/video/index.m3u8#第07集$https://v14.zuidazym3u8.com/yyv14/202603/06/44EEx1kvht22/video/index.m3u8#第08集$https://v13.zuidazym3u8.com/yyv13/202603/13/7Rh12rSDk427/video/index.m3u8#第09集$https://v14.zuidazym3u8.com/yyv14/202603/20/mJcwPyrsYB27/video/index.m3u8#第10集$https://v14.zuidazym3u8.com/yyv14/202603/27/BwsfDJJdAe24/video/index.m3u8"
+            },
+            {
+              "vod_id": 48833,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "全28集",
+              "vod_time": "2024-03-23 00:26:48",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "第01集$https://v3.zuidazym3u8.com/yyv3/202309/30/Q0r4Q1x7yV2/video/index.m3u8#第02集$https://v3.zuidazym3u8.com/yyv3/202309/30/ZFh5xbYEg82/video/index.m3u8#第03集$https://v3.zuidazym3u8.com/yyv3/202309/30/e0p2L5g8kW2/video/index.m3u8#第04集$https://v3.zuidazym3u8.com/yyv3/202309/30/5TVKaGKT2x2/video/index.m3u8#第05集$https://v3.zuidazym3u8.com/yyv3/202310/07/g4rCe32euR2/video/index.m3u8#第06集$https://v3.zuidazym3u8.com/yyv3/202310/13/e6tfVwkSMe2/video/index.m3u8#第07集$https://v3.zuidazym3u8.com/yyv3/202310/21/0ZvePsP2ws2/video/index.m3u8#第08集$https://v3.zuidazym3u8.com/yyv3/202310/27/YHvLSyHkTr2/video/index.m3u8#第09集$https://v3.zuidazym3u8.com/yyv3/202311/03/HcugyDGAcB2/video/index.m3u8#第10集$https://v3.zuidazym3u8.com/yyv3/202311/11/JjDWihu1si2/video/index.m3u8#第11集$https://v3.zuidazym3u8.com/yyv3/202311/17/JJJevseAS72/video/index.m3u8#第12集$https://v3.zuidazym3u8.com/yyv3/202311/25/RqM2c27qzh2/video/index.m3u8#第13集$https://v3.zuidazym3u8.com/yyv3/202312/02/78FbJZFF192/video/index.m3u8#第14集$https://v3.zuidazym3u8.com/yyv3/202312/09/5nCEF5vTU32/video/index.m3u8#第15集$https://v3.zuidazym3u8.com/yyv3/202312/16/rMeUGQW3vR2/video/index.m3u8#第16集$https://v3.zuidazym3u8.com/yyv3/202312/22/xaCDNTK6Eh2/video/index.m3u8#第17集$https://v3.zuidazym3u8.com/yyv3/202401/05/jbsPHEENSf2/video/index.m3u8#第18集$https://v3.zuidazym3u8.com/yyv3/202401/12/CtqhMbNCKP2/video/index.m3u8#第19集$https://v3.zuidazym3u8.com/yyv3/202401/19/LjzuieTJxR2/video/index.m3u8#第20集$https://v3.zuidazym3u8.com/yyv3/202401/26/pjKxLcrf9s2/video/index.m3u8#第21集$https://v3.zuidazym3u8.com/yyv3/202402/03/U1Lec7wrfN2/video/index.m3u8#第22集$https://v3.zuidazym3u8.com/yyv3/202402/09/HgBD4tTCxf2/video/index.m3u8#第23集$https://v2.zuidazym3u8.com/yyv2/202402/17/tt55mQmu092/video/index.m3u8#第24集$https://v2.zuidazym3u8.com/yyv2/202402/24/KSQaMb98kS2/video/index.m3u8#第25集$https://v2.zuidazym3u8.com/yyv2/202403/02/wEJ9DWbJrt2/video/index.m3u8#第26集$https://v11.zuidazym3u8.com/yyv11/202403/09/2UtB5tpq5m3/video/index.m3u8#第27集$https://v11.zuidazym3u8.com/yyv11/202403/16/p8WtA042gM3/video/index.m3u8#第28集$https://v11.zuidazym3u8.com/yyv11/202403/23/4r55brvhVF3/video/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "ikun",
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "name": "iKun资源",
+      "queries": [
+        {
+          "url": "https://ikunzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://ikunzyapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 1438,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 67132,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "全10集",
+              "vod_time": "2026-03-27 23:31:19",
+              "type_name": "日本动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "ikm3u8",
+              "vod_play_url": "第01集$https://bfikuncdn.com/20260116/EljEwHZ5/index.m3u8#第02集$https://bfikuncdn.com/20260123/uKDRRoRp/index.m3u8#第03集$https://bfikuncdn.com/20260130/SmXLvpog/index.m3u8#第04集$https://bfikuncdn.com/20260206/NJd4Jzxl/index.m3u8#第05集$https://bfikuncdn.com/20260213/XpRaVTVY/index.m3u8#第06集$https://bfikuncdn.com/20260227/mA2LT6ti/index.m3u8#第07集$https://bfikuncdn.com/20260307/8hPgGqQO/index.m3u8#第08集$https://bfikuncdn.com/20260313/MUF9xCxv/index.m3u8#第09集$https://bfikuncdn.com/20260320/Aen8vdVn/index.m3u8#第10集$https://bfikuncdn.com/20260327/fxycvRwf/index.m3u8"
+            },
+            {
+              "vod_id": 49903,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023–",
+              "vod_remarks": "更新至28集",
+              "vod_time": "2024-03-23 00:10:29",
+              "type_name": "日本动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "ikm3u8",
+              "vod_play_url": "第01集$https://bfikuncdn.com/20230929/f0a53bgA/index.m3u8#第02集$https://bfikuncdn.com/20230929/FVXQFzd6/index.m3u8#第03集$https://bfikuncdn.com/20230929/iel2AKgp/index.m3u8#第04集$https://bfikuncdn.com/20230929/Bh9AXGhk/index.m3u8#第05集$https://bfikuncdn.com/20231007/H7QARSu9/index.m3u8#第06集$https://bfikuncdn.com/20231013/UeEY3X4G/index.m3u8#第07集$https://bfikuncdn.com/20231021/JUNy1Y6c/index.m3u8#第08集$https://bfikuncdn.com/20231027/PHm2Of7t/index.m3u8#第09集$https://bfikuncdn.com/20231103/e5h7Zsen/index.m3u8#第10集$https://bfikuncdn.com/20231110/QI7WkN37/index.m3u8#第11集$https://bfikuncdn.com/20231117/48V6lUAf/index.m3u8#第12集$https://bfikuncdn.com/20231124/1ckFQj2h/index.m3u8#第13集$https://bfikuncdn.com/20231201/vcxEudrR/index.m3u8#第14集$https://bfikuncdn.com/20231208/8B3vhQjE/index.m3u8#第15集$https://bfikuncdn.com/20231215/fCKeCsMJ/index.m3u8#第16集$https://bfikuncdn.com/20231222/RNUJKaX3/index.m3u8#第17集$https://bfikuncdn.com/20240106/iVwAxjkr/index.m3u8#第18集$https://bfikuncdn.com/20240112/iDCfGESJ/index.m3u8#第19集$https://bfikuncdn.com/20240120/uFLgxRmE/index.m3u8#第20集$https://bfikuncdn.com/20240126/jnGJ3mMg/index.m3u8#第21集$https://bfikuncdn.com/20240203/KocxRcrt/index.m3u8#第22集$https://bfikuncdn.com/20240210/wI0q4WxN/index.m3u8#第23集$https://bfikuncdn.com/20240216/XKhti5HJ/index.m3u8#第24集$https://bfikuncdn.com/20240223/CM9284tx/index.m3u8#第25集$https://bfikuncdn.com/20240301/JGZ5zUoK/index.m3u8#第26集$https://bfikuncdn.com/20240309/SFRYY8eP/index.m3u8#第27集$https://bfikuncdn.com/20240316/qyx9MwSQ/index.m3u8#第28集$https://bfikuncdn.com/20240322/aADmwbZF/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "wujin",
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "name": "无尽资源",
+      "queries": [
+        {
+          "url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 3016,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 151129,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "全10集",
+              "vod_time": "2026-03-27 23:33:30",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "第01集$https://v12.ppqrrs.com/wjv12/202601/16/QK6aNTjRi391/video/index.m3u8#第02集$https://v9.ppqrrs.com/wjv9/202601/23/yVmhesXyVM90/video/index.m3u8#第03集$https://v9.ppqrrs.com/wjv9/202601/30/E5za1ibnhQ89/video/index.m3u8#第04集$https://v8.ppqrrs.com/wjv8/202602/06/qfwt0gUTye97/video/index.m3u8#第05集$https://v10.ppqrrs.com/wjv10/202602/13/9PLuA3eDDH94/video/index.m3u8#第06集$https://v12.ppqrrs.com/wjv12/202602/27/RwDtv216j193/video/index.m3u8#第07集$https://v7.ppqrrs.com/wjv7/202603/06/it1twhFrVq89/video/index.m3u8#第08集$https://v4.ppqrrs.com/wjv4/202603/13/SD519rXkkL90/video/index.m3u8#第09集$https://v6.ppqrrs.com/wjv6/202603/20/BmT5n8ZgPB86/video/index.m3u8#第10集$https://v4.ppqrrs.com/wjv4/202603/27/Rdt2LQEeqc89/video/index.m3u8"
+            },
+            {
+              "vod_id": 56847,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "全28集",
+              "vod_time": "2024-04-09 01:36:28",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "第01集$https://v3.ppqrrs.com/wjv3/202309/30/Q0r4Q1x7yV2/video/index.m3u8#第02集$https://v3.ppqrrs.com/wjv3/202309/30/ZFh5xbYEg82/video/index.m3u8#第03集$https://v3.ppqrrs.com/wjv3/202309/30/e0p2L5g8kW2/video/index.m3u8#第04集$https://v3.ppqrrs.com/wjv3/202309/30/5TVKaGKT2x2/video/index.m3u8#第05集$https://v3.ppqrrs.com/wjv3/202310/07/g4rCe32euR2/video/index.m3u8#第06集$https://v3.ppqrrs.com/wjv3/202310/13/e6tfVwkSMe2/video/index.m3u8#第07集$https://v3.ppqrrs.com/wjv3/202310/21/0ZvePsP2ws2/video/index.m3u8#第08集$https://v3.ppqrrs.com/wjv3/202310/27/YHvLSyHkTr2/video/index.m3u8#第09集$https://v3.ppqrrs.com/wjv3/202311/03/HcugyDGAcB2/video/index.m3u8#第10集$https://v3.ppqrrs.com/wjv3/202311/11/JjDWihu1si2/video/index.m3u8#第11集$https://v3.ppqrrs.com/wjv3/202311/17/JJJevseAS72/video/index.m3u8#第12集$https://v3.ppqrrs.com/wjv3/202311/25/RqM2c27qzh2/video/index.m3u8#第13集$https://v3.ppqrrs.com/wjv3/202312/02/78FbJZFF192/video/index.m3u8#第14集$https://v3.ppqrrs.com/wjv3/202312/09/5nCEF5vTU32/video/index.m3u8#第15集$https://v3.ppqrrs.com/wjv3/202312/16/rMeUGQW3vR2/video/index.m3u8#第16集$https://v3.ppqrrs.com/wjv3/202312/22/xaCDNTK6Eh2/video/index.m3u8#第17集$https://v3.ppqrrs.com/wjv3/202401/05/jbsPHEENSf2/video/index.m3u8#第18集$https://v3.ppqrrs.com/wjv3/202401/12/CtqhMbNCKP2/video/index.m3u8#第19集$https://v3.ppqrrs.com/wjv3/202401/19/LjzuieTJxR2/video/index.m3u8#第20集$https://v3.ppqrrs.com/wjv3/202401/26/pjKxLcrf9s2/video/index.m3u8#第21集$https://v3.ppqrrs.com/wjv3/202402/03/U1Lec7wrfN2/video/index.m3u8#第22集$https://v3.ppqrrs.com/wjv3/202402/09/HgBD4tTCxf2/video/index.m3u8#第23集$https://v2.ppqrrs.com/wjv2/202402/17/tt55mQmu092/video/index.m3u8#第24集$https://v2.ppqrrs.com/wjv2/202402/24/KSQaMb98kS2/video/index.m3u8#第25集$https://v2.ppqrrs.com/wjv2/202403/02/wEJ9DWbJrt2/video/index.m3u8#第26集$https://v11.ppqrrs.com/wjv11/202403/09/2UtB5tpq5m3/video/index.m3u8#第27集$https://v11.ppqrrs.com/wjv11/202403/16/p8WtA042gM3/video/index.m3u8#第28集$https://v11.ppqrrs.com/wjv11/202403/23/4r55brvhVF3/video/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "wwzy",
+      "api": "https://wwzy.tv/api.php/provide/vod",
+      "name": "旺旺短剧",
+      "queries": [
+        {
+          "url": "https://wwzy.tv/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "Expecting value: line 1 column 1 (char 0)",
+          "elapsed_ms": 2922,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "wolong",
+      "api": "https://wolongzyw.com/api.php/provide/vod",
+      "name": "卧龙资源",
+      "queries": [
+        {
+          "url": "https://wolongzyw.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "Expecting value: line 1 column 1 (char 0)",
+          "elapsed_ms": 14625,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "lzi",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "量子资源站",
+      "queries": [
+        {
+          "url": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "final_url": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "status": 200,
+          "cors": null,
+          "content_type": "application/json; charset=utf-8",
+          "elapsed_ms": 4000,
+          "code": 1,
+          "message": "数据列表",
+          "total": 22,
+          "items": [
+            {
+              "vod_id": 72500,
+              "vod_name": "葬送的芙莉莲",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2024-03-23 00:21:34",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.cdnlz14.com/share/b589889a75048f80f0d1ce793c6382cc#第02集$https://v.cdnlz14.com/share/68da88f6136bd6e456811e4a1f941ac0#第03集$https://v.cdnlz14.com/share/2e627298db86cde0482baae618c4e517#第04集$https://v.cdnlz14.com/share/c3534a13c5599ee6534a9142299495e4#第05集$https://v.cdnlz14.com/share/9a66e987aff9a6d0f673189ca1e72f78#第06集$https://v.cdnlz14.com/share/47b4388afbc65310d3ba617913e81d27#第07集$https://v.cdnlz14.com/share/f6b35e5217428f5021e113525a55e6f4#第08集$https://v.cdnlz14.com/share/7b72563f6c1a6ea5bdaae6d3ab92cc10#第09集$https://v.cdnlz14.com/share/83207fa06b72203b37ffc59ed7c41a30#第10集$https://v.cdnlz14.com/share/31fbbf027ddf70f3db56c2382758d9c9#第11集$https://v.cdnlz14.com/share/7bc22204fbaa5ff29a4e5a64f77dde89#第12集$https://v.cdnlz14.com/share/41fa78d83871255df97eca42c516d7a6#第13集$https://v.cdnlz14.com/share/bce8cad7949fc4fbc98789c5303a7a3c#第14集$https://v.cdnlz14.com/share/74e48c1a38cb4022d50c45dbd3be1f9a#第15集$https://v.cdnlz14.com/share/c2d2db7da651df36ea69da7bee48304b#第16集$https://v.cdnlz14.com/share/d978feca237e502810bbe54a398e1dac#第17集$https://v.cdnlz14.com/share/7db335d0b996c9c9e498ba1d3fbe1e81#第18集$https://v.cdnlz14.com/share/3a2c1c2b2f19c0d47bf74b4c40cc1753#第19集$https://v.cdnlz14.com/share/3e0ccc57136661028ea5f440ed4e53d8#第20集$https://v.cdnlz14.com/share/b0f47015b6ace4492dd96d63e515e779#第21集$https://v.cdnlz14.com/share/aef5a7530aaa272bbaec34e49251b25a#第22集$https://v.cdnlz14.com/share/a810530b7f83102d17cdf2be8da59d2f#第23集$https://v.cdnlz14.com/share/b9f7c99a62433ab681f7e97cdc4bd107#第24集$https://v.cdnlz14.com/share/1ec817530575ae614512f40384ce2988#第25集$https://v.cdnlz14.com/share/3530af42dc880d61af906cf5b3c9bde1#第26集$https://v.cdnlz14.com/share/73e93611928dad613fa55a8b1a7940f7#第27集$https://v.cdnlz14.com/share/82b05ac4ebef496529bb27f3c6786782#第28集$https://v.cdnlz14.com/share/e652d45ea3178f6c3b465daa32a9e71f$$$第01集$https://v.cdnlz14.com/20230930/29887_2e6cf8c7/index.m3u8#第02集$https://v.cdnlz14.com/20230930/29888_d78524de/index.m3u8#第03集$https://v.cdnlz14.com/20230930/29889_8ebc50e0/index.m3u8#第04集$https://v.cdnlz14.com/20230930/29890_fd30aa8c/index.m3u8#第05集$https://v.cdnlz14.com/20231007/30128_0f4df778/index.m3u8#第06集$https://v.cdnlz14.com/20231013/30385_e0914868/index.m3u8#第07集$https://v.cdnlz14.com/20231021/30751_87e4609d/index.m3u8#第08集$https://v.cdnlz14.com/20231027/30959_227b3082/index.m3u8#第09集$https://v.cdnlz14.com/20231103/31197_23b85b2b/index.m3u8#第10集$https://v.cdnlz14.com/20231111/31419_2ac0ae22/index.m3u8#第11集$https://v.cdnlz14.com/20231117/31699_76bd40a8/index.m3u8#第12集$https://v.cdnlz14.com/20231125/31973_430be08b/index.m3u8#第13集$https://v.cdnlz14.com/20231202/32207_a317cc65/index.m3u8#第14集$https://v.cdnlz14.com/20231209/32483_eaec9f78/index.m3u8#第15集$https://v.cdnlz14.com/20231216/32771_b018b647/index.m3u8#第16集$https://v.cdnlz14.com/20231222/33007_22b8e04c/index.m3u8#第17集$https://v.cdnlz14.com/20240105/33488_9ebb32d6/index.m3u8#第18集$https://v.cdnlz14.com/20240112/33679_c88217f9/index.m3u8#第19集$https://v.cdnlz14.com/20240119/33907_d7198441/index.m3u8#第20集$https://v.cdnlz14.com/20240126/34145_d863f987/index.m3u8#第21集$https://v.cdnlz14.com/20240203/34343_012ab014/index.m3u8#第22集$https://v.cdnlz14.com/20240209/34650_988dfdde/index.m3u8#第23集$https://v.cdnlz14.com/20240217/34886_3eb112f4/index.m3u8#第24集$https://v.cdnlz14.com/20240224/35143_55041f80/index.m3u8#第25集$https://v.cdnlz14.com/20240302/35357_35f48711/index.m3u8#第26集$https://v.cdnlz14.com/20240309/35632_eb8147f2/index.m3u8#第27集$https://v.cdnlz14.com/20240316/35919_b34e9f9e/index.m3u8#第28集$https://v.cdnlz14.com/20240323/36226_4d04318a/index.m3u8"
+            },
+            {
+              "vod_id": 80233,
+              "vod_name": "葬送的芙莉莲[电影解说]",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2024-01-08 20:08:13",
+              "type_name": "电影解说",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.cdnlz13.com/share/2b5e380885d2d4fdc2c9e4e3ccb902b5$$$第01集$https://v.cdnlz13.com/20240108/22676_93f0bd8d/index.m3u8"
+            },
+            {
+              "vod_id": 124476,
+              "vod_name": "葬送的芙莉莲第二季",
+              "vod_year": "2026",
+              "vod_remarks": "已完结",
+              "vod_time": "2026-03-27 23:12:16",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.lzv22.com/share/8b5b6156bcba19118b7e25c945d8b5b6#第02集$https://v.lzcdn27.com/share/845f3cb43a07259b2e4724dfa5c5c0d1#第03集$https://v.lzcdn27.com/share/ad68473a64305626a27c32a5408552d7#第04集$https://v.lzcdn27.com/share/18fc72d8b8aba03a4d84f66efabce82e#第05集$https://v.lzcdn27.com/share/9b523b0c92185f39a0da77a82c51b46a#第06集$https://v.lzcdn27.com/share/7b852316cf9d2d41bec07321928afe96#第07集$https://v.lzcdn27.com/share/c54bc2ded4480856dc9f39bdcf35a3e7#第08集$https://v.lzcdn27.com/share/f1a94cef23357f68031e958c443c0dfe#第09集$https://v.lzcdn27.com/share/feeef9bd04fac1765263893621bb4811#第10集$https://v.lzcdn27.com/share/2175f8c5cd9604f6b1e576b252d4c86e$$$第01集$https://v.lzv22.com/20260116/33529_b609923a/index.m3u8#第02集$https://v.lzcdn27.com/20260123/3675_00946e64/index.m3u8#第03集$https://v.lzcdn27.com/20260130/4078_269c8a71/index.m3u8#第04集$https://v.lzcdn27.com/20260206/4634_40afdbc4/index.m3u8#第05集$https://v.lzcdn27.com/20260213/5191_92c629b9/index.m3u8#第06集$https://v.lzcdn27.com/20260227/5934_b7322fc6/index.m3u8#第07集$https://v.lzcdn27.com/20260307/6327_5face04c/index.m3u8#第08集$https://v.lzcdn27.com/20260313/6746_6a973946/index.m3u8#第09集$https://v.lzcdn27.com/20260320/7263_adae50f3/index.m3u8#第10集$https://v.lzcdn27.com/20260327/7622_27517df0/index.m3u8"
+            },
+            {
+              "vod_id": 58002,
+              "vod_name": "绝对不可能～侦探・上水流涼子的解析～",
+              "vod_year": "2023",
+              "vod_remarks": "已完结",
+              "vod_time": "2023-06-27 08:22:25",
+              "type_name": "日本剧",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip.lz-cdn14.com/share/22e915482d7829dd65af3d7a7aaaca82#第02集$https://vip.lz-cdn14.com/share/3ac1fc4ea518c8f25ef3366bf240395a#第03集$https://vip.lz-cdn14.com/share/27ec7e21a73071c6aa10d3aac5cfb96e#第04集$https://vip.lz-cdn14.com/share/0fe53ab665b7845ea7be17becdd77850#第05集$https://vip.lz-cdn14.com/share/4368a62c43ef247389e4fbceb672da63#第06集$https://vip.lz-cdn14.com/share/bbb8f66a204ee518c9a971fcc7492cef#第07集$https://vip.lz-cdn14.com/share/144d56b5eae48a0d6345ff779bfce44d#第08集$https://vip.lz-cdn14.com/share/4056b88955b3937af025deed0c8606c0#第09集$https://vip.lz-cdn14.com/share/c0c29d6e2dd3f877b24a575d79081598#第10集$https://vip.lz-cdn14.com/share/77df7f6dfb16f51f7d9008c12765a986#第11集$https://vip.lz-cdn14.com/share/2ce979e120151e3689bebafd4b1a9f9b$$$第01集$https://vip.lz-cdn14.com/20230418/21987_d00dbccc/index.m3u8#第02集$https://vip.lz-cdn14.com/20230425/22371_ac382efc/index.m3u8#第03集$https://vip.lz-cdn14.com/20230502/22751_e60e3510/index.m3u8#第04集$https://vip.lz-cdn14.com/20230509/23151_5fe99c4a/index.m3u8#第05集$https://vip.lz-cdn14.com/20230516/23593_acd70b04/index.m3u8#第06集$https://vip.lz-cdn14.com/20230523/23871_dfbfda15/index.m3u8#第07集$https://vip.lz-cdn14.com/20230529/24233_c7d0e651/index.m3u8#第08集$https://vip.lz-cdn14.com/20230606/24575_c3955b71/index.m3u8#第09集$https://vip.lz-cdn14.com/20230613/24936_86d0f0cf/index.m3u8#第10集$https://vip.lz-cdn14.com/20230620/25255_897ba9a6/index.m3u8#第11集$https://vip.lz-cdn14.com/20230627/25709_08314b88/index.m3u8"
+            },
+            {
+              "vod_id": 6873,
+              "vod_name": "鬓边不是海棠红",
+              "vod_year": "2020",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-04-13 10:27:27",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip1.lz-cdn.com/share/7c792a8279211dece3b4df04719c818a#第02集$https://vip1.lz-cdn.com/share/400c3241004b5db7ca7f5abfef2794f2#第03集$https://vip1.lz-cdn.com/share/3e883840fee4384dd3d2afea5e822517#第04集$https://vip1.lz-cdn.com/share/1ddfa4ccdcea53130b500eaabb190e4b#第05集$https://vip1.lz-cdn.com/share/66fe2bcc701bb627e111be6847a8436c#第06集$https://vip1.lz-cdn.com/share/84cb17743002b4cfb81b0153cee648fc#第07集$https://vip1.lz-cdn.com/share/b5d62aa6024ab6a65a12c78c4c2d4efc#第08集$https://vip1.lz-cdn.com/share/5a794da4f056dcd732eb706e9ef991d7#第09集$https://vip1.lz-cdn.com/share/ad7bdcafbea74680e11d25162a145507#第10集$https://vip1.lz-cdn.com/share/10b4945abe2e627db646b3c5226a4e50#第11集$https://vip1.lz-cdn.com/share/42d0c639a21482dcd8e1c447efe87e89#第12集$https://vip1.lz-cdn.com/share/6b5617315c9ac918215fc7514bef514b#第13集$https://vip1.lz-cdn.com/share/49e863b146f3b5470ee222ee84669b1c#第14集$https://vip1.lz-cdn.com/share/11833d4b4ec685c371ae6d1a65cc341e#第15集$https://vip1.lz-cdn.com/share/5c7a3b81a677c639c76989610183c0e0#第16集$https://vip1.lz-cdn.com/share/5527eaab87a00dbe1614481ef174f285#第17集$https://vip1.lz-cdn.com/share/20568692db622456cc42a2e853ca21f8#第18集$https://vip1.lz-cdn.com/share/17a3120e4e5fbdc3cb5b5f946809b06a#第19集$https://vip1.lz-cdn.com/share/e0854e3c03ec877be65d351b90680d46#第20集$https://vip1.lz-cdn.com/share/1bd2caf96a17d892c2c7e9959549cfc7#第21集$https://vip1.lz-cdn.com/share/bc3744cb38c6cf6b17e8814a9c2688a3#第22集$https://vip1.lz-cdn.com/share/d800149d2f947ad4d64f34668f8b20f6#第23集$https://vip1.lz-cdn.com/share/2ea19e760aeeeeeb813a2406d0d31a25#第24集$https://vip1.lz-cdn.com/share/255ea887b8bca36797426dfb35a809cc#第25集$https://vip1.lz-cdn.com/share/ad62cfd33e3870262d6bf5331c1f13b0#第26集$https://vip1.lz-cdn.com/share/2cd2915e69546904e4e5d4a2ac9e1652#第27集$https://vip1.lz-cdn.com/share/cbf4d310ea68b3933521ba359d33ed5e#第28集$https://vip1.lz-cdn.com/share/ce4449660c6523b377b22a1dc2da5556#第29集$https://vip1.lz-cdn.com/share/de5eeca522e12fd5c9ff9077408dcf17#第30集$https://vip1.lz-cdn.com/share/0da54aa0b1ee702d0c45af548b1a54c7#第31集$https://vip1.lz-cdn.com/share/3dcaf04c357c577a857f3ffadc555f9b#第32集$https://vip1.lz-cdn.com/share/1becf26e9f32353e30870060538746e7#第33集$https://vip1.lz-cdn.com/share/afecc60f82be41c1b52f6705ec69e0f1#第34集$https://vip1.lz-cdn.com/share/7a22c0c0a4515485e31f95fd372050c9#第35集$https://vip1.lz-cdn.com/share/07d2c6fd5472b9796184e152bd92a535#第36集$https://vip1.lz-cdn.com/share/2b52541089a553056a5558611365cc6a#第37集$https://vip1.lz-cdn.com/share/36dcd524971019336af02550264b8a08#第38集$https://vip1.lz-cdn.com/share/7fc346397dc202259f27edc7d2adec88#第39集$https://vip1.lz-cdn.com/share/18de4beb01f6a17b6e1dfb9813ba6045#第40集$https://vip1.lz-cdn.com/share/6c90885b28e58d1f44856d787da2078f#第41集$https://vip1.lz-cdn.com/share/e9507053dd36cb9217816ffb566c8720#第42集$https://vip1.lz-cdn.com/share/439d8c975f26e5005dcdbf41b0d84161#第43集$https://vip1.lz-cdn.com/share/e48a900a95c8e0a3db31da9fbad6866e#第44集$https://vip1.lz-cdn.com/share/ca3a856a28df7d77d948949206ff9fdf#第45集$https://vip1.lz-cdn.com/share/15c71b874531f45bba372bfc35e9b8cf#第46集$https://vip1.lz-cdn.com/share/b4892f808f9efbd561cecbfbec3ad20d#第47集$https://vip1.lz-cdn.com/share/30de9ece7cf3790c8c39ccff1a044209#第48集$https://vip1.lz-cdn.com/share/838f14a84363d9a7ac1b06ad63fc6fb5#第49集$https://vip1.lz-cdn.com/share/46c7cb50b373877fb2f8d5c4517bb969$$$第01集$https://vip1.lz-cdn.com/20220412/7899_a7795367/index.m3u8#第02集$https://vip1.lz-cdn.com/20220412/7900_e6fd240f/index.m3u8#第03集$https://vip1.lz-cdn.com/20220412/7901_429e7f4a/index.m3u8#第04集$https://vip1.lz-cdn.com/20220413/8118_8f3a8ecb/index.m3u8#第05集$https://vip1.lz-cdn.com/20220412/7902_dfa5b1b2/index.m3u8#第06集$https://vip1.lz-cdn.com/20220412/7903_22b8e4c8/index.m3u8#第07集$https://vip1.lz-cdn.com/20220412/7904_0cac0372/index.m3u8#第08集$https://vip1.lz-cdn.com/20220412/7905_3773a7bc/index.m3u8#第09集$https://vip1.lz-cdn.com/20220412/7906_042ee560/index.m3u8#第10集$https://vip1.lz-cdn.com/20220412/7907_341dd170/index.m3u8#第11集$https://vip1.lz-cdn.com/20220412/7908_e1a73516/index.m3u8#第12集$https://vip1.lz-cdn.com/20220412/7909_9d4f3bee/index.m3u8#第13集$https://vip1.lz-cdn.com/20220412/7910_c33e288a/index.m3u8#第14集$https://vip1.lz-cdn.com/20220412/7911_0ea4e054/index.m3u8#第15集$https://vip1.lz-cdn.com/20220412/7912_94b6fcd9/index.m3u8#第16集$https://vip1.lz-cdn.com/20220412/7913_868b1004/index.m3u8#第17集$https://vip1.lz-cdn.com/20220412/7915_7ef9710e/index.m3u8#第18集$https://vip1.lz-cdn.com/20220412/7914_cd1ebc27/index.m3u8#第19集$https://vip1.lz-cdn.com/20220412/7916_84e18684/index.m3u8#第20集$https://vip1.lz-cdn.com/20220412/7917_b722365b/index.m3u8#第21集$https://vip1.lz-cdn.com/20220412/7918_49a78cca/index.m3u8#第22集$https://vip1.lz-cdn.com/20220412/7919_64535975/index.m3u8#第23集$https://vip1.lz-cdn.com/20220413/8119_bafaf500/index.m3u8#第24集$https://vip1.lz-cdn.com/20220412/7920_e904822d/index.m3u8#第25集$https://vip1.lz-cdn.com/20220412/7921_247ba55c/index.m3u8#第26集$https://vip1.lz-cdn.com/20220412/7922_a3df6c3a/index.m3u8#第27集$https://vip1.lz-cdn.com/20220412/7924_c230230f/index.m3u8#第28集$https://vip1.lz-cdn.com/20220412/7923_7d13ddbf/index.m3u8#第29集$https://vip1.lz-cdn.com/20220412/7925_f9562b42/index.m3u8#第30集$https://vip1.lz-cdn.com/20220412/7926_a693fe78/index.m3u8#第31集$https://vip1.lz-cdn.com/20220412/7927_bf426e6f/index.m3u8#第32集$https://vip1.lz-cdn.com/20220413/8120_9369f865/index.m3u8#第33集$https://vip1.lz-cdn.com/20220413/8121_e6026a64/index.m3u8#第34集$https://vip1.lz-cdn.com/20220412/7928_999059f7/index.m3u8#第35集$https://vip1.lz-cdn.com/20220412/7929_3a5a7fd1/index.m3u8#第36集$https://vip1.lz-cdn.com/20220412/7930_96a02f95/index.m3u8#第37集$https://vip1.lz-cdn.com/20220412/7931_0c147b84/index.m3u8#第38集$https://vip1.lz-cdn.com/20220412/7932_d8cda93d/index.m3u8#第39集$https://vip1.lz-cdn.com/20220412/7933_7e888b9b/index.m3u8#第40集$https://vip1.lz-cdn.com/20220412/7934_84bdd241/index.m3u8#第41集$https://vip1.lz-cdn.com/20220413/8122_1c986ca5/index.m3u8#第42集$https://vip1.lz-cdn.com/20220412/7935_b4427ad1/index.m3u8#第43集$https://vip1.lz-cdn.com/20220412/7936_4e7ba472/index.m3u8#第44集$https://vip1.lz-cdn.com/20220412/7937_60a45ef1/index.m3u8#第45集$https://vip1.lz-cdn.com/20220413/8123_7ac3d336/index.m3u8#第46集$https://vip1.lz-cdn.com/20220412/7938_d3f00709/index.m3u8#第47集$https://vip1.lz-cdn.com/20220412/7940_7c266521/index.m3u8#第48集$https://vip1.lz-cdn.com/20220412/7939_c36953a8/index.m3u8#第49集$https://vip1.lz-cdn.com/20220412/7941_67f57b1c/index.m3u8"
+            },
+            {
+              "vod_id": 92317,
+              "vod_name": "鬓边不是海棠红[电影解说]",
+              "vod_year": "2020",
+              "vod_remarks": "已完结",
+              "vod_time": "2024-08-07 21:56:22",
+              "type_name": "电影解说",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.lzcdn23.com/share/2fd0fd3efa7c4cfb034317b21f3c2d93$$$第01集$https://v.lzcdn23.com/20240807/3411_cdfdc38f/index.m3u8"
+            },
+            {
+              "vod_id": 27551,
+              "vod_name": "瞄准你的未来",
+              "vod_year": "2022",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-07-21 20:51:05",
+              "type_name": "国产剧",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip.lz-cdn3.com/share/b180da1593ce9ff93d453eccc44021ad#第02集$https://vip.lz-cdn3.com/share/07470878bde1b126f2cc4b0f9d9b9798#第03集$https://vip.lz-cdn3.com/share/c86c6aae8fa9b90ac77534c5ea7a2fe7#第04集$https://vip.lz-cdn3.com/share/e7acfd79777f2e49cfd3c2e803c44a3b#第05集$https://vip.lz-cdn3.com/share/d2361d07d9f4dd38dd802a5e917176a3#第06集$https://vip.lz-cdn3.com/share/a4ab582234ddd121e3b6857229e7d274#第07集$https://vip.lz-cdn3.com/share/5616060fb8ae85d93f334e7267307664#第08集$https://vip.lz-cdn3.com/share/3f504658ddff2e41061b89bdc726a160#第09集$https://vip.lz-cdn3.com/share/f52b43f6e0e444510cf55c5869d8d06b#第10集$https://vip.lz-cdn3.com/share/8de4aa6f66a39065b3fac4aa58feaccd#第11集$https://vip.lz-cdn3.com/share/927b028cfa24b23a09ff20c1a7f9b398#第12集$https://vip.lz-cdn3.com/share/9d3d9b8861c97e6bb5992d51d3232f8b#第13集$https://vip.lz-cdn3.com/share/32bd403625078f55a266b487534aa95b#第14集$https://vip.lz-cdn3.com/share/668560ec159ebc2ef751b5ca819d520b#第15集$https://vip.lz-cdn3.com/share/fac7fead96dafceaf80c1daffeae82a4#第16集$https://vip.lz-cdn3.com/share/85137246c8103963068cfe72b4c44e3e#第17集$https://vip.lz-cdn3.com/share/b4d8c3b407f932ae5dde930628585e1d#第18集$https://vip.lz-cdn3.com/share/24ac838a6b14395dda537b1c38cde219#第19集$https://vip.lz-cdn3.com/share/897a9a2b554640752d749543235a1b16#第20集$https://vip.lz-cdn3.com/share/6754828e66a922ed1b376ef3f43b625e#第21集$https://vip.lz-cdn3.com/share/44089d5f715bc4112ad95576555d0f4e#第22集$https://vip.lz-cdn3.com/share/428e20bb0ffe912914644a4a5f5e25a2#第23集$https://vip.lz-cdn3.com/share/0cc918dec28dbd91f6006a2ce8101e2e#第24集$https://vip.lz-cdn3.com/share/a430a7300689d591618cb08a7f156c36$$$第01集$https://vip.lz-cdn3.com/20220721/9770_b704edcd/index.m3u8#第02集$https://vip.lz-cdn3.com/20220721/9771_64320ea7/index.m3u8#第03集$https://vip.lz-cdn3.com/20220721/9772_b03fcbeb/index.m3u8#第04集$https://vip.lz-cdn3.com/20220721/9773_54a40768/index.m3u8#第05集$https://vip.lz-cdn3.com/20220721/9774_b52880be/index.m3u8#第06集$https://vip.lz-cdn3.com/20220721/9775_2394332c/index.m3u8#第07集$https://vip.lz-cdn3.com/20220721/9776_3bb1693d/index.m3u8#第08集$https://vip.lz-cdn3.com/20220721/9777_49b7da1c/index.m3u8#第09集$https://vip.lz-cdn3.com/20220721/9778_ad3a3c03/index.m3u8#第10集$https://vip.lz-cdn3.com/20220721/9779_0c33d030/index.m3u8#第11集$https://vip.lz-cdn3.com/20220721/9780_d7299684/index.m3u8#第12集$https://vip.lz-cdn3.com/20220721/9781_7734e349/index.m3u8#第13集$https://vip.lz-cdn3.com/20220721/9782_d85b4c01/index.m3u8#第14集$https://vip.lz-cdn3.com/20220721/9783_7f86bac6/index.m3u8#第15集$https://vip.lz-cdn3.com/20220721/9784_3a4e195c/index.m3u8#第16集$https://vip.lz-cdn3.com/20220721/9785_ab87ed3b/index.m3u8#第17集$https://vip.lz-cdn3.com/20220721/9786_18a9b78f/index.m3u8#第18集$https://vip.lz-cdn3.com/20220721/9787_7c6e3fea/index.m3u8#第19集$https://vip.lz-cdn3.com/20220721/9793_a1c9315d/index.m3u8#第20集$https://vip.lz-cdn3.com/20220721/9792_d9cda2bc/index.m3u8#第21集$https://vip.lz-cdn3.com/20220721/9791_21365516/index.m3u8#第22集$https://vip.lz-cdn3.com/20220721/9788_d2d18397/index.m3u8#第23集$https://vip.lz-cdn3.com/20220721/9789_fb2ad5f7/index.m3u8#第24集$https://vip.lz-cdn3.com/20220721/9790_53456cf3/index.m3u8"
+            },
+            {
+              "vod_id": 19150,
+              "vod_name": "忧郁的物怪庵",
+              "vod_year": "2016",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-05-24 22:31:19",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip1.lz-cdn5.com/share/a0b286be4319741767e21c8c2216fa77#第02集$https://vip1.lz-cdn5.com/share/19087444f37abf0815914273d60312fa#第03集$https://vip1.lz-cdn5.com/share/2404d480bb9068047a2fb584b0c5a44c#第04集$https://vip1.lz-cdn5.com/share/8b1ecbd9589c577ad109bea50b84d195#第05集$https://vip1.lz-cdn5.com/share/cde52d3f5013d4f75b0e6f46dddafcae#第06集$https://vip1.lz-cdn5.com/share/110a186a520a14d6ecab41ff9c083741#第07集$https://vip1.lz-cdn5.com/share/6ddeeff784c00425c090970528a617b3#第08集$https://vip1.lz-cdn5.com/share/fb2a60d35f7623b1045f0cf59156fdbc#第09集$https://vip1.lz-cdn5.com/share/d7d1b0e1c2ba164a103f995abd07662f#第10集$https://vip1.lz-cdn5.com/share/efaaba7b6a9f5030033337074884b7e0#第11集$https://vip1.lz-cdn5.com/share/2babf18a3e44fc9fbd14151d2caa8c91#第12集$https://vip1.lz-cdn5.com/share/23caa86a7dadfef1317f9af86bd135e1#第13集$https://vip1.lz-cdn5.com/share/d8cda2f35a02ca459421ded6f9a5e868$$$第01集$https://vip1.lz-cdn5.com/20220524/19601_7ee8fa83/index.m3u8#第02集$https://vip1.lz-cdn5.com/20220524/19600_f661ae33/index.m3u8#第03集$https://vip1.lz-cdn5.com/20220524/19602_729fa4d6/index.m3u8#第04集$https://vip1.lz-cdn5.com/20220524/19605_435c9850/index.m3u8#第05集$https://vip1.lz-cdn5.com/20220524/19604_52bece08/index.m3u8#第06集$https://vip1.lz-cdn5.com/20220524/19603_ddb69824/index.m3u8#第07集$https://vip1.lz-cdn5.com/20220524/19606_8e6b946f/index.m3u8#第08集$https://vip1.lz-cdn5.com/20220524/19608_4af5f7f2/index.m3u8#第09集$https://vip1.lz-cdn5.com/20220524/19609_5ccc52af/index.m3u8#第10集$https://vip1.lz-cdn5.com/20220524/19607_22b64ebf/index.m3u8#第11集$https://vip1.lz-cdn5.com/20220524/19612_36e9bf27/index.m3u8#第12集$https://vip1.lz-cdn5.com/20220524/19610_df204bf8/index.m3u8#第13集$https://vip1.lz-cdn5.com/20220524/19611_e9ff8912/index.m3u8"
+            },
+            {
+              "vod_id": 29551,
+              "vod_name": "谎言屋第三季",
+              "vod_year": "2014",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-08-05 19:16:22",
+              "type_name": "欧美剧",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip.lz-cdn4.com/share/4349e27c2e58c3bbc0c91ac64210093e#第02集$https://vip.lz-cdn4.com/share/9dd39546e77951471a411d0b3fdedec8#第03集$https://vip.lz-cdn4.com/share/b44f85da0de2acd0dfb9218c239570b9#第04集$https://vip.lz-cdn4.com/share/2134556f9140640adff936306ce87a24#第05集$https://vip.lz-cdn4.com/share/42de1de39dd831ed34ea48cb6e843fd2#第06集$https://vip.lz-cdn4.com/share/d7c3f8dee9f1ce4c631160e82f1ec938#第07集$https://vip.lz-cdn4.com/share/cc4bc3ce78e69a20922715e85baeb433#第08集$https://vip.lz-cdn4.com/share/99e71865a8531658d3eb31c17119b66e#第09集$https://vip.lz-cdn4.com/share/ee68814cae37a08bcbbf9abe676eb730#第10集$https://vip.lz-cdn4.com/share/f261bd4569f4c48cd8c39d7429c47757#第11集$https://vip.lz-cdn4.com/share/36fb74b3b004c91fedcde80d8feb48c0#第12集$https://vip.lz-cdn4.com/share/bbada3b066c3c2327723018e70742a39$$$第01集$https://vip.lz-cdn4.com/20220802/18691_bb42f8b7/index.m3u8#第02集$https://vip.lz-cdn4.com/20220802/18693_aa2b979b/index.m3u8#第03集$https://vip.lz-cdn4.com/20220802/18692_4f4694df/index.m3u8#第04集$https://vip.lz-cdn4.com/20220802/18695_964fe635/index.m3u8#第05集$https://vip.lz-cdn4.com/20220802/18696_5ae5d245/index.m3u8#第06集$https://vip.lz-cdn4.com/20220802/18694_e4b15d30/index.m3u8#第07集$https://vip.lz-cdn4.com/20220802/18697_3d00be8f/index.m3u8#第08集$https://vip.lz-cdn4.com/20220802/18699_f74222f1/index.m3u8#第09集$https://vip.lz-cdn4.com/20220802/18698_a3b4ffcd/index.m3u8#第10集$https://vip.lz-cdn4.com/20220802/18701_3b3c6a13/index.m3u8#第11集$https://vip.lz-cdn4.com/20220802/18700_04555ec5/index.m3u8#第12集$https://vip.lz-cdn4.com/20220802/18702_0801668d/index.m3u8"
+            },
+            {
+              "vod_id": 161406,
+              "vod_name": "魔法情缘",
+              "vod_year": "2026",
+              "vod_remarks": "HD",
+              "vod_time": "2026-10-14 12:46:19",
+              "type_name": "爱情片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "HD中字$https://v.lzcdn27.com/share/7fc67a493d49abe6d0500d56675f41b2$$$HD中字$https://v.lzcdn27.com/20261014/19067_83b38a28/index.m3u8"
+            },
+            {
+              "vod_id": 109072,
+              "vod_name": "F1：狂飙飞车[电影解说]",
+              "vod_year": "2025",
+              "vod_remarks": "已完结",
+              "vod_time": "2025-08-21 23:06:56",
+              "type_name": "电影解说",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.lz15uu.com/share/2e6d9c6052e99fcdfa61d9b9da273ca2$$$第01集$https://v.lz15uu.com/20250821/5204_be9ffe2a/index.m3u8"
+            },
+            {
+              "vod_id": 109079,
+              "vod_name": "F1：狂飙飞车",
+              "vod_year": "2025",
+              "vod_remarks": "HD",
+              "vod_time": "2025-08-22 05:38:57",
+              "type_name": "动作片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "HD中字$https://v.lzcdn27.com/share/1019c8091693ef5c5f55970346633f92$$$HD中字$https://v.lzcdn27.com/20250821/1044_f47081f0/index.m3u8"
+            },
+            {
+              "vod_id": 18500,
+              "vod_name": "半生缘1997",
+              "vod_year": "1997",
+              "vod_remarks": "HD",
+              "vod_time": "2022-05-22 11:49:46",
+              "type_name": "爱情片",
+              "vod_lang": "粤语",
+              "vod_area": "香港",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "HD中字$https://vip1.lz-cdn1.com/share/c00193e70e8e27e70601b26161b4ae86$$$HD中字$https://vip1.lz-cdn1.com/20220522/6311_b8802304/index.m3u8"
+            },
+            {
+              "vod_id": 39991,
+              "vod_name": "半生缘[电影解说]",
+              "vod_year": "1997",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-11-18 15:57:56",
+              "type_name": "电影解说",
+              "vod_lang": "粤语",
+              "vod_area": "香港",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip1.lz-cdn5.com/share/8937d22ef4bb674f0aa0e41e7510c880$$$第01集$https://vip1.lz-cdn5.com/20221118/46147_726727d6/index.m3u8"
+            },
+            {
+              "vod_id": 33724,
+              "vod_name": "韦纳",
+              "vod_year": "2016",
+              "vod_remarks": "HD",
+              "vod_time": "2022-09-12 12:24:30",
+              "type_name": "记录片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "HD中字$https://vip.lz-cdn3.com/share/ba7c5aeabab9e58da4b978a8242da52e$$$HD中字$https://vip.lz-cdn3.com/20220912/13219_8524740f/index.m3u8"
+            },
+            {
+              "vod_id": 102184,
+              "vod_name": "乡野传奇之大黑蛾国语",
+              "vod_year": "1998",
+              "vod_remarks": "已完结",
+              "vod_time": "2025-02-17 22:13:16",
+              "type_name": "香港剧",
+              "vod_lang": "国语",
+              "vod_area": "台湾",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.lzcdn24.com/share/2459e63c0cc08d3717f1e159de44586e#第02集$https://v.lzcdn24.com/share/12a84ab992bdd63f5303e6dd60cc10e8#第03集$https://v.lzcdn24.com/share/bfb9e0ac9da156b7efe0d5ac723fbcb5#第04集$https://v.lzcdn24.com/share/3769d93a219d1162bd4ae48dd988c01e#第05集$https://v.lzcdn24.com/share/b37ffe9e8f67937ea21dc01fd2c41a39#第06集$https://v.lzcdn24.com/share/4372e2ba2d04ea409b6d4a391641f938#第07集$https://v.lzcdn24.com/share/5f4f7141b65a730b4efb0e0d51f63e94#第08集$https://v.lzcdn24.com/share/64ce463c6856e0e3867dea50033e8a29#第09集$https://v.lzcdn24.com/share/d9798cdf31c02d86b8b81cc119d94836#第10集$https://v.lzcdn24.com/share/2383c7d07bce3c82e6da7741782de416#第11集$https://v.lzcdn24.com/share/66df243d406353d0e9db6c5dd027d2d6#第12集$https://v.lzcdn24.com/share/e463f97ca6bc46b1ba706474e108c7e1#第13集$https://v.lzcdn24.com/share/e98cb037f376fa53b314c166766ef55e#第14集$https://v.lzcdn24.com/share/8381872fa17f9dcb5fdb58802461c46e#第15集$https://v.lzcdn24.com/share/2ab8f86410b4f3bdcc747699295eb5a4#第16集$https://v.lzcdn24.com/share/e4c8c477d15f72bef65651ddb22c5891$$$第01集$https://v.lzcdn24.com/20250217/19992_1a3c11be/index.m3u8#第02集$https://v.lzcdn24.com/20250217/19993_acc5e8a1/index.m3u8#第03集$https://v.lzcdn24.com/20250217/19994_a03eab8c/index.m3u8#第04集$https://v.lzcdn24.com/20250217/19995_2774f41b/index.m3u8#第05集$https://v.lzcdn24.com/20250217/19996_a98e3a8a/index.m3u8#第06集$https://v.lzcdn24.com/20250217/19997_83d80f33/index.m3u8#第07集$https://v.lzcdn24.com/20250217/19998_c9571336/index.m3u8#第08集$https://v.lzcdn24.com/20250217/19999_c6614fe0/index.m3u8#第09集$https://v.lzcdn24.com/20250217/20000_dd3346a2/index.m3u8#第10集$https://v.lzcdn24.com/20250217/20001_ad7aed4c/index.m3u8#第11集$https://v.lzcdn24.com/20250217/20002_36c89937/index.m3u8#第12集$https://v.lzcdn24.com/20250217/20003_54e5f75a/index.m3u8#第13集$https://v.lzcdn24.com/20250217/20004_671038f7/index.m3u8#第14集$https://v.lzcdn24.com/20250217/20005_ff80c1df/index.m3u8#第15集$https://v.lzcdn24.com/20250217/20006_c2d557f4/index.m3u8#第16集$https://v.lzcdn24.com/20250217/20007_ca98b05a/index.m3u8"
+            },
+            {
+              "vod_id": 117437,
+              "vod_name": "乡野传奇之大黑蛾[电影解说]",
+              "vod_year": "1998",
+              "vod_remarks": "已完结",
+              "vod_time": "2025-11-15 21:09:37",
+              "type_name": "电影解说",
+              "vod_lang": "国语",
+              "vod_area": "台湾",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://v.lz15uu.com/share/2f254e66097fd653a5ca4cfdb33be358$$$第01集$https://v.lz15uu.com/20251115/6930_0d5ba222/index.m3u8"
+            },
+            {
+              "vod_id": 24362,
+              "vod_name": "闪婚总裁契约妻 第1季 命运的玩笑·动态漫",
+              "vod_year": "2021",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-06-26 13:33:38",
+              "type_name": "国产动漫",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip1.lz-cdn5.com/share/2da25054a079d631e04b67bb7d7b5bd6#第02集$https://vip1.lz-cdn5.com/share/a73d731082fabe880672f123d4b3dcfe#第03集$https://vip1.lz-cdn5.com/share/8ee15923664a1ff58e5f7fddfdb91679#第04集$https://vip1.lz-cdn5.com/share/96c49aec2bd7b939892e5b18bc6369b1#第05集$https://vip1.lz-cdn5.com/share/990c7ce9f046359dac66324e418e8e62#第06集$https://vip1.lz-cdn5.com/share/e7269f62ac39734ee9cfb1d0bd72cb06#第07集$https://vip1.lz-cdn5.com/share/aa59dfe9cea81f87553c5d9f1046a84f#第08集$https://vip1.lz-cdn5.com/share/5832b159f7b32b3d3a1aa9343dbb994b#第09集$https://vip1.lz-cdn5.com/share/0c9aecd2692cfe28067bb0eba9ae409a#第10集$https://vip1.lz-cdn5.com/share/ef6f4e4fca9990a2896ea9cdf70fbe98#第11集$https://vip1.lz-cdn5.com/share/e52265108325dab81ab318b51c5c83a1#第12集$https://vip1.lz-cdn5.com/share/f428ed8209a04774dd294d6dc12ae201#第13集$https://vip1.lz-cdn5.com/share/2320cc311e948c73c192f8b63d1ffab1#第14集$https://vip1.lz-cdn5.com/share/f335bf480fd91007c3c81a67a1dd4294#第15集$https://vip1.lz-cdn5.com/share/f5d5a9d3f41d573a4dd241b0476c7910#第16集$https://vip1.lz-cdn5.com/share/e6489c47ee1a4c3252b06e7ed387eb90#第17集$https://vip1.lz-cdn5.com/share/950c011d814448023c466411a35b6c62#第18集$https://vip1.lz-cdn5.com/share/1899267a7cab6c98197ea43751df1c07#第19集$https://vip1.lz-cdn5.com/share/fa517434b82355390c5cb9831685d6a0#第20集$https://vip1.lz-cdn5.com/share/258d7a491108e4e48af85b904cef4654#第21集$https://vip1.lz-cdn5.com/share/6e57a30d42233829bb65aab0262e463b#第22集$https://vip1.lz-cdn5.com/share/4a3f8e93a3de2a2650a129d7fa060bb4#第23集$https://vip1.lz-cdn5.com/share/1fe37085233f04789c85afa0a8b3f7b3#第24集$https://vip1.lz-cdn5.com/share/352decc1e8f3d97fcdb53af60cbe1f53#第25集$https://vip1.lz-cdn5.com/share/57c2380d5c0be43f6c952835e58f7a55$$$第01集$https://vip1.lz-cdn5.com/20220625/27935_f1314c3b/index.m3u8#第02集$https://vip1.lz-cdn5.com/20220625/27936_1adf8f5b/index.m3u8#第03集$https://vip1.lz-cdn5.com/20220625/27938_8cf14cce/index.m3u8#第04集$https://vip1.lz-cdn5.com/20220625/27937_8649a2cb/index.m3u8#第05集$https://vip1.lz-cdn5.com/20220625/27939_49e09e85/index.m3u8#第06集$https://vip1.lz-cdn5.com/20220625/27940_61e7b4ad/index.m3u8#第07集$https://vip1.lz-cdn5.com/20220625/27942_4943d3aa/index.m3u8#第08集$https://vip1.lz-cdn5.com/20220625/27941_ac945fe2/index.m3u8#第09集$https://vip1.lz-cdn5.com/20220625/27945_20d517b6/index.m3u8#第10集$https://vip1.lz-cdn5.com/20220625/27944_c2e9ba36/index.m3u8#第11集$https://vip1.lz-cdn5.com/20220625/27946_e377cb51/index.m3u8#第12集$https://vip1.lz-cdn5.com/20220625/27943_7917a9ce/index.m3u8#第13集$https://vip1.lz-cdn5.com/20220625/27948_d7eb42f8/index.m3u8#第14集$https://vip1.lz-cdn5.com/20220625/27947_b15fb5d0/index.m3u8#第15集$https://vip1.lz-cdn5.com/20220625/27949_0420700d/index.m3u8#第16集$https://vip1.lz-cdn5.com/20220625/27952_483af47a/index.m3u8#第17集$https://vip1.lz-cdn5.com/20220625/27950_e7cd1f6a/index.m3u8#第18集$https://vip1.lz-cdn5.com/20220625/27951_c8f2f91b/index.m3u8#第19集$https://vip1.lz-cdn5.com/20220625/27953_3edbb7c8/index.m3u8#第20集$https://vip1.lz-cdn5.com/20220625/27954_537e70c0/index.m3u8#第21集$https://vip1.lz-cdn5.com/20220625/27955_6ee61f15/index.m3u8#第22集$https://vip1.lz-cdn5.com/20220625/27956_cb57677a/index.m3u8#第23集$https://vip1.lz-cdn5.com/20220625/27957_92f9f67e/index.m3u8#第24集$https://vip1.lz-cdn5.com/20220625/27958_cb6c9f87/index.m3u8#第25集$https://vip1.lz-cdn5.com/20220625/27959_0a3956ac/index.m3u8"
+            },
+            {
+              "vod_id": 10613,
+              "vod_name": "王之逆袭：意志的继承者",
+              "vod_year": "2020",
+              "vod_remarks": "已完结",
+              "vod_time": "2022-04-24 19:55:43",
+              "type_name": "日韩动漫",
+              "vod_lang": "日语",
+              "vod_area": "日本",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "第01集$https://vip1.lz-cdn5.com/share/0dc23b6a0e4abc39904388dd3ffadcd1#第02集$https://vip1.lz-cdn5.com/share/8c71d6367dc1f7a95488ccff97c2f37e#第03集$https://vip1.lz-cdn5.com/share/459f9394f0bcd67a08a322b56db20dd3#第04集$https://vip1.lz-cdn5.com/share/5957b59b3b33dbf65c5f66aecb0394f7#第05集$https://vip1.lz-cdn5.com/share/8541259db852d274c5de8d45fc29ea21#第06集$https://vip1.lz-cdn5.com/share/a301fcd6ae4df201b8372aed34b0cbef#第07集$https://vip1.lz-cdn5.com/share/c940ec3829dddd36b20afc15803a906b#第08集$https://vip1.lz-cdn5.com/share/5fdfe2c20035ef27771422342d1842ff#第09集$https://vip1.lz-cdn5.com/share/7b72de504960bfce0e38c14bdfeda3f1#第10集$https://vip1.lz-cdn5.com/share/62d88824119021834ca8e4cef6498f1c#第11集$https://vip1.lz-cdn5.com/share/69748bbbc13bc56f17638e9f57b7a155#第12集$https://vip1.lz-cdn5.com/share/a6e94d012df993c363fb358bf365ee05#第13集$https://vip1.lz-cdn5.com/share/80e4e458131f4edc49cacad3ec586437#第14集$https://vip1.lz-cdn5.com/share/91a0ac7c34ea63ffc3ef3e8d5ddd58bb#第15集$https://vip1.lz-cdn5.com/share/1325cdae3b6f0f91a1b629307bf2d498#第16集$https://vip1.lz-cdn5.com/share/fc5c0cd21ddca3b39da73342bc41752c#第17集$https://vip1.lz-cdn5.com/share/67e4423afd0ffd2f451890c0888e6f33#第18集$https://vip1.lz-cdn5.com/share/8b1c998cf6efb43824bbab2d8c9b078b#第19集$https://vip1.lz-cdn5.com/share/2e23b644278100ddab0f32d60fc1d078#第20集$https://vip1.lz-cdn5.com/share/9274eae5c531194f50bbf029e38f0046#第21集$https://vip1.lz-cdn5.com/share/1fc8c3d03b0021478a8c9ebdcd457c67#第22集$https://vip1.lz-cdn5.com/share/41965fdab3cb2bd0fdc4536d321ad4fc#第23集$https://vip1.lz-cdn5.com/share/f1a706591e15f81814fac5184b29e7b5#第24集$https://vip1.lz-cdn5.com/share/fc50322932b29b26cfc46fd9a91ec474#第25集$https://vip1.lz-cdn5.com/share/de65a3fb6d48ee7cd6f5f9309d16e3fb#第26集$https://vip1.lz-cdn5.com/share/31d64389a45aaeb7a61c9b76b72be555$$$第01集$https://vip1.lz-cdn5.com/20220424/11653_eab99e60/index.m3u8#第02集$https://vip1.lz-cdn5.com/20220424/11652_79ec2598/index.m3u8#第03集$https://vip1.lz-cdn5.com/20220424/11654_e3d6a0d3/index.m3u8#第04集$https://vip1.lz-cdn5.com/20220424/11657_390ae60e/index.m3u8#第05集$https://vip1.lz-cdn5.com/20220424/11655_bc43eb4c/index.m3u8#第06集$https://vip1.lz-cdn5.com/20220424/11656_806115c9/index.m3u8#第07集$https://vip1.lz-cdn5.com/20220424/11659_8cb04e1e/index.m3u8#第08集$https://vip1.lz-cdn5.com/20220424/11658_214a0dd1/index.m3u8#第09集$https://vip1.lz-cdn5.com/20220424/11660_6d3101f5/index.m3u8#第10集$https://vip1.lz-cdn5.com/20220424/11662_648136d2/index.m3u8#第11集$https://vip1.lz-cdn5.com/20220424/11661_d1b26f75/index.m3u8#第12集$https://vip1.lz-cdn5.com/20220424/11665_3042a54c/index.m3u8#第13集$https://vip1.lz-cdn5.com/20220424/11663_38d6d047/index.m3u8#第14集$https://vip1.lz-cdn5.com/20220424/11664_245a7161/index.m3u8#第15集$https://vip1.lz-cdn5.com/20220424/11666_e4c4984e/index.m3u8#第16集$https://vip1.lz-cdn5.com/20220424/11667_ae75c6f6/index.m3u8#第17集$https://vip1.lz-cdn5.com/20220424/11668_ffcdd2c4/index.m3u8#第18集$https://vip1.lz-cdn5.com/20220424/11669_3306b708/index.m3u8#第19集$https://vip1.lz-cdn5.com/20220424/11672_f426d63a/index.m3u8#第20集$https://vip1.lz-cdn5.com/20220424/11671_ed754c52/index.m3u8#第21集$https://vip1.lz-cdn5.com/20220424/11670_5b87e46b/index.m3u8#第22集$https://vip1.lz-cdn5.com/20220424/11673_ee78bd43/index.m3u8#第23集$https://vip1.lz-cdn5.com/20220424/11675_e7492308/index.m3u8#第24集$https://vip1.lz-cdn5.com/20220424/11674_7e6a5d8c/index.m3u8#第25集$https://vip1.lz-cdn5.com/20220424/11676_9ceb1062/index.m3u8#第26集$https://vip1.lz-cdn5.com/20220424/11677_08e7718a/index.m3u8"
+            },
+            {
+              "vod_id": 18152,
+              "vod_name": "工作1961",
+              "vod_year": "1961",
+              "vod_remarks": "DVD",
+              "vod_time": "2022-05-20 22:35:32",
+              "type_name": "剧情片",
+              "vod_lang": "其它",
+              "vod_area": "其它",
+              "vod_play_from": "liangzi$$$lzm3u8",
+              "vod_play_url": "DVD中字$https://vip.lzcdn2.com/share/696186d1596721cb6e79013d4655c5d9$$$DVD中字$https://vip.lzcdn2.com/20220520/7058_7895bb89/index.m3u8"
+            }
+          ],
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "xiaomaomi",
+      "api": "https://zy.xmm.hk/api.php/provide/vod",
+      "name": "小猫咪资源",
+      "queries": [
+        {
+          "url": "https://zy.xmm.hk/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+          "elapsed_ms": 3468,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "maotaizy",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "name": "茅台资源",
+      "queries": [
+        {
+          "url": "https://caiji.maotaizy.cc/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+          "elapsed_ms": 15031,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    },
+    {
+      "key": "mozhua",
+      "api": "https://mozhuazy.com/api.php/provide/vod",
+      "name": "魔爪资源",
+      "queries": [
+        {
+          "url": "https://mozhuazy.com/api.php/provide/vod/?ac=detail&wd=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2",
+          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+          "elapsed_ms": 14766,
+          "query": "葬送的芙莉莲"
+        }
+      ]
+    }
+  ]
+}

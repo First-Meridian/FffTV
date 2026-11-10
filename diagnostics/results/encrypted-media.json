@@ -1,0 +1,496 @@
+{
+  "checked_at": "2026-11-10T14:54:13.912124+08:00",
+  "origin": "http://127.0.0.1:8765",
+  "checks": [
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 1453,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 92376,
+      "remarks": "第10集完结",
+      "line": "jsm3u8",
+      "episode_count": 10,
+      "episode": "第1集",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/av223w5a/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/av223w5a/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/av223w5a/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 27436,
+            "elapsed_ms": 6031,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1440.04,
+        "segment_count": 342,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "keys": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "咒术回战",
+      "search_ms": 1469,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 91610,
+      "remarks": "第12集",
+      "line": "jsm3u8",
+      "episode_count": 12,
+      "episode": "第1集",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/bW66X9na/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/bW66X9na/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/bW66X9na/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 33369,
+            "elapsed_ms": 1422,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://p.jisuts.com:999/hls/874/20260109/3876930/plist0.ts",
+            "final_url": "https://p.jisuts.com:999/hls/874/20260109/3876930/plist0.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 56976,
+            "elapsed_ms": 594,
+            "index": 0,
+            "kind": "mpeg-ts",
+            "standard_hls_decryption": "AES-128"
+          },
+          {
+            "url": "https://p.jisuts.com:999/hls/874/20260109/3876930/plist208.ts",
+            "final_url": "https://p.jisuts.com:999/hls/874/20260109/3876930/plist208.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 984,
+            "index": 208,
+            "kind": "mpeg-ts",
+            "standard_hls_decryption": "AES-128"
+          }
+        ],
+        "duration_seconds": 1435.04,
+        "segment_count": 416,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "keys": [
+          {
+            "url": "https://vv.jisuzyv.com/play/bW66X9na/enc.key",
+            "final_url": "https://vv.jisuzyv.com/play/bW66X9na/enc.key",
+            "status": 200,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 16,
+            "elapsed_ms": 4844
+          },
+          {
+            "url": "https://vv.jisuzyv.com/play/bW66X9na/enc.key",
+            "final_url": "https://vv.jisuzyv.com/play/bW66X9na/enc.key",
+            "status": 200,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 16,
+            "elapsed_ms": 8063
+          }
+        ],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 3156,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 70357,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/bW6Ly5va/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "疯狂动物城2",
+      "search_ms": 2047,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 87976,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/e5yy3ZRe/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "星际穿越",
+      "search_ms": 1078,
+      "search_error": null,
+      "title": "星际穿越(原声版)",
+      "year": "2014",
+      "id": 14306,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/6dBE4QNb/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "肖申克的救赎",
+      "search_ms": 1687,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 25895,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/Qe1pkrjd/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "jisu",
+      "source_name": "极速资源",
+      "query": "挽救计划",
+      "search_ms": 1094,
+      "search_error": null,
+      "title": "挽救计划",
+      "year": "2026",
+      "id": 102839,
+      "remarks": "正片",
+      "line": "jsm3u8",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+            "final_url": "https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegurl",
+            "cors": "*",
+            "bytes_read": 177475,
+            "elapsed_ms": 10766,
+            "kind": "hls"
+          }
+        ],
+        "segments": [
+          {
+            "url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist0.ts",
+            "final_url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist0.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 672,
+            "index": 0,
+            "kind": "mpeg-ts",
+            "standard_hls_decryption": "AES-128"
+          },
+          {
+            "url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist1100.ts",
+            "final_url": "https://p.jisuts.com:999/hls/880/20260410/4074114/plist1100.ts",
+            "status": 206,
+            "type": "video/mp2t",
+            "cors": "*",
+            "bytes_read": 65536,
+            "elapsed_ms": 359,
+            "index": 1100,
+            "kind": "mpeg-ts",
+            "standard_hls_decryption": "AES-128"
+          }
+        ],
+        "duration_seconds": 9391.71,
+        "segment_count": 2200,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "keys": [
+          {
+            "url": "https://vv.jisuzyv.com/play/azpKLAyd/enc.key",
+            "final_url": "https://vv.jisuzyv.com/play/azpKLAyd/enc.key",
+            "status": 200,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 16,
+            "elapsed_ms": 891
+          },
+          {
+            "url": "https://vv.jisuzyv.com/play/azpKLAyd/enc.key",
+            "final_url": "https://vv.jisuzyv.com/play/azpKLAyd/enc.key",
+            "status": 200,
+            "type": "application/octet-stream",
+            "cors": "*",
+            "bytes_read": 16,
+            "elapsed_ms": 10141
+          }
+        ],
+        "media_ok": true,
+        "cors_ok": true
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "葬送的芙莉莲",
+      "search_ms": 2250,
+      "search_error": null,
+      "title": "葬送的芙莉莲第二季",
+      "year": "2026",
+      "id": 89400,
+      "remarks": "全10集",
+      "line": "360zy",
+      "episode_count": 10,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 119,
+            "elapsed_ms": 3688,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260116/d9MEI02a/5198kb/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 39978,
+            "elapsed_ms": 2078,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 1477.17,
+        "segment_count": 729,
+        "endlist": true,
+        "encryption": [
+          "AES-128",
+          "NONE",
+          "AES-128",
+          "NONE"
+        ],
+        "map": [],
+        "keys": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "咒术回战",
+      "search_ms": 2078,
+      "search_error": null,
+      "title": "咒术回战第三季",
+      "year": "2026",
+      "id": 88790,
+      "remarks": "全12集",
+      "line": "360zy",
+      "episode_count": 12,
+      "episode": "第01集",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260109/x2KSZOlK/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "哪吒之魔童闹海",
+      "search_ms": 3703,
+      "search_error": null,
+      "title": "哪吒之魔童闹海",
+      "year": "2025",
+      "id": 72369,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20250802/N3CeWASa/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "疯狂动物城2",
+      "search_ms": 12984,
+      "search_error": null,
+      "title": "疯狂动物城2",
+      "year": "2025",
+      "id": 85660,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "正片",
+      "probe": {
+        "entry_url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+            "final_url": "https://vod1.maowushi.com/20260127/PAsnIU41/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 118,
+            "elapsed_ms": 11016,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "星际穿越",
+      "search_ms": 4125,
+      "search_error": null,
+      "title": "星际穿越",
+      "year": "2014",
+      "id": 60387,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "星际穿越",
+      "probe": {
+        "entry_url": "https://vod2.maowushi.com/20240721/7mz1oDpH/index.m3u8",
+        "playlists": [],
+        "segments": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    },
+    {
+      "source_key": "zy360",
+      "source_name": "360资源",
+      "query": "肖申克的救赎",
+      "search_ms": 2094,
+      "search_error": null,
+      "title": "肖申克的救赎",
+      "year": "1994",
+      "id": 6270,
+      "remarks": "正片",
+      "line": "360zy",
+      "episode_count": 1,
+      "episode": "HD中字",
+      "probe": {
+        "entry_url": "https://vod2.maowushi.com/jqp/SYz2503V/index.m3u8",
+        "playlists": [
+          {
+            "url": "https://vod2.maowushi.com/jqp/SYz2503V/index.m3u8",
+            "final_url": "https://vod2.maowushi.com/jqp/SYz2503V/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 107,
+            "elapsed_ms": 9875,
+            "kind": "hls"
+          },
+          {
+            "url": "https://vod2.maowushi.com/jqp/SYz2503V/hls/index.m3u8",
+            "final_url": "https://vod2.maowushi.com/jqp/SYz2503V/hls/index.m3u8",
+            "status": 200,
+            "type": "application/vnd.apple.mpegURL",
+            "cors": "*",
+            "bytes_read": 118822,
+            "elapsed_ms": 11828,
+            "kind": "hls"
+          }
+        ],
+        "segments": [],
+        "duration_seconds": 8551.9,
+        "segment_count": 2667,
+        "endlist": true,
+        "encryption": [
+          "AES-128"
+        ],
+        "map": [],
+        "keys": [],
+        "error": "<urlopen error _ssl.c:983: The handshake operation timed out>",
+        "media_ok": false
+      }
+    }
+  ]
+}

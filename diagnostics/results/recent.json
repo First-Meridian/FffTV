@@ -1,0 +1,435 @@
+{
+  "checked_at": "2026-11-10T14:41:38.601521+08:00",
+  "config_reference": "https://raw.githubusercontent.com/aahl/MoonTV/main/config.json",
+  "sources": [
+    {
+      "key": "jisu",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "name": "极速资源",
+      "detail": "https://jszyapi.com",
+      "queries": [
+        {
+          "url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2766,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 99521,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "正片",
+              "vod_time": "2026-04-30 11:21:02",
+              "type_name": "喜剧片",
+              "vod_lang": "普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "jsyun$$$jsm3u8",
+              "vod_play_url": "正片$https://vv.jisuzyv.com/play/ejRZgqYe$$$正片$https://vv.jisuzyv.com/play/ejRZgqYe/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "https://jszyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 1094,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 105548,
+              "vod_name": "挽救计划（中文版）",
+              "vod_year": "2026",
+              "vod_remarks": "正片",
+              "vod_time": "2026-04-22 04:30:04",
+              "type_name": "科幻片",
+              "vod_lang": "英语/普通话",
+              "vod_area": "美国",
+              "vod_play_from": "jsyun$$$jsm3u8",
+              "vod_play_url": "正片$https://vv.jisuzyv.com/play/aADN66ze$$$正片$https://vv.jisuzyv.com/play/aADN66ze/index.m3u8"
+            },
+            {
+              "vod_id": 102839,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "正片",
+              "vod_time": "2026-04-10 17:24:03",
+              "type_name": "科幻片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "jsyun$$$jsm3u8",
+              "vod_play_url": "正片$https://vv.jisuzyv.com/play/azpKLAyd$$$正片$https://vv.jisuzyv.com/play/azpKLAyd/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    },
+    {
+      "key": "ffzy",
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "name": "非凡影视",
+      "detail": "http://ffzy5.tv",
+      "queries": [
+        {
+          "url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 3032,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 92493,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "HD国语",
+              "vod_time": "2026-04-29 20:38:37",
+              "type_name": "喜剧片",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "feifan$$$ffm3u8",
+              "vod_play_url": "HD国语$https://vip.ffzy-play10.com/share/b9af3c111cee6830bb77187c69df2d7f$$$HD国语$https://vip.ffzy-play10.com/20260429/59098_b9af3c11/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "http://ffzy5.tv/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2704,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 94823,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "HD中字|国语",
+              "vod_time": "2026-04-21 20:23:39",
+              "type_name": "科幻片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "feifan$$$ffm3u8",
+              "vod_play_url": "HD中字$https://vip.ffzy-play10.com/share/a2dfe9c457376a26ddb3ca21518d7376#HD国语$https://vip.ffzy-play10.com/share/549fb7df0c9a815e35557d444712cb8c$$$HD中字$https://vip.ffzy-play10.com/20260410/52284_a2dfe9c4/index.m3u8#HD国语$https://vip.ffzy-play10.com/20260421/54224_549fb7df/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    },
+    {
+      "key": "mdzy",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "name": "魔都资源",
+      "queries": [
+        {
+          "url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2641,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 76957,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "正片",
+              "vod_time": "2026-04-30 11:36:34",
+              "type_name": "喜剧片",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "modum3u8",
+              "vod_play_url": "正片$https://play.modujx11.com/20260430/080MzJqs/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 3969,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 82737,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "正片",
+              "vod_time": "2026-05-10 23:28:22",
+              "type_name": "动作片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "modum3u8",
+              "vod_play_url": "正片$https://play.modujx11.com/20260510/1D6ANRNg/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    },
+    {
+      "key": "dyttzy",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "name": "电影天堂资源",
+      "detail": "http://caiji.dyttzyapi.com",
+      "queries": [
+        {
+          "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2344,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 79984,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "HD国语",
+              "vod_time": "2026-04-29 20:38:50",
+              "type_name": "喜剧片",
+              "vod_lang": "国语",
+              "vod_area": "大陆",
+              "vod_play_from": "dytt$$$dyttm3u8",
+              "vod_play_url": "HD国语$https://vip.dytt-network.com/share/04ab1f885b52adc7a11278073b3c4f74$$$HD国语$https://vip.dytt-network.com/20260429/26345_04ab1f88/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 5359,
+          "code": 1,
+          "message": "数据列表",
+          "total": 1,
+          "items": [
+            {
+              "vod_id": 80713,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "HD中字|国语",
+              "vod_time": "2026-04-21 20:23:25",
+              "type_name": "科幻片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "dytt$$$dyttm3u8",
+              "vod_play_url": "HD中字$https://vip.dytt-see.com/share/1dcfee25dedf7c8e7e25a9b588299f84#HD国语$https://vip.dytt-network.com/share/3641a12ac876f978794065b0fde96404$$$HD中字$https://vip.dytt-see.com/20260410/31497_1dcfee25/index.m3u8#HD国语$https://vip.dytt-network.com/20260421/23401_3641a12a/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    },
+    {
+      "key": "wujin",
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "name": "无尽资源",
+      "queries": [
+        {
+          "url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 2141,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 154305,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "HD中字",
+              "vod_time": "2026-04-29 20:23:38",
+              "type_name": "喜剧片",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "HD$https://v10.ppqrrs.com/wjv10/202604/29/29DwgARKN491/video/index.m3u8"
+            },
+            {
+              "vod_id": 153454,
+              "vod_name": "飞驰人生3预告片",
+              "vod_year": "2026",
+              "vod_remarks": "预告片",
+              "vod_time": "2026-02-07 22:25:12",
+              "type_name": "预告片",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "预告片$https://v10.ppqrrs.com/wjv10/202602/07/uyu20edPiz95/video/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "https://api.wujinapi.me/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 5015,
+          "code": 1,
+          "message": "数据列表",
+          "total": 3,
+          "items": [
+            {
+              "vod_id": 163801,
+              "vod_name": "挽救计划【影视解说】",
+              "vod_year": "2026",
+              "vod_remarks": "HD",
+              "vod_time": "2026-06-19 01:32:22",
+              "type_name": "影视解说",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "HD$https://v2.ppqrrs.com/wjv2/202606/17/0SGfKTcpQ696/video/index.m3u8"
+            },
+            {
+              "vod_id": 157075,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "HD中字",
+              "vod_time": "2026-04-10 23:31:23",
+              "type_name": "剧情片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "HD$https://v12.ppqrrs.com/wjv12/202604/10/w653Jj0Lax94/video/index.m3u8"
+            },
+            {
+              "vod_id": 155449,
+              "vod_name": "挽救计划预告片",
+              "vod_year": "2026",
+              "vod_remarks": "预告片",
+              "vod_time": "2026-03-04 12:46:51",
+              "type_name": "预告片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "wjm3u8",
+              "vod_play_url": "预告片$https://v1.ppqrrs.com/wjv1/202603/04/K9zbh04TVc89/video/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    },
+    {
+      "key": "zuid",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "name": "最大资源",
+      "queries": [
+        {
+          "url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "final_url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 7672,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 120832,
+              "vod_name": "飞驰人生3",
+              "vod_year": "2026",
+              "vod_remarks": "更新HD",
+              "vod_time": "2026-04-29 21:31:53",
+              "type_name": "喜剧片",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "TC$https://v14.zuidazym3u8.com/yyv14/202602/17/v2yghZ267222/video/index.m3u8#HD$https://v4.zuidazym3u8.com/yyv4/202604/29/4jWsLz0Rgc24/video/index.m3u8"
+            },
+            {
+              "vod_id": 120267,
+              "vod_name": "飞驰人生3预告片",
+              "vod_year": "2026",
+              "vod_remarks": "更新预告片",
+              "vod_time": "2026-02-07 23:35:03",
+              "type_name": "预告片",
+              "vod_lang": "汉语普通话",
+              "vod_area": "中国大陆",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "预告片$https://v14.zuidazym3u8.com/yyv14/202602/07/CUHBYp5aVG22/video/index.m3u8"
+            }
+          ],
+          "query": "飞驰人生3"
+        },
+        {
+          "url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "final_url": "https://api.zuidapi.com/api.php/provide/vod/?ac=detail&wd=%E6%8C%BD%E6%95%91%E8%AE%A1%E5%88%92",
+          "status": 200,
+          "cors": null,
+          "content_type": "text/html;charset=utf-8",
+          "elapsed_ms": 828,
+          "code": 1,
+          "message": "数据列表",
+          "total": 2,
+          "items": [
+            {
+              "vod_id": 122701,
+              "vod_name": "挽救计划",
+              "vod_year": "2026",
+              "vod_remarks": "更新HD",
+              "vod_time": "2026-04-11 00:58:02",
+              "type_name": "剧情片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "TC$https://v13.zuidazym3u8.com/yyv13/202603/23/BHgKGRp45827/video/index.m3u8#HD$https://v14.zuidazym3u8.com/yyv14/202604/10/sxD5jqy9A627/video/index.m3u8"
+            },
+            {
+              "vod_id": 121582,
+              "vod_name": "挽救计划预告片",
+              "vod_year": "2026",
+              "vod_remarks": "更新预告片",
+              "vod_time": "2026-03-04 13:45:33",
+              "type_name": "预告片",
+              "vod_lang": "英语",
+              "vod_area": "美国",
+              "vod_play_from": "zuidam3u8",
+              "vod_play_url": "预告片$https://v14.zuidazym3u8.com/yyv14/202603/04/5SZq9HE8Zm22/video/index.m3u8"
+            }
+          ],
+          "query": "挽救计划"
+        }
+      ]
+    }
+  ]
+}

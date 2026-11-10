@@ -35,7 +35,10 @@ export function isPublicAddress(address: string): boolean {
 }
 
 /** DNS validation happens in the connection's lookup callback. Redirects are rejected. */
-export async function fetchCatalog(url: URL): Promise<Record<string, unknown>> {
+export async function fetchCatalog(
+  url: URL,
+  body?: Record<string, unknown>,
+): Promise<Record<string, unknown>> {
   if (!["https:", "http:"].includes(url.protocol))
     throw new Error("不支持的接口协议");
   if (isIP(url.hostname) && !isPublicAddress(url.hostname))
@@ -52,10 +55,12 @@ export async function fetchCatalog(url: URL): Promise<Record<string, unknown>> {
     const req = (url.protocol === "https:" ? httpsRequest : httpRequest)(
       url,
       {
+        method: body ? "POST" : "GET",
         headers: {
-          "User-Agent": "FffTV/0.1",
+          "User-Agent": "FffTV/0.2 (https://github.com/First-Meridian/FffTV)",
           Accept: "application/json",
           "Accept-Encoding": "identity",
+          ...(body ? { "Content-Type": "application/json" } : {}),
         },
         lookup(hostname, options, callback) {
           lookup(hostname, { all: true }, (error, addresses) => {
@@ -108,6 +113,6 @@ export async function fetchCatalog(url: URL): Promise<Record<string, unknown>> {
       10000,
     );
     req.on("error", (error) => finish(error));
-    req.end();
+    req.end(body ? JSON.stringify(body) : undefined);
   });
 }

@@ -3,345 +3,329 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
+  CalendarDays,
+  LoaderCircle,
   Search,
-  Sparkles,
-  Film,
-  Tv,
-  SlidersHorizontal,
-  RotateCw,
   X,
-  ChevronRight,
+  Tv,
 } from "lucide-react";
 import { api } from "@/lib/client";
-import type { LibraryItem, Movie, SearchResult, Source } from "@/lib/types";
-import { MovieCard } from "./movie-card";
+import type {
+  Movie,
+  SearchResult,
+  SeasonEntry,
+  SeasonResult,
+} from "@/lib/types";
 import { MovieDetail } from "./movie-detail";
-const suggestions = [
-  "葬送的芙莉莲",
-  "咒术回战",
-  "挽救计划",
-  "星际穿越",
-  "千与千寻",
-];
-export function Discover() {
-  const [query, setQuery] = useState(""),
-    [submitted, setSubmitted] = useState(""),
-    [result, setResult] = useState<SearchResult>({ movies: [], sources: [] }),
-    [sources, setSources] = useState<Source[]>([]),
-    [source, setSource] = useState(""),
-    [filter, setFilter] = useState("all"),
-    [loading, setLoading] = useState(true),
+
+function SeasonDetail({
+  entry,
+  onClose,
+  onPlay,
+}: {
+  entry: SeasonEntry;
+  onClose: () => void;
+  onPlay: (movie: Movie) => void;
+}) {
+  const dialog = useRef<HTMLDialogElement>(null),
+    [result, setResult] = useState<SearchResult | null>(null),
     [error, setError] = useState(""),
-    [selected, setSelected] = useState<Movie | null>(null),
-    [history, setHistory] = useState<LibraryItem[]>([]);
-  const generation = useRef(0);
-  async function search(value: string, sourceId = source) {
-    const current = ++generation.current;
-    setSubmitted(value);
-    setLoading(true);
-    setError("");
-    try {
-      const data = await api<SearchResult>(
-        `search?q=${encodeURIComponent(value)}${sourceId ? `&source=${sourceId}` : ""}`,
-      );
-      if (current === generation.current) setResult(data);
-    } catch (e) {
-      if (current === generation.current) setError((e as Error).message);
-    } finally {
-      if (current === generation.current) setLoading(false);
-    }
-  }
+    [retry, setRetry] = useState(0);
   useEffect(() => {
-    api<{ sources: Source[] }>("sources")
-      .then((data) => setSources(data.sources))
-      .catch(() => {});
-    api<{ items: LibraryItem[] }>("library")
-      .then((data) =>
-        setHistory(
-          data.items
-            .filter(
-              (item) =>
-                item.position > 0 && item.position / item.duration < 0.95,
-            )
-            .slice(0, 6),
-        ),
-      )
-      .catch(() => {});
-    void search("");
+    dialog.current?.showModal();
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, []);
-  const movies = result.movies.filter(
-    (movie) =>
-      filter === "all" ||
-      (filter === "anime"
-        ? /动漫|动画/.test(movie.type)
-        : !/动漫|动画|剧|综艺|短剧/.test(movie.type)),
+  useEffect(() => {
+    let alive = true;
+    setResult(null);
+    setError("");
+    api<SearchResult>(`season/match?id=${entry.id}`)
+      .then((r) => {
+        if (alive) setResult(r);
+      })
+      .catch((e) => {
+        if (alive) setError(e.message);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [entry.id, retry]);
+  return (
+    <dialog
+      ref={dialog}
+      className="detail-dialog"
+      aria-labelledby="season-title"
+      onCancel={onClose}
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onClose();
+      }}
+    >
+      <button
+        className="icon-button close-button"
+        aria-label="关闭新番详情"
+        onClick={onClose}
+      >
+        <X size={22} />
+      </button>
+      <span className="eyebrow">THIS SEASON · {entry.platform}</span>
+      <h2 id="season-title">{entry.title}</h2>
+      <p className="muted">
+        {entry.originalTitle !== entry.title && `${entry.originalTitle} · `}
+        {entry.date} 首播
+      </p>
+      <p className="description">{entry.description || "暂无简介。"}</p>
+      {!result && !error && (
+        <p className="loading">
+          <LoaderCircle className="spin" size={18} />
+          正在匹配这部新番的播放来源…
+        </p>
+      )}
+      {error && (
+        <p className="notice error" role="alert">
+          {error}
+        </p>
+      )}
+      {result?.movies.map((movie) => (
+        <button
+          key={movie.key}
+          className="button primary"
+          onClick={() => onPlay(movie)}
+        >
+          选择剧集 · {new Set(movie.variants?.map((v) => v.source)).size || 1}{" "}
+          个播放源
+          <ArrowRight size={16} />
+        </button>
+      ))}
+      {result && !result.movies.length && (
+        <div className="notice">
+          {result.sources.some((s) => s.error)
+            ? "部分来源暂未连接，暂未确认匹配的播放地址。"
+            : "暂未找到同名、同年份的播放资源。新番仍会保留在本季名单中。"}
+        </div>
+      )}
+      <div className="actions season-actions">
+        <Link
+          className="button"
+          href={`/catalog?q=${encodeURIComponent(entry.title)}`}
+        >
+          在片库中搜索
+        </Link>
+        {(error || result?.movies.length === 0) && (
+          <button className="button" onClick={() => setRetry((n) => n + 1)}>
+            重新匹配
+          </button>
+        )}
+        <a
+          className="text-link"
+          href={`https://bgm.tv/subject/${entry.id}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Bangumi 条目
+          <ArrowRight size={14} />
+        </a>
+      </div>
+    </dialog>
   );
+}
+export function Discover() {
+  const [data, setData] = useState<SeasonResult | null>(null),
+    [error, setError] = useState(""),
+    [filter, setFilter] = useState(""),
+    [selected, setSelected] = useState<SeasonEntry | null>(null),
+    [movie, setMovie] = useState<Movie | null>(null),
+    [retry, setRetry] = useState(0),
+    [failed, setFailed] = useState<Set<number>>(new Set());
+  useEffect(() => {
+    let alive = true;
+    setError("");
+    api<SeasonResult>("season")
+      .then((r) => {
+        if (alive) setData(r);
+      })
+      .catch((e) => {
+        if (alive) setError(e.message);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [retry]);
+  const entries =
+    data?.entries.filter(
+      (e) =>
+        !filter ||
+        [e.title, ...e.aliases].some((name) =>
+          name.toLowerCase().includes(filter.toLowerCase()),
+        ),
+    ) || [];
   return (
     <>
       <div className="page-top">
-        <div className="breadcrumb">
-          放映室 <ChevronRight size={13} />
-          <span>发现</span>
-        </div>
+        <span className="eyebrow">A NEW SEASON, A NEW STORY.</span>
         <span className="member-pill">
           <i />
           INVITE ONLY
         </span>
       </div>
-      <div className="discover-title">
+      <div className="season-hero">
         <div>
-          <span className="eyebrow">A LITTLE ESCAPE, A GREAT STORY.</span>
+          <span className="hero-kicker">
+            <CalendarDays size={16} />
+            {data?.label || "本季新番"}
+          </span>
           <h1>
-            今晚，把时间交给故事<span>。</span>
+            这一季，
+            <br />
+            又有新的期待<span>。</span>
           </h1>
+          <p>
+            把这一季的故事收进日常。
+            <br />
+            从第一集开始，等一次每周的相见。
+          </p>
+          <Link className="button primary" href="/catalog">
+            去影视片库
+            <ArrowRight size={17} />
+          </Link>
         </div>
-        <span className="desktop-only muted">电影 / 番剧 / 每一个好故事</span>
+        <div className="season-art" aria-hidden="true">
+          <div className="season-orbit" />
+          <span>
+            {data ? String((data.quarter - 1) * 3 + 1).padStart(2, "0") : "TV"}
+          </span>
+          <small>{data?.year || "THIS SEASON"} / NEW ANIME</small>
+        </div>
       </div>
-      <form
-        className="search-bar"
-        onSubmit={(e) => {
-          e.preventDefault();
-          void search(query);
-        }}
-      >
-        <Search size={22} />
-        <input
-          aria-label="搜索电影或番剧"
-          placeholder="搜索电影、番剧，或一个念念不忘的名字…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          maxLength={80}
-        />
-        {query && (
-          <button
-            type="button"
-            className="icon-button"
-            aria-label="清空搜索"
-            onClick={() => {
-              setQuery("");
-              void search("");
-            }}
-          >
-            <X size={17} />
-          </button>
-        )}
-        <button className="button primary" type="submit">
-          找个故事
-          <ArrowRight size={16} />
-        </button>
-      </form>
-      <div className="suggestions">
-        <span>试试搜索</span>
-        {suggestions.map((title) => (
-          <button
-            key={title}
-            onClick={() => {
-              setQuery(title);
-              void search(title);
-            }}
-          >
-            {title}
-          </button>
-        ))}
-      </div>
-      {!submitted && (
-        <section className="hero">
-          <div className="hero-art">
-            <div className="planet" />
-            <div className="mountain back" />
-            <div className="mountain front" />
-            <span className="hero-stars" />
-          </div>
-          <div className="hero-content">
-            <span className="hero-kicker">
-              <Sparkles size={14} />
-              今晚的灵感 · 科幻经典
-            </span>
-            <h2>
-              在星辰之间，
-              <br />
-              找回那个想念的人。
-            </h2>
-            <p>
-              有些故事，值得一遍又一遍。
-              <br />
-              从《星际穿越》开始今晚的旅程。
-            </p>
-            <button
-              className="button light"
-              onClick={() => {
-                setQuery("星际穿越");
-                void search("星际穿越");
-              }}
-            >
-              寻找《星际穿越》
-              <ArrowRight size={17} />
-            </button>
-          </div>
-          <div className="hero-index">
-            <span>01</span> / THE WORLD BEYOND
-          </div>
-        </section>
-      )}
-      {history.length > 0 && !submitted && (
-        <section className="continue-section">
-          <div className="section-heading">
-            <h2>
-              故事，还没结束 <span>CONTINUE WATCHING</span>
-            </h2>
-            <Link href="/history" className="text-link">
-              全部记录
-              <ArrowRight size={15} />
-            </Link>
-          </div>
-          <div className="continue-grid">
-            {history.slice(0, 3).map((item) => (
-              <Link
-                key={item.movie.key}
-                className="continue-card"
-                href={`/watch?source=${item.movie.source}&id=${item.movie.id}&libraryKey=${item.movie.key}`}
-              >
-                <span className="continue-icon">
-                  <Film size={22} />
-                </span>
-                <div>
-                  <strong>{item.movie.title}</strong>
-                  <small>
-                    {item.episodeName} · 看到{" "}
-                    {Math.round((item.position / item.duration) * 100)}%
-                  </small>
-                  <span className="mini-progress">
-                    <i
-                      style={{
-                        width: `${(item.position / item.duration) * 100}%`,
-                      }}
-                    />
-                  </span>
-                </div>
-                <ArrowRight size={17} />
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
       <section className="catalog-section">
         <div className="section-heading">
           <h2>
-            {submitted ? `“${submitted}”的搜索结果` : "发现下一部心动"}
+            本季新番全览
             <span>
-              {submitted
-                ? `${movies.length} 个来源条目`
-                : "EXPLORE THE STORIES"}
+              {data ? `${data.entries.length} 部 TV / WEB 番剧` : "THIS SEASON"}
             </span>
           </h2>
-          <button
-            className="text-link"
-            onClick={() => void search(submitted, source)}
-          >
-            <RotateCw size={14} className={loading ? "spin" : ""} />
-            刷新
-          </button>
+          <Link className="text-link" href="/catalog?kind=anime">
+            全部动漫
+            <ArrowRight size={15} />
+          </Link>
         </div>
-        <div className="catalog-toolbar">
-          <div className="chips">
-            {[
-              { id: "all", label: "全部", icon: Sparkles },
-              { id: "anime", label: "动漫番剧", icon: Tv },
-              { id: "movie", label: "电影", icon: Film },
-            ].map(({ id, label, icon: Icon }) => (
-              <button
-                key={id}
-                onClick={() => setFilter(id)}
-                className={`chip ${filter === id ? "selected" : ""}`}
-              >
-                <Icon size={15} />
-                {label}
-              </button>
-            ))}
-          </div>
-          <label className="source-select">
-            <SlidersHorizontal size={15} />
-            <select
-              aria-label="选择搜索来源"
-              value={source}
-              onChange={(e) => {
-                setSource(e.target.value);
-                void search(submitted, e.target.value);
-              }}
-            >
-              <option value="">全部启用来源</option>
-              {sources
-                .filter((s) => s.enabled)
-                .map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {s.name}
-                  </option>
-                ))}
-            </select>
-          </label>
-        </div>
-        {error && (
-          <div className="notice error" role="alert">
-            {error}
-          </div>
-        )}
-        {result.sources.length > 0 && (
-          <div className="source-status">
-            {result.sources.map((s) => (
-              <span
-                key={s.id}
-                className={s.error ? "unavailable" : ""}
-                title={s.error || `${s.elapsed}ms`}
-              >
-                <i />
-                {s.name} · {s.error ? "暂时不可用" : `${s.count} 条`}
+        <div className="season-explainer">
+          <p>
+            按北京时间的当前季度，展示 Bangumi 收录的本季首播 TV／WEB
+            动画，包含本季尚未开播的作品。跨季续播作品可在片库查找。
+          </p>
+          <p>
+            名单独立于播放资源；点进作品后查找可用来源。
+            {data && (
+              <span>
+                {" "}
+                最近更新：{new Date(data.updated).toLocaleString("zh-CN")}
               </span>
-            ))}
-          </div>
+            )}
+          </p>
+          <a href="https://bgm.tv" target="_blank" rel="noreferrer">
+            目录与海报：Bangumi
+          </a>
+        </div>
+        {data?.stale && (
+          <p className="notice" role="status">
+            {data.error}
+          </p>
         )}
-        {loading ? (
-          <div className="movie-grid" aria-label="正在搜索" aria-busy="true">
-            {Array.from({ length: 6 }, (_, i) => (
-              <div className="skeleton-card" key={i}>
-                <div />
-                <span />
-                <small />
-              </div>
-            ))}
+        <div className="season-search">
+          <Search size={18} />
+          <input
+            aria-label="筛选本季新番"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            placeholder="在本季名单中查找…"
+          />
+        </div>
+        {error ? (
+          <div className="empty">
+            <h3>本季目录暂时没连接上</h3>
+            <p>{error}</p>
+            <button className="button" onClick={() => setRetry((n) => n + 1)}>
+              重新加载
+            </button>
           </div>
-        ) : movies.length ? (
-          <div className="movie-grid">
-            {movies.map((movie) => (
-              <MovieCard
-                key={`${movie.source}:${movie.id}`}
-                movie={movie}
-                onClick={() => setSelected(movie)}
-              />
+        ) : !data ? (
+          <div className="empty" aria-busy="true">
+            <LoaderCircle className="spin" size={30} />
+            <p>正在读取完整季度名单…</p>
+          </div>
+        ) : entries.length ? (
+          <div className="movie-grid season-grid">
+            {entries.map((entry) => (
+              <button
+                className="movie-card"
+                key={entry.id}
+                onClick={() => setSelected(entry)}
+              >
+                <div className="poster-wrap">
+                  <div className="poster">
+                    {entry.poster && !failed.has(entry.id) ? (
+                      <img
+                        src={entry.poster}
+                        alt={`${entry.title}海报`}
+                        loading="lazy"
+                        referrerPolicy="no-referrer"
+                        onError={() =>
+                          setFailed((prev) => new Set([...prev, entry.id]))
+                        }
+                      />
+                    ) : (
+                      <div className="poster-fallback">
+                        <Tv size={30} />
+                        <span>{entry.title}</span>
+                      </div>
+                    )}
+                  </div>
+                  <span className="poster-tag">{entry.platform}</span>
+                  <span className="poster-source">
+                    {entry.date.slice(5)} 首播
+                  </span>
+                  <div className="poster-hover">
+                    <span>
+                      <ArrowRight size={23} />
+                    </span>
+                  </div>
+                </div>
+                <h3 title={entry.title}>{entry.title}</h3>
+                <p>
+                  {entry.originalTitle !== entry.title
+                    ? entry.originalTitle
+                    : "查看介绍与播放来源"}
+                </p>
+              </button>
             ))}
           </div>
         ) : (
           <div className="empty">
-            <Search size={34} />
             <h3>
-              {result.sources.some((s) => s.error)
-                ? "这个故事，暂时没连接上"
-                : "还没有找到这个故事"}
+              {filter ? "本季名单中没有匹配的作品" : "目录暂未收录本季首播番剧"}
             </h3>
-            <p>
-              {result.sources.some((s) => s.error)
-                ? "部分来源连接失败，可以选择其他来源或稍后重试。"
-                : "试试更短的片名，或切换到其他来源。"}
-            </p>
-            <button className="button" onClick={() => void search(submitted)}>
-              重新查找
-              <RotateCw size={15} />
-            </button>
+            <Link href="/catalog" className="text-link">
+              去片库找找
+              <ArrowRight size={16} />
+            </Link>
           </div>
         )}
       </section>
       {selected && (
-        <MovieDetail movie={selected} onClose={() => setSelected(null)} />
+        <SeasonDetail
+          entry={selected}
+          onClose={() => setSelected(null)}
+          onPlay={(value) => {
+            setSelected(null);
+            setMovie(value);
+          }}
+        />
       )}
+      {movie && <MovieDetail movie={movie} onClose={() => setMovie(null)} />}
     </>
   );
 }

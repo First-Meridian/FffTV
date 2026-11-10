@@ -57,7 +57,11 @@ export function MovieCard({
         <span className="poster-tag">
           {movie.remarks || movie.type || "待探索"}
         </span>
-        <span className="poster-source">{movie.sourceName}</span>
+        <span className="poster-source">
+          {movie.variants?.length
+            ? `${new Set(movie.variants.map((v) => v.source)).size} 个播放源`
+            : movie.sourceName}
+        </span>
         <div className="poster-hover">
           <span>
             <Play size={22} fill="currentColor" />

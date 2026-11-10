@@ -9,11 +9,12 @@ import {
   Users,
 } from "lucide-react";
 import { api, post } from "@/lib/client";
-import type { Source, User } from "@/lib/types";
+import type { Source, User, CatalogSync } from "@/lib/types";
 type AdminData = {
   users: (User & { created: number })[];
   invites: { expires: number; usedBy: number | null }[];
   sources: Source[];
+  catalog: CatalogSync[];
 };
 export function Settings() {
   const [data, setData] = useState<AdminData | null>(null),
@@ -184,6 +185,29 @@ export function Settings() {
                 </button>
               </div>
             ))}
+            <div className="sync-list">
+              <div className="section-heading">
+                <h3>片库收录进度</h3>
+                <button className="text-link" onClick={() => void load()}>
+                  刷新进度
+                </button>
+              </div>
+              <p>
+                服务运行时自动逐页收录，中断后从上次进度继续；首次收录完成后每 6
+                小时开始下一轮。收藏与观看进度独立保留。
+              </p>
+              {data.catalog.map((source) => (
+                <p key={source.id}>
+                  <strong>{source.name}</strong> · 已收录{" "}
+                  {source.indexed.toLocaleString()} 条 ·{" "}
+                  {source.pages
+                    ? `当前 ${Math.max(0, source.nextPage - 1)} / ${source.pages} 页`
+                    : "等待连接"}
+                  {source.completed ? " · 已完成首次收录" : ""}
+                  {source.error ? ` · ${source.error}，稍后自动重试` : ""}
+                </p>
+              ))}
+            </div>
           </section>
         </div>
       )}

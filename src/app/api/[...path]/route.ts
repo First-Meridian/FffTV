@@ -23,6 +23,13 @@ import {
 import { getMovie, searchCatalog, clearSourceCache } from "@/lib/sources";
 import type { User } from "@/lib/types";
 import { sameWork } from "@/lib/identity";
+import {
+  browseCatalog,
+  indexedVariants,
+  syncStatus,
+} from "@/lib/catalog-index";
+import { groupMovies } from "@/lib/grouping";
+import { getSeason, matchesSeasonEntry } from "@/lib/season";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 const json = (data: unknown, status = 200) =>
@@ -41,13 +48,92 @@ export async function GET(request: Request, context: Context) {
     const url = new URL(request.url);
     if (path === "sources") return json({ sources: getSources() });
     if (path === "library") return json({ items: library(user) });
+    if (path === "catalog") {
+      const page = Number(url.searchParams.get("page") || 1);
+      if (!Number.isSafeInteger(page) || page < 1) return fail("页码无效");
+      const filters = Object.fromEntries(
+        [
+          "q",
+          "kind",
+          "year",
+          "area",
+          "genre",
+          "from",
+          "to",
+          "source",
+          "sort",
+        ].map((key) => [
+          key,
+          (url.searchParams.get(key) || "").trim().slice(0, 80),
+        ]),
+      );
+      if (
+        [filters.from, filters.to].some(
+          (date) =>
+            date &&
+            (!/^\d{4}-\d{2}-\d{2}$/.test(date) ||
+              Number.isNaN(Date.parse(date))),
+        )
+      )
+        return fail("上映日期无效");
+      if (filters.from && filters.to && filters.from > filters.to)
+        return fail("开始日期不能晚于结束日期");
+      return json(browseCatalog({ ...filters, page }));
+    }
+    if (path === "season") return json(await getSeason());
+    if (path === "season/match") {
+      if (!consumeLimit(`search:${user.id}`, 60, 60000))
+        return fail("查找太频繁，请稍后再试", 429);
+      const entry = (await getSeason()).entries.find(
+        (e) => e.id === Number(url.searchParams.get("id")),
+      );
+      if (!entry) return fail("未找到这部本季新番", 404);
+      const results = await Promise.all(
+        [...new Set([entry.title, entry.originalTitle])]
+          .filter(Boolean)
+          .map((title) => searchCatalog(title)),
+      );
+      return json({
+        movies: groupMovies(
+          results
+            .flatMap((r) => r.movies)
+            .filter((movie) => matchesSeasonEntry(entry, movie)),
+        ),
+        sources: results.flatMap((r) => r.sources),
+      });
+    }
     if (path === "search") {
       if (!consumeLimit(`search:${user.id}`, 60, 60000))
         return fail("搜索太频繁，请稍后再试", 429);
       const q = (url.searchParams.get("q") || "").trim().slice(0, 80);
+      const page = Number(url.searchParams.get("page") || 1);
+      if (!Number.isSafeInteger(page) || page < 1 || page > 10000)
+        return fail("页码无效");
       return json(
-        await searchCatalog(q, url.searchParams.get("source") || undefined),
+        await searchCatalog(
+          q,
+          url.searchParams.get("source") || undefined,
+          page,
+        ),
       );
+    }
+    if (path === "alternatives") {
+      if (!consumeLimit(`search:${user.id}`, 60, 60000))
+        return fail("查找太频繁，请稍后再试", 429);
+      const movie = await getMovie(
+        url.searchParams.get("source") || "",
+        url.searchParams.get("id") || "",
+      );
+      if (!movie) return fail("作品不存在", 404);
+      const result = await searchCatalog(
+        movie.title
+          .replace(/[（(](?:国语|普通话|粤语|原声|英语|日语)(?:版)?[）)]/g, "")
+          .trim(),
+      );
+      const variants = indexedVariants(movie).filter((item) =>
+        sameWork(item, movie),
+      );
+      return json({ movies: variants, sources: result.sources });
     }
     if (path === "detail") {
       if (!consumeLimit(`detail:${user.id}`, 100, 60000))
@@ -56,7 +142,15 @@ export async function GET(request: Request, context: Context) {
         url.searchParams.get("source") || "",
         url.searchParams.get("id") || "",
       );
-      return movie ? json({ movie }) : fail("暂时没有找到这部作品", 404);
+      return movie
+        ? json({
+            movie: {
+              ...movie,
+              variants: groupMovies([movie, ...indexedVariants(movie)])[0]
+                .variants,
+            },
+          })
+        : fail("暂时没有找到这部作品", 404);
     }
     if (path === "admin") {
       if (user.role !== "admin") return fail("需要管理员权限", 403);
@@ -72,6 +166,7 @@ export async function GET(request: Request, context: Context) {
           )
           .all(),
         sources: getSources(),
+        catalog: syncStatus(),
       });
     }
     return fail("接口不存在", 404);
@@ -134,7 +229,9 @@ export async function POST(request: Request, context: Context) {
         String(input.id || ""),
       );
       if (!movie) return fail("作品不存在", 404);
-      let key = movie.key;
+      let key =
+        library(user).find((item) => sameWork(item.movie, movie))?.movie.key ||
+        movie.key;
       if (typeof input.libraryKey === "string" && input.libraryKey !== key) {
         const existing = library(user).find(
           (item) => item.movie.key === input.libraryKey,

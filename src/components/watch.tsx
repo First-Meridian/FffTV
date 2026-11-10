@@ -57,7 +57,9 @@ export function Watch({
       .then(([detail, lib]) => {
         if (!active) return;
         const found = lib.items.find(
-          (item) => item.movie.key === (libraryKey || detail.movie.key),
+          (item) =>
+            item.movie.key === (libraryKey || detail.movie.key) ||
+            (!libraryKey && sameWork(item.movie, detail.movie)),
         );
         canonical.current = found?.movie.key || detail.movie.key;
         setMovie(detail.movie);
@@ -133,15 +135,9 @@ export function Watch({
     setSearched(true);
     try {
       const data = await api<SearchResult>(
-        `search?q=${encodeURIComponent(movie.title.replace(/\s*第[一二三四五六七八九十\d]+季/, "").trim())}`,
+        `alternatives?source=${movie.source}&id=${movie.id}`,
       );
-      setAlternatives(
-        data.movies.filter(
-          (item) =>
-            (item.source !== movie.source || item.id !== movie.id) &&
-            sameWork(item, movie),
-        ),
-      );
+      setAlternatives(data.movies.filter((item) => sameWork(item, movie)));
       if (data.sources.every((s) => s.error))
         setError("来源搜索暂时无法连接，请稍后重试");
     } catch (e) {
@@ -150,6 +146,9 @@ export function Watch({
       setSearching(false);
     }
   }
+  useEffect(() => {
+    if (movie) void findAlternatives();
+  }, [movie?.key]);
   async function switchSource(target: Movie) {
     if (switching || !movie) return;
     setSwitching(true);
@@ -159,21 +158,22 @@ export function Watch({
       const { movie: detail } = await api<{ movie: Movie }>(
         `detail?source=${target.source}&id=${target.id}`,
       );
-      const matches = detail.lines[0]?.episodes.find(
+      const matchedLine = detail.lines.findIndex((item) =>
+        item.episodes.some((ep) => ep.key === episode?.key),
+      );
+      const matches = detail.lines[matchedLine]?.episodes.find(
         (ep) => ep.key === episode?.key,
       );
-      if (!matches)
+      if (episode && !matches)
         throw new Error(
           "这个版本没有对应剧集，请从作品详情选择正确的季度或集数。",
         );
       if (!sameWork(detail, movie))
         throw new Error("这个版本的年份不同，请返回搜索确认作品。");
-      setResume(position.current.position);
+      setResume(matches ? position.current.position : 0);
       setMovie(detail);
-      setLine(0);
-      setEpisodeKey(matches.key);
-      setAlternatives([]);
-      setSearched(false);
+      setLine(matchedLine >= 0 ? matchedLine : 0);
+      setEpisodeKey(matches?.key || detail.lines[0]?.episodes[0]?.key || "");
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -192,7 +192,7 @@ export function Watch({
       <div className="empty">
         <h2>这次没能连接到作品</h2>
         <p>{error}</p>
-        <Link href="/" className="button primary">
+        <Link href="/catalog" className="button primary">
           返回搜索，换个来源
         </Link>
       </div>
@@ -200,9 +200,9 @@ export function Watch({
   return (
     <>
       <div className="watch-top">
-        <Link href="/" className="text-link">
+        <Link href="/catalog" className="text-link">
           <ArrowLeft size={17} />
-          返回发现
+          返回片库
         </Link>
         <span>
           私人放映室
@@ -323,26 +323,35 @@ export function Watch({
                 </span>
                 <strong>当前来源</strong>
               </div>
-              {alternatives.map((item) => (
-                <button
-                  className="alternative"
-                  key={`${item.source}:${item.id}`}
-                  disabled={switching}
-                  onClick={() => void switchSource(item)}
-                >
-                  <span>{item.sourceName}</span>
-                  <strong>{item.title}</strong>
-                  <small>
-                    {item.year} · {item.remarks}
-                  </small>
-                </button>
-              ))}
+              {alternatives
+                .filter(
+                  (item) =>
+                    item.source !== movie.source || item.id !== movie.id,
+                )
+                .map((item) => (
+                  <button
+                    className="alternative"
+                    key={`${item.source}:${item.id}`}
+                    disabled={switching}
+                    onClick={() => void switchSource(item)}
+                  >
+                    <span>{item.sourceName}</span>
+                    <strong>{item.title}</strong>
+                    <small>
+                      {item.year} · {item.remarks}
+                    </small>
+                  </button>
+                ))}
             </div>
-            {searched && !searching && !alternatives.length && (
-              <p className="muted small">
-                暂未找到其他匹配条目，可以稍后再试。
-              </p>
-            )}
+            {searched &&
+              !searching &&
+              !alternatives.some(
+                (item) => item.source !== movie.source || item.id !== movie.id,
+              ) && (
+                <p className="muted small">
+                  暂未找到其他匹配条目，可以稍后再试。
+                </p>
+              )}
           </section>
         </div>
         <aside className="episode-panel">

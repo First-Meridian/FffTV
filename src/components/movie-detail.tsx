@@ -3,8 +3,14 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Heart, LoaderCircle, Play, X } from "lucide-react";
 import { api, post } from "@/lib/client";
-import type { LibraryItem, Movie } from "@/lib/types";
+import type {
+  LibraryItem,
+  Movie,
+  MovieVariant,
+  SearchResult,
+} from "@/lib/types";
 import { Poster } from "./movie-card";
+import { sameWork } from "@/lib/identity";
 export function MovieDetail({
   movie: initial,
   onClose,
@@ -18,6 +24,11 @@ export function MovieDetail({
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
     [loading, setLoading] = useState(true),
+    [choice, setChoice] = useState<MovieVariant>(initial),
+    [variants, setVariants] = useState<MovieVariant[]>(
+      initial.variants || [initial],
+    ),
+    [finding, setFinding] = useState(true),
     [line, setLine] = useState(0);
   useEffect(() => {
     dialog.current?.showModal();
@@ -28,16 +39,19 @@ export function MovieDetail({
   }, []);
   useEffect(() => {
     let alive = true;
+    setLoading(true);
+    setError("");
     Promise.all([
-      api<{ movie: Movie }>(`detail?source=${initial.source}&id=${initial.id}`),
+      api<{ movie: Movie }>(`detail?source=${choice.source}&id=${choice.id}`),
       api<{ items: LibraryItem[] }>("library"),
     ])
       .then(([detail, lib]) => {
         if (alive) {
           setMovie(detail.movie);
+          setLine(0);
           setFavorite(
             lib.items.some(
-              (item) => item.movie.key === initial.key && item.favorite,
+              (item) => sameWork(item.movie, initial) && item.favorite,
             ),
           );
         }
@@ -51,8 +65,24 @@ export function MovieDetail({
     return () => {
       alive = false;
     };
-  }, [initial]);
-  const episodes = movie.lines[line]?.episodes || [];
+  }, [choice, initial.key]);
+  useEffect(() => {
+    let alive = true;
+    api<SearchResult>(`alternatives?source=${initial.source}&id=${initial.id}`)
+      .then((result) => {
+        if (alive && result.movies.length) setVariants(result.movies);
+      })
+      .catch(() => {})
+      .finally(() => {
+        if (alive) setFinding(false);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [initial.source, initial.id]);
+  const connected =
+    !loading && movie.source === choice.source && movie.id === choice.id;
+  const episodes = connected ? movie.lines[line]?.episodes || [] : [];
   const watch = (episode?: string) =>
     `/watch?source=${encodeURIComponent(movie.source)}&id=${encodeURIComponent(movie.id)}&line=${line}${episode ? `&episode=${encodeURIComponent(episode)}` : ""}`;
   return (
@@ -100,7 +130,7 @@ export function MovieDetail({
             )}
           </div>
           <div className="actions">
-            {episodes.length > 0 && (
+            {!loading && episodes.length > 0 && (
               <Link href={watch()} className="button primary">
                 <Play size={17} fill="currentColor" />
                 开始观看
@@ -108,7 +138,7 @@ export function MovieDetail({
             )}
             <button
               className={`button ${favorite ? "saved" : ""}`}
-              disabled={busy}
+              disabled={busy || !connected}
               onClick={async () => {
                 setBusy(true);
                 try {
@@ -142,6 +172,27 @@ export function MovieDetail({
         </h3>
         <span className="badge">{movie.sourceName}</span>
       </div>
+      <label className="source-choice">
+        播放来源
+        <select
+          aria-label="选择播放来源"
+          value={`${choice.source}:${choice.id}`}
+          onChange={(e) => {
+            const next = variants.find(
+              (v) => `${v.source}:${v.id}` === e.target.value,
+            );
+            if (next) setChoice(next);
+          }}
+        >
+          {variants.map((v) => (
+            <option key={`${v.source}:${v.id}`} value={`${v.source}:${v.id}`}>
+              {v.sourceName} · {v.title} · {v.remarks}
+              {v.language ? ` · ${v.language}` : ""}
+            </option>
+          ))}
+        </select>
+        {finding && <small>正在查找更多播放源…</small>}
+      </label>
       {movie.lines.length > 1 && (
         <div className="chips">
           {movie.lines.map((item, i) => (
@@ -175,7 +226,7 @@ export function MovieDetail({
         </div>
       ) : (
         <div className="empty compact">
-          这个来源暂时没有可直接播放的地址，请返回搜索选择其他来源。
+          这个来源暂时没有可直接播放的地址，请在上方切换播放来源。
         </div>
       )}
     </dialog>

@@ -45,6 +45,11 @@ export function db(): DatabaseSync {
     CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY, enabled INTEGER NOT NULL);
     CREATE TABLE IF NOT EXISTS library(user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE, movie_key TEXT NOT NULL, movie_json TEXT NOT NULL, favorite INTEGER NOT NULL DEFAULT 0, episode_key TEXT NOT NULL DEFAULT '', episode_name TEXT NOT NULL DEFAULT '', position REAL NOT NULL DEFAULT 0, duration REAL NOT NULL DEFAULT 0, updated INTEGER NOT NULL, PRIMARY KEY(user_id,movie_key));
     CREATE TABLE IF NOT EXISTS rate_limits(key TEXT PRIMARY KEY, count INTEGER NOT NULL, expires INTEGER NOT NULL);
+    CREATE TABLE IF NOT EXISTS catalog_entries(source_id TEXT NOT NULL, id TEXT NOT NULL, work_key TEXT NOT NULL, title TEXT NOT NULL, year TEXT NOT NULL, kind TEXT NOT NULL, areas TEXT NOT NULL, genres TEXT NOT NULL, release_date TEXT NOT NULL, updated TEXT NOT NULL, movie_json TEXT NOT NULL, PRIMARY KEY(source_id,id));
+    CREATE INDEX IF NOT EXISTS catalog_work ON catalog_entries(work_key);
+    CREATE INDEX IF NOT EXISTS catalog_filter ON catalog_entries(kind,year,release_date);
+    CREATE TABLE IF NOT EXISTS catalog_sync(source_id TEXT PRIMARY KEY, next_page INTEGER NOT NULL DEFAULT 1, pages INTEGER NOT NULL DEFAULT 0, total INTEGER NOT NULL DEFAULT 0, completed INTEGER NOT NULL DEFAULT 0, updated INTEGER NOT NULL DEFAULT 0, error TEXT NOT NULL DEFAULT '', retry_at INTEGER NOT NULL DEFAULT 0);
+    CREATE TABLE IF NOT EXISTS metadata_cache(key TEXT PRIMARY KEY, json TEXT NOT NULL, updated INTEGER NOT NULL);
   `);
   globalDb.fffDb = conn;
   for (const source of BUILTIN_SOURCES)

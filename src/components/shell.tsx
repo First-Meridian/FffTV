@@ -9,6 +9,7 @@ import {
   LogOut,
   Clapperboard,
   ArrowUpRight,
+  LibraryBig,
 } from "lucide-react";
 import { post } from "@/lib/client";
 import type { User } from "@/lib/types";
@@ -34,7 +35,8 @@ export function Shell({
 }) {
   const pathname = usePathname();
   const links = [
-    { href: "/", label: "发现好故事", icon: Compass },
+    { href: "/", label: "本季新番", icon: Compass },
+    { href: "/catalog", label: "影视片库", icon: LibraryBig },
     { href: "/library", label: "我的片单", icon: Heart },
     { href: "/history", label: "继续观看", icon: History },
     ...(user.role === "admin"

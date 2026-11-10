@@ -24,6 +24,8 @@ async function request(path, options = {}) {
 }
 try {
   assert.equal((await request("library")).status, 401);
+  assert.equal((await request("catalog")).status, 401);
+  assert.equal((await request("season")).status, 401);
   console.log("PASS anonymous requests require login");
   assert.equal(
     (
@@ -88,6 +90,46 @@ try {
   const movie = search.data.movies.find((movie) => movie.title === "星际穿越");
   assert.ok(movie, "Live source should return the requested film");
   console.log("PASS live source search and normalized metadata");
+  const merged = await request(`search?q=${encodeURIComponent("星际穿越")}`, {
+    cookie: memberCookie,
+  });
+  assert.equal(merged.status, 200);
+  assert.equal(merged.data.movies.filter((m) => m.key === movie.key).length, 1);
+  const catalog = await request(
+    `catalog?q=${encodeURIComponent("星际穿越")}&year=2014&kind=movie&area=${encodeURIComponent("美国")}`,
+    { cookie: memberCookie },
+  );
+  assert.equal(catalog.status, 200);
+  const indexed = catalog.data.movies.filter((m) => m.key === movie.key);
+  assert.equal(indexed.length, 1);
+  assert.ok(indexed[0].variants.length >= 1);
+  assert.equal(
+    (await request("catalog?page=NaN", { cookie: memberCookie })).status,
+    400,
+  );
+  assert.equal(
+    (
+      await request("catalog?from=2026-12-01&to=2026-01-01", {
+        cookie: memberCookie,
+      })
+    ).status,
+    400,
+  );
+  const season = await request("season", { cookie: memberCookie });
+  assert.equal(season.status, 200);
+  assert.ok(season.data.entries.length > 0);
+  assert.ok(
+    season.data.entries.every((entry) =>
+      ["TV", "WEB"].includes(entry.platform),
+    ),
+  );
+  assert.equal(
+    new Set(season.data.entries.map((entry) => entry.id)).size,
+    season.data.entries.length,
+  );
+  console.log(
+    `PASS grouped catalog filters, pagination validation and ${season.data.entries.length} seasonal entries`,
+  );
   const detail = await request(`detail?source=modu&id=${movie.id}`, {
     cookie: memberCookie,
   });
